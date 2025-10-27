@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - koneke55
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - koneke55/sk.github.io
+  - koneke55/cnn-sbms-ml
+  - koneke55/AI-Derma-Doctor-Gemini
+  - koneke55/BPE_Tokenizer_Bamanakan_language
+  - koneke55/smart-battery-management
+  - koneke55/human-voice-recognition
+  - koneke55/diabetic-retinopathy-detection
