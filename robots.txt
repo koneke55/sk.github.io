@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://koneke55.github.io/sk.github.io/sitemap.xml
+Sitemap: https://koneke55.github.io/samkone/sitemap.xml
