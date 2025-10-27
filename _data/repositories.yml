@@ -1,10 +1,14 @@
 github_users:
-  - koneke55
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - koneke55/sk.github.io
-  - koneke55/smart-battery-management
-  - koneke55/human-voice-recognition
-  - koneke55/diabetic-retinopathy-detection
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
