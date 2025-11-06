@@ -6,138 +6,133 @@
     - name: Email
       value: samboukone99@gmail.com
     - name: Phone
-      value: +22377818701
+      value: +223 77 81 87 01
     - name: Location
-      value: Sector 5, Mamaribougou Bougoudaba, Bamako, Mali, West Africa
+      value: Bamako, Mali
+    - name: Research Interests
+      value: Machine Learning, Computer Vision, Embedded AI Systems, Quantum Machine Learning
     - name: Languages
-      value: English, French (Bilingual), Spanish (Conversational), Arabic (Fluent), Hindi (Fluent)
+      value: French (Native), English (Fluent), Arabic (Fluent), Hindi (Fluent), Spanish (Conversational)
 
 - title: Education
   type: time_table
   contents:
-    - title: BTech in Electronics & Communication (Batch Topper 3.64/4.00)
+    - title: Bachelor of Technology in Electronics & Communication Engineering
       institution: Jain University, Bangalore, India
       year: 2020-2024
       description:
-        - Final Project: Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning
-        - Supervisor: Prof. Sunil MP
-        - Research Methods: Deep learning models built in Python (Scikit-learn, TensorFlow) estimated SoC, SoH, and RUL with high accuracy
-        - Evaluation using MAE, RMSE, and R² showed clear improvements over traditional BMS methods
-    - title: Master 1 (Non Degree)
-      institution: National School of Engineering ENI ABT, Bamako, Mali
+        - "CGPA: 3.64/4.00 (Batch Topper)"
+        - "Thesis: Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
+        - "Supervisor: Prof. Sunil MP"
+        - Developed ML models for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
+        - Published research in International Journal of Innovative Research in Technology (IJIRT), Vol. 10, Issue 11, 2024
+    - title: Master 1 Studies (Non-Degree)
+      institution: National School of Engineering (ENI-ABT), Bamako, Mali
       year: 2019-2020
       description:
-        - Final Project: Human Voice Recognition System Based on Feed Forward Neural Networks for Platforms
-        - Supervisor: Dr. Abdoulaye Sidibe
-        - Research Methods: Python 3; NumPy/Librosa for DSP; PyTorch/TensorFlow + scikit-learn
-        - Implemented human voice recognition using PyTorch and Scikit-learn with feed-forward neural networks trained on MFCC/FBANK features
-        - Assessed performance through accuracy, F1-score, and Equal Error Rate (EER)
+        - "Thesis: Human Voice Recognition System Based on Feed Forward Neural Networks"
+        - "Supervisor: Dr. Abdoulaye Sidibe"
+        - Implemented speaker recognition using PyTorch with MFCC/FBANK audio features
+        - Achieved high accuracy and low Equal Error Rate (EER) compared to traditional methods
     - title: Bachelor of Computer & Telecom Engineering
-      institution: National School of Engineering, Mali
+      institution: National School of Engineering, Bamako, Mali
       year: 2016-2019
       description:
-        - Modules: SQL, Merise, HTML/CSS, UML, Java, User Interface Interaction
-        - Final Project: Student Management System Website using PHP/JS/HTML/CSS/Bootstrap
+        - Focus on software development, database systems (SQL/Merise), and web technologies
+        - "Final Project: Student Management System (PHP, JavaScript, HTML/CSS, Bootstrap)"
 
-- title: Experience
+- title: Research & Professional Experience
   type: time_table
   contents:
-    - title: Co-Founder & CTO (Independent)
-      institution: Super DataInsights & AI Scientists Innovations, Bamako
-      year: 2024 - Present
+    - title: Co-Founder & Chief Technology Officer
+      institution: Super DataInsights & AI Scientists Innovations, Bamako, Mali
+      year: Nov 2024 - Present
       description:
-        - Vision-language models to extend capabilities by combining text and image analysis for deeper multimodal understanding
-        - IoT and AI/ML research
-        - Computer Vision Algorithms (ViT, DTFR)
-        - Aiming to publish academic papers
-    - title: Data Analyst - Full Time (Remote)
-      institution: ObjectWays Technologies, Chennai (Tamil Nadu), India
-      year: 2024 - Present
+        - Lead research in vision-language models and multimodal AI systems
+        - Develop advanced computer vision algorithms (Vision Transformers, DTFR)
+        - Target publication in top-tier ML/CV conferences (CVPR, ICCV, NeurIPS, ICML)
+    - title: Data Analyst (Remote)
+      institution: ObjectWays Technologies, Chennai, India
+      year: Nov 2024 - Present
       description:
-        - Amex SST annotation project: cleaning and pre-processing Speech-to-Text transcript files for French CCP and CM interactions
-        - BigQuery SQL and ETL processing (Dataform, Cloud Data Fusion, Apache Beam)
-        - Speech-To-Text (STT•French) data insights collection for ML accuracy testing
-        - NLP tools: vTensorAct Studio + Amazon SageMaker + Encord
-        - Providing 90% accuracy for user (Card Member) and Customer Care Personnel (CCP) interaction monitoring
+        - Contribute to Amex Speech-to-Text annotation project for French customer interactions
+        - Perform ETL processing and analytics using BigQuery SQL, Apache Beam, Cloud Data Fusion
+        - Achieve 90% accuracy in NLP-based monitoring using Amazon SageMaker, vTensorAct Studio, Encord
     - title: Student Researcher
-      institution: Jain University, Bangalore
-      year: 2023-2024
+      institution: Jain University, Bangalore, India
+      year: Apr 2023 - Oct 2024
       description:
-        - Research area covers embedded system hardware (microcontrollers and FPGAs)
-        - Digital signal/image processing, real-time intelligent systems
-        - Smart Battery Management Systems for Autonomous Vehicles using Machine Learning
-    - title: Network Systems Engineer Intern
-      institution: Celeste Telecom Mali Sarl, Bamako
-      year: 2020-2022
+        - Conducted research on Smart Battery Management Systems for Autonomous Vehicles using deep learning
+        - Worked on embedded systems (microcontrollers, FPGAs), digital signal/image processing
+        - Published findings in IJIRT journal (Vol. 10, Issue 11, 2024)
+    - title: Network Systems Engineer (Intern)
+      institution: Celeste Telecom Mali, Bamako, Mali
+      year: Oct 2020 - Feb 2022
       description:
-        - Assessed business communication needs and recommended PABX/VoIP solutions
-        - Installed, configured, and upgraded network systems
-        - Skilled in L2/L3 protocols (BGP, OSPF, EIGRP, RIP, VLAN, STP, VTP) and SD-WAN/SONiC
-        - Managed networks with Cisco, Huawei, Netgate, and Fortinet
+        - Configured and managed enterprise network infrastructure (Cisco, Huawei, Fortinet, Netgate)
+        - Implemented PABX/VoIP solutions and L2/L3 routing protocols (BGP, OSPF, EIGRP, VLAN)
 
-- title: Academic Experience
+- title: Teaching & Service
   type: time_table
   contents:
-    - title: Generative AI Tools Tutor
+    - title: Generative AI Tools Instructor
       year: 2022 - Present
       description:
-        - LLMs, ChatGPT, Perplexity, DeepSeek
-        - Gen AI automation and AI Agent Building over n8n, TensorAct
-        - AI assisted Coding and Revision
-    - title: French Teacher (Online)
+        - Provide tutoring on large language models (ChatGPT, Perplexity, DeepSeek)
+        - Teach generative AI automation and AI agent development using n8n and TensorAct
+        - Offer AI-assisted coding and revision support
+    - title: French Language Instructor
       year: 2020 - Present
       description:
-        - Part-time French Tutor for A1, A2, B1, B2, C1, C2 levels
+        - Offer online French tutoring for levels A1–C2 as a native speaker
+    - title: Volunteer
+      institution: Social Charity Youth of Mamaribougou, Mali
+      year: 2019 - Present
+      description:
+        - Support widows and orphans through welfare initiatives and resource distribution
 
 - title: Publications
   type: time_table
   contents:
     - year: 2024
       items:
-        - Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning (IJIRT, Volume 10 Issue 11, ISSN:2349-6002)
-        - Cotton Wool Detection for Diabetic Retinopathy (Minor Project Research at ECE department, Under Prof. Chethan GS)
+        - "Kone, S., & Sunil, M.P. (2024). Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning. International Journal of Innovative Research in Technology, Vol. 10, Issue 11. ISSN: 2349-6002."
 
-- title: Conference Papers
+- title: Conference Presentations & Awards
   type: time_table
   contents:
     - year: 2023
       items:
-        - Electronics And Communication Engineering - 2030 (Best presentation award at Jain University's ECE Department Avalanche Club, Bangalore)
+        - "Electronics and Communication Engineering – 2030. Best Presentation Award, Avalanche Club, ECE Department, Jain University, Bangalore."
 
 - title: Technical Skills
   type: nested_list
   contents:
     - title: Programming Languages
       items:
-        - C/C++
         - Python
+        - C/C++
         - MATLAB
         - Java
-        - PHP
-        - JavaScript
-        - HTML/CSS
     - title: Machine Learning & AI
       items:
-        - PyTorch
-        - TensorFlow
-        - Scikit-learn
-        - NumPy/Librosa for DSP
-        - Computer Vision Algorithms (ViT, DTFR)
+        - PyTorch, TensorFlow, Keras
+        - Scikit-learn, NumPy, Pandas
+        - Computer Vision (OpenCV, Vision Transformers)
         - Vision-Language Models
-        - NLP tools (vTensorAct Studio, Amazon SageMaker, Encord)
+        - NLP Tools (Amazon SageMaker, vTensorAct Studio, Encord)
     - title: Data Engineering
       items:
         - BigQuery SQL
-        - ETL Processing (Dataform, Cloud Data Fusion, Apache Beam)
-        - Speech-To-Text systems
-    - title: Networks & Systems
+        - ETL Processing (Apache Beam, Dataform, Cloud Data Fusion)
+        - Speech-to-Text Systems
+    - title: Embedded Systems & Hardware
       items:
-        - Power Systems
-        - Network protocols (BGP, OSPF, EIGRP, RIP, VLAN, STP, VTP)
+        - Microcontrollers and FPGAs
+        - Digital Signal/Image Processing
+        - Real-time Intelligent Systems
+    - title: Networking
+      items:
+        - L2/L3 Protocols (BGP, OSPF, EIGRP, VLAN, STP, VTP)
+        - PABX/VoIP Solutions
         - SD-WAN/SONiC
-        - PABX/VoIP solutions
-
-- title: Other Activities
-  type: list
-  contents:
-    - <u>Social Charity Youth of Mamaribougou (2019-Present):</u> Youth Charity Trust organization for widows and orphans in Mali through donation of kits, food, and welfare

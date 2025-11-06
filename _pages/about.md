@@ -2,17 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist & AI Researcher | Co-Founder & CTO at Super DataInsights & AI Scientists Innovations
+subtitle: PhD Aspirant in Electrical & Computer Engineering | AI Researcher
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Sector 5, Mamaribougou Bougoudaba</p>
-    <p>Bamako, Mali, West Africa</p>
-    <p>Email: samboukone99@gmail.com</p>
-    <p>Phone: +22377818701</p>
+    <p>Sector 5, Mamaribougou</p>
+    <p>Bamako, Mali</p>
+    <p>samboukone99@gmail.com</p>
+    <p>+223 77 81 87 01</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,61 +26,58 @@ latest_posts:
   enabled: false
 ---
 
-## Welcome
+I am **Sambou KONE**, a PhD aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom at National School of Engineering, Bamako, Mali as second 2 rank holder out of 16, and Electroncics & Communications Engineering, graduating as Batch topper with 9.106 out 10 GPA at  Jain University, Bangalore.
 
-I'm **Sambou KONE**, a passionate Data Scientist and AI researcher dedicated to advancing technology through innovative research and practical applications. With a dual Bachelor's degree in Computer Science and Electronics & Communication from Jain University, Bangalore, where I graduated as **Batch Topper with a CGPA of 3.64/4.00**, I bring a unique interdisciplinary approach to solving complex problems.
+## Research Interests
 
-## Current Focus
+My research centers on developing intelligent systems that integrate **machine learning** with **hardware implementations**. I am particularly interested in:
 
-I'm currently serving as **Co-Founder & CTO** at Super DataInsights & AI Scientists Innovations in Bamako, Mali, where I lead groundbreaking research in **Vision-Language Models**. My work focuses on extending AI capabilities by combining text and image analysis for deeper multimodal understanding. I'm actively developing advanced **Computer Vision Algorithms**, including Vision Transformers (ViT) and DTFR, with the goal of publishing novel research in top-tier academic venues.
+- **Computer Vision & Multimodal Learning**: Vision-language models, vision transformers (ViT), and visual understanding systems
+- **Quantum Machine Learning**: Exploring quantum computing paradigms for enhanced ML performance
+- **Embedded AI Systems**: Real-time intelligent systems on microcontrollers and FPGAs
+- **Deep Learning for Signal Processing**: Applications in battery management, speech recognition, and biomedical signal analysis
 
-Concurrently, I work as a **Data Analyst** at ObjectWays Technologies in Chennai, India, where I contribute to the Amex Speech-to-Text (SST) annotation project. I specialize in processing French customer interactions, utilizing cutting-edge NLP tools and achieving **90% accuracy** in monitoring user-Customer Care interactions for banking service quality improvement.
+I am seeking **PhD opportunities** to advance fundamental research in these areas while contributing to practical applications that address real-world challenges.
 
-## Research Interests & Expertise
+## Current Work
 
-My research spans several exciting domains at the intersection of AI and practical applications:
+I currently serve as **Co-Founder & CTO** at Super DataInsights & AI Scientists Innovations, where I lead research initiatives in computer vision and multimodal AI systems. My work focuses on vision-language models and advanced computer vision algorithms (ViT, DTFR), with the goal of publishing in top-tier conferences and journals.
 
-### 🎯 Core Research Areas
-- **Quantum Machine Learning** - Exploring quantum computing applications in machine learning
-- **Computer Vision** - Advanced algorithms for image understanding and analysis  
-- **Multimodal Computing** - Bridging text, images, and speech for comprehensive AI systems
-- **Vision-Language Models** - Developing models that understand both visual and textual information
+Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai), contributing to NLP and speech-to-text systems for financial services, achieving 90% accuracy in French language processing using BigQuery SQL, ETL pipelines, and tools such as Amazon SageMaker and vTensorAct Studio.
 
-### 🛠️ Technical Expertise
-- **Deep Learning**: PyTorch, TensorFlow, Keras
-- **Machine Learning**: Scikit-learn, NumPy, Pandas
-- **Data Engineering**: BigQuery SQL, ETL pipelines (Dataform, Cloud Data Fusion, Apache Beam)
-- **NLP Tools**: vTensorAct Studio, Amazon SageMaker, Encord
-- **Computer Vision**: OpenCV, Image Processing, Feature Extraction
-- **Embedded Systems**: Microcontrollers, FPGAs, Real-time intelligent systems
+## Technical Skills
 
-## Academic Journey
+**Machine Learning & AI**: PyTorch, TensorFlow, Scikit-learn, Keras  
+**Computer Vision**: OpenCV, Vision Transformers, Image Processing  
+**Programming**: Python, C/C++, MATLAB, Java  
+**Data Engineering**: BigQuery SQL, ETL (Apache Beam, Dataform), Cloud Data Fusion  
+**Embedded Systems**: Microcontrollers, FPGAs, Real-time Systems  
+**NLP Tools**: Amazon SageMaker, Encord, vTensorAct Studio
 
-My educational background reflects a commitment to excellence and interdisciplinary learning:
+## Education
 
-### 🎓 Educational Milestones
-
-**Bachelor of Technology in Electronics & Communication** | Jain University, Bangalore (2020-2024)  
-*Batch Topper | CGPA: 3.64/4.00*
+**Bachelor of Technology in Electronics & Communication Engineering**  
+*Jain University, Bangalore, India* (2020–2024)  
+**CGPA: 3.64/4.00 (Batch Topper)**
 
 - **Thesis**: "Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
-- **Supervisor**: Prof. Sunil MP
-- **Achievements**: 
-  - Developed deep learning models using Scikit-learn and TensorFlow
-  - Achieved significant improvements in SoC, SoH, and RUL estimation (MAE, RMSE, R² metrics)
-  - **Published** in IJIRT (Volume 10 Issue 11, April 2024)
+  *Supervisor: Prof. Sunil MP*
+- Developed deep learning models for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
+- Published in *International Journal of Innovative Research in Technology* (IJIRT), Vol. 10, Issue 11, April 2024
 
-**Master 1 (Non-Degree)** | National School of Engineering ENI ABT, Bamako (2019-2020)
+**Master 1 Studies (Non-Degree)**  
+*National School of Engineering (ENI-ABT), Bamako, Mali* (2019–2020)
 
 - **Thesis**: "Human Voice Recognition System Based on Feed Forward Neural Networks"
-- **Supervisor**: Dr. Abdoulaye Sidibe  
-- **Technologies**: Python 3, NumPy/Librosa, PyTorch, MFCC/FBANK features
-- **Results**: High accuracy, F1-score, and EER compared to traditional methods
+  *Supervisor: Dr. Abdoulaye Sidibe*
+- Implemented speaker recognition using PyTorch with MFCC/FBANK features
+- Achieved high accuracy and low Equal Error Rate (EER) compared to traditional methods
 
-**Bachelor of Computer & Telecom Engineering** | National School of Engineering, Mali (2016-2019)
+**Bachelor of Computer & Telecom Engineering**  
+*National School of Engineering, Bamako, Mali* (2016–2019)
 
-- **Focus**: Software Development, Database Systems, User Interface Design
-- **Final Project**: Student Management System (PHP/JS/HTML/CSS/Bootstrap)
+- Focus: Software Development, Database Systems (SQL/Merise), Web Technologies
+- Final Project: Student Management System (PHP, JavaScript, HTML/CSS, Bootstrap)
 
 ## Professional Experience
 
@@ -107,26 +104,36 @@ Conducted research in embedded systems, digital signal/image processing, and rea
 
 Managed network infrastructure, configured PABX/VoIP solutions, and worked with L2/L3 protocols (BGP, OSPF, EIGRP) across Cisco, Huawei, Netgate, and Fortinet systems.
 
-## Additional Contributions
+## Publications
 
-### Generative AI Tools Tutor (2022 - Present)
-Teaching and mentoring on LLMs (ChatGPT, Perplexity, DeepSeek), Gen AI automation, and AI Agent Building over n8n and TensorAct. Providing AI-assisted coding and revision support.
+**Kone, S.**, & Sunil, M.P. (2024). "Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning." *International Journal of Innovative Research in Technology*, Vol. 10, Issue 11. ISSN: 2349-6002.
 
-### French Language Instructor (2020 - Present)
-As a native French speaker, providing online tutoring for A1-C2 levels, helping learners achieve fluency.
+**Conference Presentations**
 
-## Languages & Communication
+- "Electronics and Communication Engineering – 2030" (*Best Presentation Award*), Avalanche Club, ECE Department, Jain University, Bangalore (2023)
 
-**Fluent**: English, French (Native), Arabic, Hindi  
+## Teaching & Service
+
+**Generative AI Tools Instructor** (2022 – Present)  
+Provide tutoring on large language models (ChatGPT, Perplexity, DeepSeek), generative AI automation, and AI agent development using n8n and TensorAct.
+
+**French Language Instructor** (2020 – Present)  
+Offer online French tutoring for levels A1–C2 as a native speaker.
+
+**Volunteer, Social Charity Youth of Mamaribougou** (2019 – Present)  
+Support widows and orphans in Mali through welfare initiatives and resource distribution.
+
+## Languages
+
+**Fluent**: French (native), English, Arabic, Hindi  
 **Conversational**: Spanish
 
-## Community Engagement
+---
 
-**Social Charity Youth of Mamaribougou** (2019 - Present)  
-Active volunteer supporting widows and orphans in Mali through donations of kits, food, and welfare assistance.
+## PhD Application Statement
 
-## Looking Forward
+I am actively seeking **PhD positions in Electrical & Computer Engineering** with a focus on **Machine Learning**, **Computer Vision**, and **Embedded AI Systems**. My research goal is to develop intelligent, resource-efficient systems that can operate in real-world environments—bridging the gap between theoretical ML advances and practical hardware implementations.
 
-I'm actively seeking research collaborations, industry partnerships, and opportunities to contribute to groundbreaking AI research. My goal is to bridge the gap between academic research and real-world applications, creating solutions that make a meaningful impact.
+I bring strong interdisciplinary training, hands-on research experience, and a publication record. I am eager to contribute to cutting-edge research under the mentorship of leading faculty in top-tier programs.
 
-Feel free to reach out via email or connect through my social media profiles. I'm always open to discussions about research opportunities, potential collaborations, or innovative projects in AI and data science.
+**Please feel free to contact me** at **samboukone99@gmail.com** to discuss potential research collaborations or PhD opportunities.

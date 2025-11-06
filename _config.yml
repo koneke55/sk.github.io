@@ -7,14 +7,14 @@ first_name: Sambou
 middle_name: 
 last_name: KONE
 contact_note: >
-  Feel free to reach out via email for collaborations, research opportunities, or academic discussions.
+  I am actively seeking PhD positions in Electrical & Computer Engineering. Please reach out to discuss research opportunities, collaborations, or graduate programs.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Dual Bachelor's degree holder in Computer Science and Electronics & Communication passionate about Data Science and Machine Learning/Deep Learning with a focus on AI-driven Data Solutions. Research interests include Quantum Machine Learning, Computer Vision, and Multimodal Computing.
+  PhD Aspirant in Electrical & Computer Engineering with research interests in Machine Learning, Computer Vision, and Embedded AI Systems. Batch Topper (CGPA: 3.64/4.00) from Jain University with published research in deep learning for battery management systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: phd-student, machine-learning, computer-vision, electrical-engineering, computer-engineering, deep-learning, embedded-systems, academic-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: SK # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
