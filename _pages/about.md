@@ -26,7 +26,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a PhD aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University, Bangalore, graduating as Batch Topper with a **GPA of 3.64/4.00 (9.106/10)**.
+I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University, Bangalore, graduating as Batch Topper with a **GPA of 3.64/4.00 (9.106/10)**.
 
 ## Research Interests
 
@@ -34,7 +34,7 @@ My research centers on developing intelligent systems that integrate **machine l
 
 - **Computer Vision & Multimodal Learning**: Vision-language models, vision transformers (ViT), and visual understanding systems
 - **Quantum Machine Learning**: Exploring quantum computing paradigms for enhanced ML performance
-- **Embedded AI Systems**: Real-time intelligent systems on microcontrollers and FPGAs
+- **Embedded AI Systems**: Real-time intelligent systems on microcontrollers, VLSI and FPGAs
 - **Deep Learning for Signal Processing**: Applications in battery management, speech recognition, intelligent systems, and biomedical signal analysis
 
 I am seeking **PhD opportunities** to advance fundamental research in these areas while contributing to practical applications that address real-world challenges.
@@ -57,8 +57,8 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 ## Education
 
 **Bachelor of Technology in Electronics & Communication Engineering**  
-*Jain University, Bangalore, India* (2020–2024)  
-**CGPA: 3.64/4.00 (Batch Topper)**
+*Jain University, Bangalore, Karnataka, India* (2020–2024)  
+**GPA: 3.64/4.00 (9.106/10) - Batch Topper**
 
 - **Thesis**: "Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
   *Supervisor: Prof. Sunil MP*
@@ -89,7 +89,7 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 - Target publication in top-tier conferences (CVPR, ICCV, NeurIPS, ICML)
 
 **Data Analyst**  
-*ObjectWays Technologies, Chennai, India (Remote)* (November 2024 – Present)
+*ObjectWays Technologies, Chennai, Tamil Nadu, India (Remote)* (November 2024 – Present)
 
 - Contribute to Amex Speech-to-Text annotation project for French customer interactions
 - Perform ETL processing and analytics using BigQuery SQL, Apache Beam, and Cloud Data Fusion
@@ -97,7 +97,7 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 - Conduct LiDAR object detection data annotation
 
 **Student Researcher**  
-*Jain University, Bangalore, India* (April 2023 – October 2024)
+*Jain University, Bangalore, Karnataka, India* (April 2023 – October 2024)
 
 - Conducted research on Smart Battery Management Systems for Autonomous Vehicles using deep learning
 - Worked on embedded systems, digital signal/image processing, and real-time intelligent systems
