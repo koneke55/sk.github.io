@@ -435,7 +435,12 @@ ninja.data = [{
             window.location.href = "/sk.github.io/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
+      },{id: "books-probabilistic-machine-learning-an-introduction",
+          title: 'Probabilistic Machine Learning: An Introduction',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/sk.github.io/books/probabilistic_machine_learning/";
+            },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
