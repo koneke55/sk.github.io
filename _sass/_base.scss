@@ -19,6 +19,11 @@ strong {
   color: var(--global-text-color);
 }
 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }

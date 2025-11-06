@@ -15,6 +15,12 @@ body {
   h6 {
     scroll-margin-top: 66px;
   }
+
+  // Justify paragraphs and list items for professional academic look
+  p, li {
+    text-align: justify;
+    text-justify: inter-word;
+  }
 }
 
 body.fixed-top-nav {

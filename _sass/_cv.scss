@@ -47,6 +47,14 @@ p.location {
   white-space: nowrap;
 }
 
+// Justify text in CV sections
+.cv {
+  p, li {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+
 i.iconlocation {
   color: var(--global-theme-color);
   font-size: 0.8rem;
