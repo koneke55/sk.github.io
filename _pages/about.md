@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items (set to true to show news)
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -26,7 +26,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a PhD aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University, Bangalore, graduating as Batch Topper with a **CGPA of 3.64/4.00 (9.106/10)**.
+I am **Sambou KONE**, a PhD aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University, Bangalore, graduating as Batch Topper with a **GPA of 3.64/4.00 (9.106/10)**.
 
 ## Research Interests
 
