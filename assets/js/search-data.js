@@ -25,21 +25,21 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects and technical implementations spanning Machine Learning, Computer Vision, Embedded Systems, and Software Development.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/sk.github.io/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "Explore my GitHub repositories featuring research projects, code implementations, and open-source contributions in Machine Learning, Computer Vision, and Software Development.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/sk.github.io/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Comprehensive curriculum vitae showcasing my academic background, research experience, technical skills, and professional achievements in Electrical &amp; Computer Engineering with a focus on Machine Learning, Computer Vision, and Embedded AI Systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/sk.github.io/cv/";
