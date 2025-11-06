@@ -3,14 +3,28 @@
   contents:
     - name: Full Name
       value: Sambou KONE
+    - name: Date of Birth
+      value: Available upon request
+    - name: Nationality
+      value: Malian
     - name: Email
       value: samboukone99@gmail.com
     - name: Phone
       value: +223 77 81 87 01
-    - name: Location
-      value: Bamako, Mali
+    - name: Address
+      value: Sector 5, Mamaribougou, Bamako, Mali, West Africa
+    - name: LinkedIn
+      value: linkedin.com/in/sambou-kone-843bb6218
+    - name: GitHub
+      value: github.com/koneke55
+    - name: Google Scholar
+      value: DRjeWTkAAAAJ
+    - name: Research Gate
+      value: Sambou-Kone
+    - name: Career Objective
+      value: PhD Aspirant in Electrical & Computer Engineering seeking opportunities to advance research in Machine Learning, Computer Vision, and Embedded AI Systems
     - name: Research Interests
-      value: Machine Learning, Computer Vision, Embedded AI Systems, Quantum Machine Learning
+      value: Machine Learning, Computer Vision, Embedded AI Systems, Quantum Machine Learning, Vision-Language Models, Deep Learning for Signal Processing
     - name: Languages
       value: French (Native), English (Fluent), Arabic (Fluent), Hindi (Fluent), Spanish (Conversational)
 
@@ -18,59 +32,86 @@
   type: time_table
   contents:
     - title: Bachelor of Technology in Electronics & Communication Engineering
-      institution: Jain University, Bangalore, India
-      year: 2020-2024
+      institution: Jain University, Bangalore, Karnataka, India
+      year: 2020 - 2024
       description:
-        - "CGPA: 3.64/4.00 (Batch Topper)"
+        - "CGPA: 3.64/4.00 (9.106/10) - Batch Topper"
+        - "Ranking: 1st out of entire ECE batch"
         - "Thesis: Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
         - "Supervisor: Prof. Sunil MP"
-        - Developed ML models for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
-        - Published research in International Journal of Innovative Research in Technology (IJIRT), Vol. 10, Issue 11, 2024
+        - "Key Coursework: Digital Signal Processing, Image Processing, Embedded Systems, VLSI Design, Microcontrollers, FPGAs, Machine Learning, Deep Learning, Computer Vision"
+        - Developed ML models using Scikit-learn and TensorFlow for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
+        - Achieved significant improvements in battery life prediction using MAE, RMSE, and R² metrics
+        - Published research in International Journal of Innovative Research in Technology (IJIRT), Vol. 10, Issue 11, April 2024
+        - Minor Project - Cotton Wool Detection for Diabetic Retinopathy using Computer Vision and Image Processing (Supervisor - Prof. Chethan GS)
     - title: Master 1 Studies (Non-Degree)
       institution: National School of Engineering (ENI-ABT), Bamako, Mali
-      year: 2019-2020
+      year: 2019 - 2020
       description:
-        - "Thesis: Human Voice Recognition System Based on Feed Forward Neural Networks"
+        - "Focus: Artificial Intelligence, Machine Learning, Signal Processing"
+        - "Thesis: Human Voice Recognition System Based on Feed Forward Neural Networks for Platforms"
         - "Supervisor: Dr. Abdoulaye Sidibe"
-        - Implemented speaker recognition using PyTorch with MFCC/FBANK audio features
-        - Achieved high accuracy and low Equal Error Rate (EER) compared to traditional methods
+        - Implemented speaker recognition system using Python 3, PyTorch, and TensorFlow
+        - Utilized NumPy/Librosa for Digital Signal Processing
+        - Extracted MFCC (Mel-Frequency Cepstral Coefficients) and FBANK features for voice analysis
+        - Achieved high accuracy, F1-score, and low Equal Error Rate (EER) compared to traditional methods
     - title: Bachelor of Computer & Telecom Engineering
       institution: National School of Engineering, Bamako, Mali
-      year: 2016-2019
+      year: 2016 - 2019
       description:
-        - Focus on software development, database systems (SQL/Merise), and web technologies
-        - "Final Project: Student Management System (PHP, JavaScript, HTML/CSS, Bootstrap)"
+        - "Ranking: 2nd out of 16 students"
+        - "Focus: Software Development, Database Systems, Networking, Web Technologies"
+        - "Key Coursework: SQL, Merise Database Design, HTML/CSS, UML, Java, PHP, JavaScript, User Interface Design, Network Protocols"
+        - "Final Project: Student Management System using PHP, JavaScript, HTML/CSS, Bootstrap"
+        - Developed full-stack web application with database integration and responsive UI
 
 - title: Research & Professional Experience
   type: time_table
   contents:
     - title: Co-Founder & Chief Technology Officer
       institution: Super DataInsights & AI Scientists Innovations, Bamako, Mali
-      year: Nov 2024 - Present
+      year: November 2024 - Present
       description:
-        - Lead research in vision-language models and multimodal AI systems
-        - Develop advanced computer vision algorithms (Vision Transformers, DTFR)
+        - Lead research initiatives in vision-language models and multimodal AI systems
+        - Develop advanced computer vision algorithms including Vision Transformers (ViT) and DTFR
+        - Design and implement AI solutions for IoT applications
+        - Manage research team and establish partnerships with academic institutions
         - Target publication in top-tier ML/CV conferences (CVPR, ICCV, NeurIPS, ICML)
-    - title: Data Analyst (Remote)
-      institution: ObjectWays Technologies, Chennai, India
-      year: Nov 2024 - Present
+        - Drive innovation in AI-driven data analytics and insights
+    - title: Data Analyst (Remote - Full Time)
+      institution: ObjectWays Technologies, Chennai, Tamil Nadu, India
+      year: November 2024 - Present
       description:
-        - Contribute to Amex Speech-to-Text annotation project for French customer interactions
-        - Perform ETL processing and analytics using BigQuery SQL, Apache Beam, Cloud Data Fusion
-        - Achieve 90% accuracy in NLP-based monitoring using Amazon SageMaker, vTensorAct Studio, Encord
+        - Contribute to Amex Speech-to-Text (SST) annotation project for French CCP and CM interactions
+        - Process and clean French customer service transcripts for Machine Learning accuracy testing
+        - Perform large-scale data analytics and ETL processing using BigQuery SQL, Apache Beam, Dataform, and Cloud Data Fusion
+        - Achieve 90% accuracy in NLP-based quality monitoring for banking service interactions
+        - Utilize advanced NLP tools - vTensorAct Studio, Amazon SageMaker, and Encord
+        - Conduct LiDAR object detection data annotation for autonomous vehicle applications
+        - Provide insights for ML model improvement and customer service quality enhancement
     - title: Student Researcher
-      institution: Jain University, Bangalore, India
-      year: Apr 2023 - Oct 2024
+      institution: Jain University, Bangalore, Karnataka, India
+      year: April 2023 - October 2024
       description:
         - Conducted research on Smart Battery Management Systems for Autonomous Vehicles using deep learning
-        - Worked on embedded systems (microcontrollers, FPGAs), digital signal/image processing
-        - Published findings in IJIRT journal (Vol. 10, Issue 11, 2024)
+        - Developed predictive models for battery health monitoring and lifecycle optimization
+        - Worked extensively on embedded systems (microcontrollers and FPGAs)
+        - Performed digital signal processing and image processing research
+        - Designed and implemented real-time intelligent systems
+        - Published findings in International Journal of Innovative Research in Technology (Vol. 10, Issue 11, 2024)
+        - Collaborated with Prof. Sunil MP on battery management research
     - title: Network Systems Engineer (Intern)
-      institution: Celeste Telecom Mali, Bamako, Mali
-      year: Oct 2020 - Feb 2022
+      institution: Celeste Telecom Mali Sarl, Bamako, Mali
+      year: October 2020 - February 2022
       description:
-        - Configured and managed enterprise network infrastructure (Cisco, Huawei, Fortinet, Netgate)
-        - Implemented PABX/VoIP solutions and L2/L3 routing protocols (BGP, OSPF, EIGRP, VLAN)
+        - Assessed business communication needs and recommended PABX/VoIP solutions
+        - Configured and managed enterprise-level network infrastructure
+        - Worked with multiple vendor platforms - Cisco, Huawei, Fortinet, and Netgate systems
+        - Implemented and maintained L2/L3 routing protocols (BGP, OSPF, EIGRP, RIP)
+        - Configured VLANs, STP (Spanning Tree Protocol), and VTP (VLAN Trunking Protocol)
+        - Deployed SD-WAN and SONiC (Software for Open Networking in the Cloud) solutions
+        - Performed network troubleshooting, optimization, and security configuration
+        - Installed and upgraded network hardware and software systems
 
 - title: Teaching & Service
   type: time_table
@@ -91,48 +132,136 @@
       description:
         - Support widows and orphans through welfare initiatives and resource distribution
 
-- title: Publications
+- title: Publications & Research Projects
   type: time_table
   contents:
     - year: 2024
       items:
-        - "Kone, S., & Sunil, M.P. (2024). Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning. International Journal of Innovative Research in Technology, Vol. 10, Issue 11. ISSN: 2349-6002."
+        - "Kone, S., & Sunil, M.P. (2024). Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning. International Journal of Innovative Research in Technology (IJIRT), Vol. 10, Issue 11, April 2024. ISSN 2349-6002. DOI 10.64643/IJIRTV10I11-163173-459."
+        - "Cotton Wool Detection for Diabetic Retinopathy. Minor Project Research, ECE Department, Jain University, Bangalore. Supervisor - Prof. Chethan GS. April 2024."
+    - year: 2019-2020
+      items:
+        - "Human Voice Recognition System Based on Feed Forward Neural Networks for Platforms. Master's Thesis, National School of Engineering ENI ABT, Bamako, Mali. Supervisor - Dr. Abdoulaye Sidibe."
 
-- title: Conference Presentations & Awards
+- title: Conference Presentations, Technical Papers & Awards
   type: time_table
   contents:
     - year: 2023
       items:
-        - "Electronics and Communication Engineering – 2030. Best Presentation Award, Avalanche Club, ECE Department, Jain University, Bangalore."
+        - "Electronics and Communication Engineering – 2030. Best Presentation Award, Avalanche Club, ECE Department, Jain University, Bangalore, March 2023."
+        - "CMOS Power Minimization Techniques for Portable Devices. Paper submitted to Jain FET Best Paper Competition, February 2023 (Unpublished)."
+    - year: 2022
+      items:
+        - "Tactical Advanced Computer (TAC). Technical presentation in Embedded Systems Course, Jain University, May 2022."
 
 - title: Technical Skills
   type: nested_list
   contents:
     - title: Programming Languages
       items:
-        - Python
-        - C/C++
-        - MATLAB
-        - Java
-    - title: Machine Learning & AI
+        - "Python (Advanced - Primary language for ML/AI)"
+        - "C/C++ (Proficient - Embedded systems, system programming)"
+        - "MATLAB (Proficient - Signal processing, simulations)"
+        - "Java (Intermediate - Object-oriented programming)"
+        - "PHP, JavaScript, HTML/CSS (Web development)"
+        - "SQL (Advanced - Database management and queries)"
+    - title: Machine Learning & Deep Learning
       items:
-        - PyTorch, TensorFlow, Keras
-        - Scikit-learn, NumPy, Pandas
-        - Computer Vision (OpenCV, Vision Transformers)
-        - Vision-Language Models
-        - NLP Tools (Amazon SageMaker, vTensorAct Studio, Encord)
-    - title: Data Engineering
+        - "Frameworks: PyTorch, TensorFlow, Keras, Scikit-learn"
+        - "Libraries: NumPy, Pandas, Matplotlib, Seaborn, SciPy"
+        - "Computer Vision: OpenCV, Vision Transformers (ViT), Image Processing"
+        - "Vision-Language Models: Multimodal AI, CLIP-based architectures"
+        - "NLP: Natural Language Processing, Speech Recognition, Text Analysis"
+        - "Model Development: Training, Fine-tuning, Hyperparameter Optimization"
+        - "Evaluation Metrics: MAE, RMSE, R², Accuracy, F1-Score, EER"
+    - title: Data Engineering & Analytics
       items:
-        - BigQuery SQL
-        - ETL Processing (Apache Beam, Dataform, Cloud Data Fusion)
-        - Speech-to-Text Systems
+        - "BigQuery SQL (Advanced - Large-scale data analytics)"
+        - "ETL Processing: Apache Beam, Dataform, Cloud Data Fusion"
+        - "Data Preprocessing & Cleaning"
+        - "Speech-to-Text Systems (French, English)"
+        - "Data Annotation Tools: vTensorAct Studio, Amazon SageMaker, Encord"
+        - "LiDAR Data Processing for Autonomous Vehicles"
     - title: Embedded Systems & Hardware
       items:
-        - Microcontrollers and FPGAs
-        - Digital Signal/Image Processing
-        - Real-time Intelligent Systems
-    - title: Networking
+        - "Microcontrollers: Arduino, STM32, ARM Cortex"
+        - "FPGAs: FPGA design and programming"
+        - "VLSI Design and RTL (Register Transfer Level)"
+        - "Digital Signal Processing (DSP)"
+        - "Digital Image Processing"
+        - "Real-time Intelligent Systems"
+        - "IoT Systems Design and Implementation"
+    - title: Networking & Communications
       items:
-        - L2/L3 Protocols (BGP, OSPF, EIGRP, VLAN, STP, VTP)
-        - PABX/VoIP Solutions
-        - SD-WAN/SONiC
+        - "Routing Protocols: BGP, OSPF, EIGRP, RIP"
+        - "Switching Technologies: VLANs, STP, VTP"
+        - "Network Infrastructure: Cisco, Huawei, Fortinet, Netgate"
+        - "VoIP & PABX Solutions"
+        - "SD-WAN (Software-Defined Wide Area Network)"
+        - "SONiC (Software for Open Networking in the Cloud)"
+    - title: Development Tools & Platforms
+      items:
+        - "Version Control: Git, GitHub"
+        - "Cloud Platforms: Google Cloud Platform (GCP), AWS"
+        - "Development Environments: Jupyter, VS Code, PyCharm"
+        - "Containerization: Docker (Familiar)"
+        - "CI/CD: GitHub Actions (Familiar)"
+    - title: Soft Skills
+      items:
+        - "Research & Technical Writing"
+        - "Project Management"
+        - "Team Leadership & Collaboration"
+        - "Problem Solving & Critical Thinking"
+        - "Teaching & Mentoring"
+        - "Cross-cultural Communication (Multilingual)"
+
+- title: Academic Achievements & Honors
+  type: time_table
+  contents:
+    - year: 2024
+      items:
+        - "Batch Topper - BTech Electronics & Communication Engineering, Jain University (CGPA 3.64/4.00)"
+        - "Ranked 1st out of entire ECE batch at Jain University"
+        - "Published research paper in International Journal (IJIRT)"
+    - year: 2023
+      items:
+        - "Best Presentation Award - ECE Department Avalanche Club, Jain University"
+    - year: 2019
+      items:
+        - "Ranked 2nd out of 16 students - Bachelor of Computer & Telecom Engineering, National School of Engineering, Mali"
+
+- title: Professional Memberships & Certifications
+  type: list
+  contents:
+    - "Google Scholar Profile - Active researcher with published work"
+    - "ResearchGate Member - Academic networking and collaboration"
+    - "GitHub Contributor - Open source and project repositories"
+
+- title: Interests & Extracurricular Activities
+  type: nested_list
+  contents:
+    - title: Research Interests
+      items:
+        - Quantum Machine Learning and quantum computing applications
+        - Computer Vision and multimodal AI systems
+        - Embedded AI and edge computing
+        - Vision-Language Models (VLMs)
+        - Deep Learning for signal and image processing
+    - title: Professional Development
+      items:
+        - Reading current ML/AI research papers and attending virtual conferences
+        - Currently reading "Probabilistic Machine Learning" by Kevin P. Murphy
+        - Following latest developments in Vision Transformers and Large Language Models
+    - title: Community Service
+      items:
+        - Active volunteer with Social Charity Youth of Mamaribougou (2019-Present)
+        - Supporting education initiatives for underprivileged children
+        - Contributing to community welfare programs in Mali
+
+- title: References
+  type: list
+  contents:
+    - "Prof. Sunil MP - Thesis Supervisor, Jain University, Bangalore, India"
+    - "Dr. Abdoulaye Sidibe - Thesis Supervisor, National School of Engineering ENI ABT, Mali"
+    - "Prof. Chethan GS - Project Supervisor, Jain University, Bangalore, India"
+    - "Additional references available upon request"
