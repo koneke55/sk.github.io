@@ -26,7 +26,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a PhD aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom at National School of Engineering, Bamako, Mali as second 2 rank holder out of 16, and Electroncics & Communications Engineering, graduating as Batch topper with 9.106 out 10 GPA at  Jain University, Bangalore.
+I am **Sambou KONE**, a PhD aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University, Bangalore, graduating as Batch Topper with a **CGPA of 3.64/4.00 (9.106/10)**.
 
 ## Research Interests
 
@@ -35,7 +35,7 @@ My research centers on developing intelligent systems that integrate **machine l
 - **Computer Vision & Multimodal Learning**: Vision-language models, vision transformers (ViT), and visual understanding systems
 - **Quantum Machine Learning**: Exploring quantum computing paradigms for enhanced ML performance
 - **Embedded AI Systems**: Real-time intelligent systems on microcontrollers and FPGAs
-- **Deep Learning for Signal Processing**: Applications in battery management, speech recognition, and biomedical signal analysis
+- **Deep Learning for Signal Processing**: Applications in battery management, speech recognition, intelligent systems, and biomedical signal analysis
 
 I am seeking **PhD opportunities** to advance fundamental research in these areas while contributing to practical applications that address real-world challenges.
 
@@ -51,7 +51,7 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 **Computer Vision**: OpenCV, Vision Transformers, Image Processing  
 **Programming**: Python, C/C++, MATLAB, Java  
 **Data Engineering**: BigQuery SQL, ETL (Apache Beam, Dataform), Cloud Data Fusion  
-**Embedded Systems**: Microcontrollers, FPGAs, Real-time Systems  
+**Embedded Systems**: Microcontrollers, FPGAs, RTL design, Real-time Systems  
 **NLP Tools**: Amazon SageMaker, Encord, vTensorAct Studio
 
 ## Education
@@ -79,38 +79,45 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 - Focus: Software Development, Database Systems (SQL/Merise), Web Technologies
 - Final Project: Student Management System (PHP, JavaScript, HTML/CSS, Bootstrap)
 
-## Professional Experience
+## Research & Professional Experience
 
-### Co-Founder & CTO | Super DataInsights & AI Scientists Innovations (Bamako, Mali)
-*November 2024 - Present*
+**Co-Founder & Chief Technology Officer**  
+*Super DataInsights & AI Scientists Innovations, Bamako, Mali* (November 2024 – Present)
 
-Leading research initiatives in IoT and AI/ML solutions with a focus on vision-language models and multimodal understanding. Aiming to publish research in computer vision and AI innovation.
+- Lead research initiatives in vision-language models and multimodal AI systems
+- Develop advanced computer vision algorithms (Vision Transformers, DTFR)
+- Target publication in top-tier conferences (CVPR, ICCV, NeurIPS, ICML)
 
-### Data Analyst | ObjectWays Technologies (Chennai, India)  
-*November 2024 - Present | Remote*
+**Data Analyst**  
+*ObjectWays Technologies, Chennai, India (Remote)* (November 2024 – Present)
 
-- Process French CCP and CM interactions for ML accuracy testing
-- Utilize BigQuery SQL and ETL processing for large-scale data insights
-- Implement NLP tools achieving **90% accuracy** for banking service quality monitoring
-- Technologies: vTensorAct Studio, Amazon SageMaker, Encord, Speech-to-Text (French)
+- Contribute to Amex Speech-to-Text annotation project for French customer interactions
+- Perform ETL processing and analytics using BigQuery SQL, Apache Beam, and Cloud Data Fusion
+- Achieve 90% accuracy in NLP-based monitoring using Amazon SageMaker, vTensorAct Studio, and Encord
+- Conduct LiDAR object detection data annotation
 
-### Student Researcher | Jain University (Bangalore)
-*April 2023 - October 2024*
+**Student Researcher**  
+*Jain University, Bangalore, India* (April 2023 – October 2024)
 
-Conducted research in embedded systems, digital signal/image processing, and real-time intelligent systems with focus on Smart Battery Management Systems for Autonomous Vehicles.
+- Conducted research on Smart Battery Management Systems for Autonomous Vehicles using deep learning
+- Worked on embedded systems, digital signal/image processing, and real-time intelligent systems
+- Published research in IJIRT journal
 
-### Network Systems Engineer Intern | Celeste Telecom Mali (Bamako)
-*October 2020 - February 2022*
+**Network Systems Engineer (Intern)**  
+*Celeste Telecom Mali, Bamako, Mali* (October 2020 – February 2022)
 
-Managed network infrastructure, configured PABX/VoIP solutions, and worked with L2/L3 protocols (BGP, OSPF, EIGRP) across Cisco, Huawei, Netgate, and Fortinet systems.
+- Configured and managed enterprise network infrastructure (Cisco, Huawei, Fortinet, Netgate)
+- Implemented PABX/VoIP solutions and L2/L3 routing protocols (BGP, OSPF, EIGRP, VLAN)
 
 ## Publications
 
 **Kone, S.**, & Sunil, M.P. (2024). "Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning." *International Journal of Innovative Research in Technology*, Vol. 10, Issue 11. ISSN: 2349-6002.
 
-**Conference Presentations**
+**Conference Presentations & Technical Writing**
 
 - "Electronics and Communication Engineering – 2030" (*Best Presentation Award*), Avalanche Club, ECE Department, Jain University, Bangalore (2023)
+- "Tactical Advanced Computer (TAC)", Presented in Embedded Systems Course (May 2022)
+- "CMOS Power Minimization Techniques for Portable Devices", Paper submitted to Jain FET Best Paper Competition (February 2023, unpublished)
 
 ## Teaching & Service
 
