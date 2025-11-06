@@ -1,81 +1,132 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
-importance: 1
-category: work
-related_publications: true
+title: CMOS Power Minimization for Portable Devices
+description: Energy-Efficient Circuit Design Techniques
+img: assets/img/8.jpg
+importance: 7
+category: hardware
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Research paper on CMOS power minimization techniques for portable devices, focusing on reducing power consumption in integrated circuits to extend battery life and improve device efficiency. Submitted to Jain FET Best Paper Competition.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Research Objective
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Investigate and propose techniques to minimize power consumption in CMOS (Complementary Metal-Oxide-Semiconductor) circuits used in portable electronic devices.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Background
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Power Consumption Challenges
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Portable Devices Face:**
+- Limited battery capacity
+- Increasing computational demands
+- Heat dissipation constraints
+- User expectations for longer battery life
 
-{% raw %}
+### Power Components in CMOS
+1. **Dynamic Power**: Switching activity
+2. **Static Power**: Leakage current
+3. **Short-circuit Power**: Transitional current
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Proposed Techniques
 
-{% endraw %}
+### 1. Voltage Scaling
+- Reduce supply voltage
+- Dynamic voltage and frequency scaling (DVFS)
+- Multiple voltage domains
+
+### 2. Clock Gating
+- Disable clock to idle circuits
+- Reduce dynamic power consumption
+- Minimal performance impact
+
+### 3. Power Gating
+- Shut off power to unused blocks
+- Minimize static leakage
+- Sleep/wake-up state management
+
+### 4. Transistor Sizing
+- Optimize transistor dimensions
+- Balance speed and power
+- Area-power trade-offs
+
+### 5. Logic Optimization
+- Minimize switching activity
+- Reduce circuit complexity
+- Gate-level optimization
+
+## Technical Analysis
+
+### Design Considerations
+- Performance requirements
+- Power budget constraints
+- Area limitations
+- Thermal management
+
+### Trade-offs
+- Power vs. Performance
+- Area vs. Power
+- Design complexity vs. Benefits
+
+## Methodology
+
+1. Literature review of existing techniques
+2. Circuit simulation and analysis
+3. Power consumption modeling
+4. Comparative performance evaluation
+5. Optimization strategy development
+
+## Expected Results
+
+- Significant power reduction
+- Maintained or improved performance
+- Extended battery life for portable devices
+- Practical implementation guidelines
+
+## Applications
+
+### Target Devices
+- Smartphones and tablets
+- Wearable electronics
+- IoT sensors
+- Medical devices
+- Portable computing
+
+## Tools & Technologies
+
+- VLSI design tools
+- Circuit simulation software
+- Power analysis tools
+- CMOS technology libraries
+
+## Project Details
+
+**Institution**: Jain University, Bangalore  
+**Competition**: Jain FET Best Paper Competition  
+**Date**: February 2023  
+**Status**: Submitted (Unpublished)
+
+## Academic Contribution
+
+- Comprehensive literature review
+- Novel optimization approaches
+- Practical design guidelines
+- Foundation for future research
+
+## Future Work
+
+- Hardware implementation
+- Comparative benchmarking
+- Advanced process nodes
+- Machine learning for power optimization
+- Real-world device testing
+
+## Related Coursework
+
+- VLSI Design
+- Digital Electronics
+- Low Power Design
+- Integrated Circuits
+- Semiconductor Devices

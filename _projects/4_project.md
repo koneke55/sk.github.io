@@ -1,80 +1,88 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Vision-Language Models Research
+description: Multimodal AI for Text and Image Understanding
+img: assets/img/12.jpg
+importance: 4
+category: ongoing
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Current research initiative at Super DataInsights & AI Scientists Innovations focusing on developing advanced vision-language models (VLMs) for multimodal understanding. This project aims to extend AI capabilities by combining text and image analysis for deeper semantic understanding.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Research Goals
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- Develop state-of-the-art vision-language models
+- Enable better multimodal understanding
+- Integrate visual and textual information
+- Target publications in top-tier ML/CV conferences
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Focus
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Vision Transformers (ViT)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Architecture Development:**
+- Transformer-based image understanding
+- Attention mechanisms for visual features
+- Scalable model design
+- Transfer learning capabilities
 
-{% raw %}
+### DTFR (Detection Transformer for Recognition)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Novel Approach:**
+- Object detection with transformers
+- End-to-end recognition pipeline
+- Efficient visual representation learning
+- Real-time inference optimization
 
-{% endraw %}
+### Multimodal Integration
+
+- Cross-modal attention mechanisms
+- Joint embedding spaces
+- Vision-language pre-training
+- Zero-shot learning capabilities
+
+## Research Methodology
+
+1. **Literature Review**: Study latest VLM architectures
+2. **Model Design**: Develop novel architectures
+3. **Implementation**: PyTorch-based development
+4. **Training**: Large-scale dataset training
+5. **Evaluation**: Comprehensive benchmarking
+6. **Publication**: Target CVPR, ICCV, NeurIPS, ICML
+
+## Current Status
+
+- Architecture design phase
+- Dataset collection and preparation
+- Preliminary experiments
+- Preparing for publication submission
+
+## Technologies
+
+- PyTorch for deep learning
+- Vision Transformers
+- Large-scale GPU computing
+- Multimodal datasets
+
+## Target Conferences
+
+- CVPR (Computer Vision and Pattern Recognition)
+- ICCV (International Conference on Computer Vision)
+- NeurIPS (Neural Information Processing Systems)
+- ICML (International Conference on Machine Learning)
+
+## Expected Impact
+
+- Advance state-of-the-art in VLMs
+- Enable new multimodal applications
+- Contribute to academic community
+- Industrial applications in AI systems
+
+## Organization
+
+**Super DataInsights & AI Scientists Innovations**  
+Bamako, Mali  
+Role: Co-Founder & CTO  
+Period: November 2024 - Present

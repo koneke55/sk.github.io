@@ -1,80 +1,190 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
-importance: 4
-category: fun
+title: NLP Data Analysis for Amex
+description: Speech-to-Text Annotation and Quality Monitoring for Banking Services
+img: assets/img/11.jpg
+importance: 9
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Contributing to American Express (Amex) Speech-to-Text annotation project at ObjectWays Technologies, focusing on processing French customer service interactions to improve machine learning accuracy and banking service quality monitoring.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Scope
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Amex SST Annotation Project
+Processing and analyzing customer service transcripts for:
+- Machine Learning model training
+- Quality assurance monitoring
+- Service improvement insights
+- Compliance verification
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Responsibilities
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### 1. Data Processing
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Speech-to-Text Transcript Cleaning:**
+- Process French CCP (Customer Care Personnel) interactions
+- Clean CM (Card Member) conversation transcripts
+- Standardize transcript formats
+- Remove noise and artifacts
 
-{% raw %}
+**Data Preprocessing:**
+- Text normalization
+- Error correction
+- Annotation tagging
+- Quality validation
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+### 2. Large-Scale Analytics
 
-{% endraw %}
+**BigQuery SQL:**
+- Complex query development
+- Large dataset analysis
+- Performance optimization
+- Data aggregation and reporting
+
+**ETL Processing:**
+- **Apache Beam**: Distributed data processing
+- **Dataform**: SQL-based data transformation
+- **Cloud Data Fusion**: Visual ETL pipeline design
+- Pipeline orchestration and scheduling
+
+### 3. NLP & Machine Learning
+
+**Advanced Tools:**
+- **vTensorAct Studio**: NLP annotation platform
+- **Amazon SageMaker**: ML model training and deployment
+- **Encord**: Data annotation and management
+
+**Quality Monitoring:**
+- Achieve 90% accuracy in interaction monitoring
+- NLP-based sentiment analysis
+- Key phrase extraction
+- Compliance checking
+
+### 4. LiDAR Data Annotation
+
+**Autonomous Vehicle Applications:**
+- Object detection annotation
+- 3D point cloud labeling
+- Ground truth data generation
+- Quality assurance
+
+## Technical Stack
+
+### Cloud & Data Platforms
+- Google Cloud Platform (GCP)
+- BigQuery for data warehousing
+- Cloud Data Fusion for ETL
+
+### Programming & Tools
+- SQL (Advanced)
+- Python for data processing
+- NLP libraries and frameworks
+
+### Annotation Platforms
+- vTensorAct Studio
+- Amazon SageMaker
+- Encord
+
+## Key Achievements
+
+### Accuracy Metrics
+- **90% accuracy** in quality monitoring
+- Improved ML model training data quality
+- Enhanced customer service insights
+- Reduced manual review time
+
+### Process Improvements
+- Streamlined annotation workflows
+- Automated quality checks
+- Efficient data pipeline design
+- Scalable processing architecture
+
+## Language Expertise
+
+### French Language Processing
+- Native French speaker advantage
+- Cultural context understanding
+- Nuanced conversation interpretation
+- Industry-specific terminology
+
+## Business Impact
+
+### For Banking Services
+- Improved customer satisfaction monitoring
+- Better service quality metrics
+- Compliance verification
+- Staff performance insights
+
+### For Machine Learning
+- High-quality training data
+- Reduced model bias
+- Improved prediction accuracy
+- Faster model iteration
+
+## Project Challenges
+
+### 1. Language Complexity
+**Challenge**: French linguistic nuances  
+**Solution**: Native speaker expertise and context analysis
+
+### 2. Scale
+**Challenge**: Processing millions of interactions  
+**Solution**: Distributed processing with Apache Beam
+
+### 3. Accuracy Requirements
+**Challenge**: Banking industry quality standards  
+**Solution**: Multi-stage validation and quality checks
+
+### 4. Real-time Processing
+**Challenge**: Timely data availability  
+**Solution**: Optimized ETL pipelines and caching
+
+## Skills Demonstrated
+
+- **Data Engineering**: ETL, BigQuery, Apache Beam
+- **NLP**: Text processing, annotation, analysis
+- **Cloud Computing**: GCP services and architecture
+- **Quality Assurance**: Validation and testing
+- **Domain Expertise**: Banking and financial services
+- **Language Skills**: Professional French proficiency
+
+## Technologies Used
+
+- BigQuery SQL
+- Apache Beam
+- Dataform
+- Cloud Data Fusion
+- vTensorAct Studio
+- Amazon SageMaker
+- Encord
+- Python
+- NLP tools and libraries
+
+## Employment Details
+
+**Company**: ObjectWays Technologies  
+**Location**: Chennai, Tamil Nadu, India (Remote)  
+**Role**: Data Analyst  
+**Period**: November 2024 - Present  
+**Employment Type**: Full-time Remote
+
+## Professional Growth
+
+- Large-scale data processing expertise
+- Banking domain knowledge
+- Advanced NLP techniques
+- Cloud platform proficiency
+- Cross-functional collaboration
+- Quality-focused mindset
+
+## Future Applications
+
+The skills and experience gained from this project are directly applicable to:
+- PhD research in NLP and ML
+- Large-scale data analytics
+- Financial technology (FinTech)
+- Quality assurance systems
+- Automated monitoring solutions

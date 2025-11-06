@@ -1,80 +1,153 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Student Management System
+description: Full-Stack Web Application for Educational Administration
+img: assets/img/9.jpg
+importance: 5
+category: development
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+A comprehensive web-based Student Management System designed to streamline educational administration processes. This full-stack application provides an intuitive interface for managing student records, courses, and administrative tasks.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project Scope
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Core Functionality
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- Student registration and profile management
+- Course enrollment and tracking
+- Grade management and reporting
+- Administrative dashboard
+- User authentication and authorization
+- Data analytics and reporting
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Technical Implementation
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+### Frontend Technologies
 
-{% raw %}
+**HTML5 & CSS3:**
+- Semantic markup
+- Responsive design
+- Modern styling
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**JavaScript:**
+- Dynamic user interactions
+- Form validation
+- Asynchronous data loading (AJAX)
 
-{% endraw %}
+**Bootstrap:**
+- Responsive grid system
+- Pre-built UI components
+- Mobile-first approach
+- Professional styling
+
+### Backend Development
+
+**PHP:**
+- Server-side logic
+- Database connectivity
+- Session management
+- Form processing
+- Data validation
+
+### Database Design
+
+**SQL Database:**
+- Relational database schema
+- Student records
+- Course information
+- Enrollment data
+- User accounts
+- Academic records
+
+**Merise Method:**
+- Entity-relationship modeling
+- Data flow diagrams
+- Logical data modeling
+- Physical database design
+
+## Features Implemented
+
+### Student Module
+- Registration and profile creation
+- Personal information management
+- Document uploads
+- Academic history tracking
+
+### Course Module
+- Course catalog
+- Enrollment system
+- Schedule management
+- Prerequisite tracking
+
+### Admin Module
+- User management
+- Role-based access control
+- System configuration
+- Report generation
+
+### Reporting
+- Student performance reports
+- Enrollment statistics
+- Course analytics
+- Custom report builder
+
+## Architecture
+
+### MVC Pattern
+- Model: Database interaction
+- View: User interface templates
+- Controller: Business logic
+
+### Security Features
+- Password encryption
+- SQL injection prevention
+- XSS (Cross-Site Scripting) protection
+- Session security
+- Input validation
+
+## Development Process
+
+1. **Requirements Analysis**: Identified stakeholder needs
+2. **Database Design**: Created comprehensive schema using Merise
+3. **UI/UX Design**: Designed user-friendly interfaces
+4. **Implementation**: Developed frontend and backend
+5. **Testing**: Comprehensive testing phase
+6. **Deployment**: Local server deployment
+
+## Technologies Demonstrated
+
+- **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
+- **Backend**: PHP
+- **Database**: MySQL/SQL
+- **Design**: Merise methodology
+- **Version Control**: Git (if applicable)
+
+## Project Details
+
+**Institution**: National School of Engineering, Bamako, Mali  
+**Degree**: Bachelor of Computer & Telecom Engineering  
+**Year**: 2016-2019  
+**Type**: Final Year Project
+
+## Skills Developed
+
+- Full-stack web development
+- Database design and management
+- UI/UX principles
+- Security best practices
+- Project planning and execution
+- Problem-solving
+
+## Future Enhancements
+
+- RESTful API development
+- Mobile application
+- Cloud deployment
+- Advanced analytics dashboard
+- Email notification system
+- SMS integration
+- Parent portal
+- Online payment system
+- Document management system

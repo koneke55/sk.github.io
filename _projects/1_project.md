@@ -1,81 +1,99 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Smart Battery Management System
+description: Deep Learning for Battery Life Optimization in Portable Devices
+img: assets/img/publication_preview/paper_graph.jpg
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project presents an innovative Smart Battery Management System (BMS) for portable devices using deep learning techniques to enhance battery life and performance. The research addresses critical challenges in battery health monitoring and lifecycle prediction for modern electronic devices and autonomous vehicles.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Problem Statement
+
+Traditional Battery Management Systems face limitations in accurately predicting battery state and remaining useful life, leading to:
+- Suboptimal battery performance
+- Unexpected battery failures
+- Reduced device lifespan
+- Safety concerns in critical applications
+
+## Methodology
+
+### Machine Learning Approach
+
+Developed comprehensive ML models using:
+- **Frameworks**: Scikit-learn and TensorFlow
+- **Programming**: Python for model development and data analysis
+- **Algorithms**: Neural networks for pattern recognition and prediction
+
+### Key Prediction Targets
+
+1. **State of Charge (SoC)**: Real-time battery capacity estimation
+2. **State of Health (SoH)**: Long-term battery degradation assessment
+3. **Remaining Useful Life (RUL)**: Predictive maintenance and replacement planning
+
+## Technical Implementation
+
+### Data Processing
+- Feature engineering from battery sensor data
+- Time-series analysis for charge-discharge cycles
+- Normalization and preprocessing of voltage, current, and temperature data
+
+### Model Architecture
+- Deep neural networks optimized for battery state estimation
+- Hyperparameter tuning for maximum accuracy
+- Cross-validation to ensure generalization
+
+### Evaluation Metrics
+- **Mean Absolute Error (MAE)**: Measuring prediction accuracy
+- **Root Mean Square Error (RMSE)**: Quantifying prediction variance
+- **R² Score**: Assessing model fit quality
+
+## Results & Achievements
+
+- Significant improvements over traditional BMS methods across all metrics
+- High accuracy in SoC and SoH prediction
+- Robust RUL estimation for maintenance scheduling
+- **Published** in International Journal of Innovative Research in Technology (IJIRT), Vol. 10, Issue 11, April 2024
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/paper_graph.jpg" title="Battery Management System Results" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Performance comparison showing improvements in battery life prediction accuracy.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Applications
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Portable Electronics**: Smartphones, laptops, tablets
+- **Electric Vehicles**: Battery health monitoring for EVs
+- **Autonomous Vehicles**: Critical for safe operation
+- **IoT Devices**: Extended battery life for remote sensors
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Technologies Used
 
-{% raw %}
+- Python, Scikit-learn, TensorFlow
+- NumPy, Pandas for data manipulation
+- Matplotlib, Seaborn for visualization
+- Deep Learning architectures
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Supervisor
 
-{% endraw %}
+**Prof. Sunil MP**  
+Jain University, Bangalore, India
+
+## Publication
+
+Kone, S., & Sunil, M.P. (2024). "Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning." *International Journal of Innovative Research in Technology*, Vol. 10, Issue 11. ISSN: 2349-6002.
+
+## Future Work
+
+- Real-time implementation on embedded systems
+- Integration with IoT platforms
+- Expansion to different battery chemistries
+- Cloud-based monitoring dashboard
