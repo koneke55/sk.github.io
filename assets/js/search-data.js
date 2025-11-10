@@ -428,7 +428,12 @@ ninja.data = [{
             window.location.href = "/sk.github.io/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-introduction-to-machine-learning-systems",
+      },{id: "books-digital-signal-processing",
+          title: 'Digital Signal Processing',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/sk.github.io/books/digital_signal_processing/";
+            },},{id: "books-introduction-to-machine-learning-systems",
           title: 'Introduction to Machine Learning Systems',
           description: "",
           section: "Books",handler: () => {
