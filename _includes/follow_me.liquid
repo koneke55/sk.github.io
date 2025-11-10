@@ -1,53 +1,89 @@
-<!-- Follow Me - Static Social Links -->
+<!-- Follow Me - Compact Dropdown -->
 {% if site.data.socials %}
-<div class="follow-me-inline">
-  {% if site.data.socials.email %}
-  <a href="mailto:{{ site.data.socials.email }}" class="social-icon-link" target="_blank" rel="noopener" title="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-  {% endif %}
+<div class="follow-me-compact">
+  <button class="follow-btn" id="followBtn" aria-label="Social links">
+    <i class="fas fa-ellipsis-h"></i>
+  </button>
   
-  {% if site.data.socials.github_username %}
-  <a href="https://github.com/{{ site.data.socials.github_username }}" class="social-icon-link" target="_blank" rel="noopener" title="GitHub">
-    <i class="fab fa-github"></i>
-  </a>
-  {% endif %}
-  
-  {% if site.data.socials.linkedin_username %}
-  <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" class="social-icon-link" target="_blank" rel="noopener" title="LinkedIn">
-    <i class="fab fa-linkedin"></i>
-  </a>
-  {% endif %}
-  
-  {% if site.data.socials.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" class="social-icon-link" target="_blank" rel="noopener" title="Google Scholar">
-    <i class="ai ai-google-scholar"></i>
-  </a>
-  {% endif %}
-  
-  {% if site.data.socials.research_gate_profile %}
-  <a href="https://www.researchgate.net/profile/{{ site.data.socials.research_gate_profile }}" class="social-icon-link" target="_blank" rel="noopener" title="ResearchGate">
-    <i class="ai ai-researchgate"></i>
-  </a>
-  {% endif %}
-  
-  {% if site.data.socials.x_username %}
-  <a href="https://x.com/{{ site.data.socials.x_username }}" class="social-icon-link" target="_blank" rel="noopener" title="X (Twitter)">
-    <i class="fab fa-x-twitter"></i>
-  </a>
-  {% endif %}
-  
-  {% if site.data.socials.orcid_id %}
-  <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" class="social-icon-link" target="_blank" rel="noopener" title="ORCID">
-    <i class="ai ai-orcid"></i>
-  </a>
-  {% endif %}
-  
-  {% if site.data.socials.rss_icon %}
-  <a href="{{ site.baseurl }}/feed.xml" class="social-icon-link" target="_blank" rel="noopener" title="RSS Feed">
-    <i class="fas fa-rss"></i>
-  </a>
-  {% endif %}
+  <div class="follow-dropdown" id="followDropdown">
+    <div class="follow-scroll">
+      {% if site.data.socials.email %}
+      <a href="mailto:{{ site.data.socials.email }}" class="follow-link" target="_blank" rel="noopener">
+        <i class="fas fa-envelope"></i>
+        <span>Email</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.github_username %}
+      <a href="https://github.com/{{ site.data.socials.github_username }}" class="follow-link" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.linkedin_username %}
+      <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" class="follow-link" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.scholar_userid %}
+      <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" class="follow-link" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+        <span>Google Scholar</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.research_gate_profile %}
+      <a href="https://www.researchgate.net/profile/{{ site.data.socials.research_gate_profile }}" class="follow-link" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+        <span>ResearchGate</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.x_username %}
+      <a href="https://x.com/{{ site.data.socials.x_username }}" class="follow-link" target="_blank" rel="noopener">
+        <i class="fab fa-x-twitter"></i>
+        <span>X</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.orcid_id %}
+      <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" class="follow-link" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+        <span>ORCID</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.rss_icon %}
+      <a href="{{ site.baseurl }}/feed.xml" class="follow-link" target="_blank" rel="noopener">
+        <i class="fas fa-rss"></i>
+        <span>RSS</span>
+      </a>
+      {% endif %}
+    </div>
+  </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const followBtn = document.getElementById('followBtn');
+    const followDropdown = document.getElementById('followDropdown');
+    
+    if (followBtn && followDropdown) {
+      followBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        followDropdown.classList.toggle('show');
+      });
+      
+      document.addEventListener('click', function(event) {
+        if (!followBtn.contains(event.target) && !followDropdown.contains(event.target)) {
+          followDropdown.classList.remove('show');
+        }
+      });
+    }
+  });
+</script>
 {% endif %}
 
