@@ -64,7 +64,7 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 
 - **Program**: Industry-driven curriculum in collaboration with Texas Instruments and Intel
 - **Thesis**: "Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
-  *Supervisor: Prof. Sunil MP*
+  *Supervisor: [Prof. Sunil MP](https://scholar.google.com/citations?user=_Ryz6bQAAAAJ)*
 - Developed deep learning models for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
 - Published in *International Journal of Innovative Research in Technology* (IJIRT), Vol. 10, Issue 11, April 2024
 - **Key Coursework**: Digital Signal Processing, Analog & Digital Communication Systems, Wireless Communication, Control Systems, Electromagnetic Theory, VLSI Design & Technology, Embedded Systems, Microprocessors & Microcontrollers, FPGAs & Digital Design, Machine Learning, Deep Learning, Computer Vision, Image Processing, Electronic Devices & Circuits, Network Theory, Power Electronics, Signal & Systems
