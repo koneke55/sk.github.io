@@ -26,13 +26,15 @@ latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University, Bangalore, graduating as Batch Topper with a **GPA of 3.64/4.00 (9.106/10)**.
+I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, **Reinforcement Learning**, **AI Robotics**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University, Bangalore, graduating as Batch Topper with a **GPA of 3.64/4.00 (9.106/10)**.
 
 ## Research Interests
 
 My research centers on developing intelligent systems that integrate **machine learning** with **hardware implementations**. I am particularly interested in:
 
 - **Computer Vision & Multimodal Learning**: Vision-language models, vision transformers (ViT), and visual understanding systems
+- **Reinforcement Learning & AI Robotics**: Intelligent agents, robot learning, autonomous systems, and human-robot interaction
+- **Human Learning & AI**: Understanding how humans learn and applying those principles to develop more effective AI systems
 - **Quantum Machine Learning**: Exploring quantum computing paradigms for enhanced ML performance
 - **Embedded AI Systems**: Real-time intelligent systems on microcontrollers, VLSI and FPGAs
 - **Deep Learning for Signal Processing**: Applications in battery management, speech recognition, intelligent systems, and biomedical signal analysis
