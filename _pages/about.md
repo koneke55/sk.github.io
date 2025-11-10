@@ -26,7 +26,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, **Reinforcement Learning**, **AI Robotics**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University, Bangalore, graduating as Batch Topper with a **GPA of 3.64/4.00 (9.106/10)**.
+I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, **Reinforcement Learning**, **AI Robotics**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University (in collaboration with Texas Instruments), Bangalore, graduating as Batch Topper with a **GPA of 3.64/4.00 (9.106/10)**.
 
 ## Research Interests
 
@@ -59,13 +59,15 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 ## Education
 
 **Bachelor of Technology in Electronics & Communication Engineering**  
-*Jain University, Bangalore, Karnataka, India* (2020–2024)  
+*Jain University (in collaboration with Texas Instruments), Bangalore, Karnataka, India* (2020–2024)  
 **GPA: 3.64/4.00 (9.106/10) - Batch Topper**
 
+- Industry-driven curriculum in collaboration with Texas Instruments and Intel
 - **Thesis**: "Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
   *Supervisor: Prof. Sunil MP*
 - Developed deep learning models for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
 - Published in *International Journal of Innovative Research in Technology* (IJIRT), Vol. 10, Issue 11, April 2024
+- Access to ISRO-supported NavIC Lab for advanced research
 
 **Master 1 Studies (Non-Degree)**  
 *National School of Engineering (ENI-ABT), Bamako, Mali* (2019–2020)
