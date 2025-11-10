@@ -428,7 +428,12 @@ ninja.data = [{
             window.location.href = "/sk.github.io/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-probabilistic-machine-learning-an-introduction",
+      },{id: "books-ml-systems-designs",
+          title: 'ML Systems Designs',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/sk.github.io/books/ml_systems_designs/";
+            },},{id: "books-probabilistic-machine-learning-an-introduction",
           title: 'Probabilistic Machine Learning: An Introduction',
           description: "",
           section: "Books",handler: () => {
