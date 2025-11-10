@@ -1,0 +1,98 @@
+<!-- Follow Me Button -->
+{% if site.data.socials %}
+<div class="follow-me-container">
+  <button class="follow-me-btn" id="followMeBtn">
+    <i class="fas fa-share-alt"></i>
+    <span>Follow Me</span>
+  </button>
+  
+  <div class="follow-me-menu" id="followMeMenu">
+    <div class="follow-me-header">
+      <h4>Connect With Me</h4>
+      <button class="close-btn" id="closeBtn">&times;</button>
+    </div>
+    
+    <div class="social-links-scroll">
+      {% if site.data.socials.email %}
+      <a href="mailto:{{ site.data.socials.email }}" class="social-link" target="_blank" rel="noopener">
+        <i class="fas fa-envelope"></i>
+        <span>Email</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.github_username %}
+      <a href="https://github.com/{{ site.data.socials.github_username }}" class="social-link" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+        <span>GitHub</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.linkedin_username %}
+      <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" class="social-link" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.scholar_userid %}
+      <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" class="social-link" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+        <span>Google Scholar</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.research_gate_profile %}
+      <a href="https://www.researchgate.net/profile/{{ site.data.socials.research_gate_profile }}" class="social-link" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+        <span>ResearchGate</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.x_username %}
+      <a href="https://x.com/{{ site.data.socials.x_username }}" class="social-link" target="_blank" rel="noopener">
+        <i class="fab fa-x-twitter"></i>
+        <span>X (Twitter)</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.orcid_id %}
+      <a href="https://orcid.org/{{ site.data.socials.orcid_id }}" class="social-link" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+        <span>ORCID</span>
+      </a>
+      {% endif %}
+      
+      {% if site.data.socials.rss_icon %}
+      <a href="{{ site.baseurl }}/feed.xml" class="social-link" target="_blank" rel="noopener">
+        <i class="fas fa-rss"></i>
+        <span>RSS Feed</span>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const followMeBtn = document.getElementById('followMeBtn');
+    const followMeMenu = document.getElementById('followMeMenu');
+    const closeBtn = document.getElementById('closeBtn');
+    
+    followMeBtn.addEventListener('click', function() {
+      followMeMenu.classList.toggle('show');
+    });
+    
+    closeBtn.addEventListener('click', function() {
+      followMeMenu.classList.remove('show');
+    });
+    
+    // Close menu when clicking outside
+    document.addEventListener('click', function(event) {
+      if (!followMeBtn.contains(event.target) && !followMeMenu.contains(event.target)) {
+        followMeMenu.classList.remove('show');
+      }
+    });
+  });
+</script>
+{% endif %}
+
