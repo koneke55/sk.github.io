@@ -428,8 +428,8 @@ ninja.data = [{
             window.location.href = "/sk.github.io/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-ml-systems-designs",
-          title: 'ML Systems Designs',
+      },{id: "books-introduction-to-machine-learning-systems",
+          title: 'Introduction to Machine Learning Systems',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/sk.github.io/books/ml_systems_designs/";
