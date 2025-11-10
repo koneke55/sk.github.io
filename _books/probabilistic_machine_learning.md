@@ -12,7 +12,7 @@ finished: 2025-11-10
 released: 2022
 stars: 5
 goodreads_review: 
-status: Finished
+status: Completed
 ---
 
 An comprehensive introduction to probabilistic approaches in machine learning. This book covers fundamental concepts in probability theory, statistical inference, and their applications to modern machine learning algorithms. Murphy provides clear explanations of complex topics including Bayesian inference, graphical models, deep learning, and reinforcement learning, making it an essential resource for PhD students and researchers in the field.
