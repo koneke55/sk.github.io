@@ -62,12 +62,12 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 *Jain University (in collaboration with Texas Instruments), Bangalore, Karnataka, India* (2020–2024)  
 **GPA: 3.64/4.00 (9.106/10) - Batch Topper**
 
-- Industry-driven curriculum in collaboration with Texas Instruments and Intel
+- **Program**: Industry-driven curriculum in collaboration with Texas Instruments and Intel
 - **Thesis**: "Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
   *Supervisor: Prof. Sunil MP*
 - Developed deep learning models for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
 - Published in *International Journal of Innovative Research in Technology* (IJIRT), Vol. 10, Issue 11, April 2024
-- Access to ISRO-supported NavIC Lab for advanced research
+- **Key Coursework**: Digital Signal Processing, Analog & Digital Communication Systems, Wireless Communication, Control Systems, Electromagnetic Theory, VLSI Design & Technology, Embedded Systems, Microprocessors & Microcontrollers, FPGAs & Digital Design, Machine Learning, Deep Learning, Computer Vision, Image Processing, Electronic Devices & Circuits, Network Theory, Power Electronics, Signal & Systems
 
 **Master 1 Studies (Non-Degree)**  
 *National School of Engineering (ENI-ABT), Bamako, Mali* (2019–2020)
