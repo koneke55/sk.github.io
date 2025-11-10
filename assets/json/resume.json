@@ -164,20 +164,25 @@
       ]
     },
     {
-      "institution": "National School of Engineering",
+      "institution": "National School of Engineering (ENI-ABT)",
       "location": "Bamako, Mali",
-      "url": "",
+      "url": "https://www.eni-abt.ml/",
       "area": "Computer & Telecom Engineering",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor (Licence in Génie Informatique et Télécommunications)",
       "startDate": "2016-09-01",
       "endDate": "2019-06-01",
       "score": "2nd out of 16 students",
       "courses": [
-        "SQL & Database Design",
-        "Web Development (PHP, JavaScript)",
-        "Network Protocols",
+        "Computer Systems & Software",
+        "Telecommunications & Networks Engineering",
+        "Mobile Technology Applications",
+        "SQL & Database Design (Merise)",
+        "Web Development (PHP, JavaScript, HTML/CSS)",
+        "Network Protocols & Infrastructure",
         "Software Engineering",
-        "UML & System Design"
+        "UML & System Design",
+        "Object-Oriented Programming",
+        "Data Structures & Algorithms"
       ]
     }
   ],

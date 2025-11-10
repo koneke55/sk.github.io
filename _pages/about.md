@@ -78,10 +78,12 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 - Achieved high accuracy and low Equal Error Rate (EER) compared to traditional methods
 
 **Bachelor of Computer & Telecom Engineering**  
-*National School of Engineering, Bamako, Mali* (2016–2019)
+*National School of Engineering (ENI-ABT), Bamako, Mali* (2016–2019)  
+**Ranking: 2nd out of 16 students**
 
-- Focus: Software Development, Database Systems (SQL/Merise), Web Technologies
-- Final Project: Student Management System (PHP, JavaScript, HTML/CSS, Bootstrap)
+- **Program**: Licence in Génie Informatique et Télécommunications (Computer Engineering & Telecommunications)
+- **Key Coursework**: Computer Systems & Software, Telecommunications & Networks Engineering, Mobile Technology Applications, SQL & Database Design (Merise), Web Development (PHP, JavaScript, HTML/CSS), Network Protocols & Infrastructure, Software Engineering, UML & System Design, Object-Oriented Programming, Data Structures & Algorithms
+- **Final Project**: Student Management System using PHP, JavaScript, HTML/CSS, Bootstrap with MySQL database integration
 
 ## Research & Professional Experience
 

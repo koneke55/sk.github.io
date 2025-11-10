@@ -60,14 +60,17 @@
         - Extracted MFCC (Mel-Frequency Cepstral Coefficients) and FBANK features for voice analysis
         - Achieved high accuracy, F1-score, and low Equal Error Rate (EER) compared to traditional methods
     - title: Bachelor of Computer & Telecom Engineering
-      institution: National School of Engineering, Bamako, Mali
+      institution: National School of Engineering (ENI-ABT), Bamako, Mali
       year: 2016 - 2019
       description:
         - "Ranking: 2nd out of 16 students"
-        - "Focus: Software Development, Database Systems, Networking, Web Technologies"
-        - "Key Coursework: SQL, Merise Database Design, HTML/CSS, UML, Java, PHP, JavaScript, User Interface Design, Network Protocols"
+        - "Program: Licence in Génie Informatique et Télécommunications (Computer Engineering & Telecommunications)"
+        - "Focus: Software Development, Database Systems, Telecommunications & Networks, Web Technologies"
+        - "Core Coursework: Computer Systems & Software, Telecommunications & Networks Engineering, Mobile Technology Applications, Network Protocols & Infrastructure"
+        - "Programming & Development: SQL & Database Design (Merise), Web Development (PHP, JavaScript, HTML/CSS), Object-Oriented Programming, Data Structures & Algorithms, Software Engineering, UML & System Design"
         - "Final Project: Student Management System using PHP, JavaScript, HTML/CSS, Bootstrap"
-        - Developed full-stack web application with database integration and responsive UI
+        - Developed full-stack web application with MySQL database integration and responsive UI
+        - Strong foundation in telecommunications systems and network infrastructure
 
 - title: Research & Professional Experience
   type: time_table
