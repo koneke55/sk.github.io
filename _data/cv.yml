@@ -32,18 +32,22 @@
   type: time_table
   contents:
     - title: Bachelor of Technology in Electronics & Communication Engineering
-      institution: Jain University, Bangalore, Karnataka, India
+      institution: Jain University (in collaboration with Texas Instruments), Bangalore, Karnataka, India
       year: 2020 - 2024
       description:
         - "GPA: 3.64/4.00 (9.106/10) - Batch Topper"
         - "Ranking: 1st out of entire ECE batch"
+        - "Program: Industry-driven curriculum in collaboration with Texas Instruments and Intel"
         - "Thesis: Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
         - "Supervisor: Prof. Sunil MP"
-        - "Key Coursework: Digital Signal Processing, Image Processing, Embedded Systems, VLSI Design, Microcontrollers, FPGAs, Machine Learning, Deep Learning, Computer Vision"
+        - "Core Coursework: Digital Signal Processing, Analog & Digital Communication Systems, Wireless Communication, Control Systems, Electromagnetic Theory, Electronic Devices & Circuits, Network Theory, Signal & Systems, Power Electronics"
+        - "Specialized Coursework: VLSI Design & Technology (Texas Instruments collaboration), Embedded Systems, Microprocessors & Microcontrollers, FPGAs & Digital Design, Image Processing, Machine Learning, Deep Learning, Computer Vision"
+        - "Laboratory Work: Electronics Circuits Lab, Communication Systems Lab, Microprocessor & Microcontroller Lab, VLSI Lab"
         - Developed ML models using Scikit-learn and TensorFlow for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
         - Achieved significant improvements in battery life prediction using MAE, RMSE, and R² metrics
         - Published research in International Journal of Innovative Research in Technology (IJIRT), Vol. 10, Issue 11, April 2024
         - Minor Project - Cotton Wool Detection for Diabetic Retinopathy using Computer Vision and Image Processing (Supervisor - Prof. Chethan GS)
+        - Access to ISRO-supported NavIC Lab for advanced research
     - title: Master 1 Studies (Non-Degree)
       institution: National School of Engineering (ENI-ABT), Bamako, Mali
       year: 2019 - 2020
@@ -250,7 +254,7 @@
     - title: Professional Development
       items:
         - Reading current ML/AI research papers and attending virtual conferences
-        - Currently reading "Probabilistic Machine Learning" by Kevin P. Murphy
+        - Finished reading "Probabilistic Machine Learning" by Kevin P. Murphy
         - Following latest developments in Vision Transformers and Large Language Models
     - title: Community Service
       items:

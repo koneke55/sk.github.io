@@ -123,7 +123,7 @@
       "location": "Bangalore, Karnataka, India",
       "url": "https://www.jainuniversity.ac.in/",
       "area": "Electronics & Communication Engineering",
-      "studyType": "Bachelor of Technology",
+      "studyType": "Bachelor of Technology (in collaboration with Texas Instruments)",
       "startDate": "2020-08-01",
       "endDate": "2024-06-01",
       "score": "3.64/4.00 (Batch Topper)",
@@ -131,11 +131,20 @@
         "Digital Signal Processing",
         "Image Processing",
         "Embedded Systems",
-        "VLSI Design",
-        "Microcontrollers & FPGAs",
+        "VLSI Design & Technology",
+        "Microprocessors & Microcontrollers",
+        "FPGAs & Digital Design",
         "Machine Learning",
         "Deep Learning",
-        "Computer Vision"
+        "Computer Vision",
+        "Analog & Digital Communication Systems",
+        "Wireless Communication",
+        "Control Systems",
+        "Electromagnetic Theory",
+        "Electronic Devices & Circuits",
+        "Network Theory",
+        "Power Electronics",
+        "Signal & Systems"
       ]
     },
     {
@@ -328,7 +337,7 @@
       "icon": "fa-solid fa-book",
       "keywords": [
         "Reading ML/AI Research Papers",
-        "Currently reading: Probabilistic Machine Learning by Kevin P. Murphy",
+        "Finished reading: Probabilistic Machine Learning by Kevin P. Murphy",
         "Following Vision Transformers & LLM developments"
       ]
     }
