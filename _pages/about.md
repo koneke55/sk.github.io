@@ -34,6 +34,7 @@ My research centers on developing intelligent systems that integrate **machine l
 
 - **Computer Vision & Multimodal Learning**: Vision-language models, vision transformers (ViT), and visual understanding systems
 - **Reinforcement Learning & AI Robotics**: Intelligent agents, robot learning, autonomous systems, and human-robot interaction
+- **Graph Neural Networks**: Graph-based learning, network analysis, and relational reasoning for structured data
 - **Human Learning & AI**: Understanding how humans learn and applying those principles to develop more effective AI systems
 - **Quantum Machine Learning**: Exploring quantum computing paradigms for enhanced ML performance
 - **Embedded AI Systems**: Real-time intelligent systems on microcontrollers, VLSI and FPGAs
