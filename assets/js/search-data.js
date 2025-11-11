@@ -433,21 +433,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/sk.github.io/books/digital_signal_processing/";
-            },},{id: "books-introduction-to-machine-learning-systems",
-          title: 'Introduction to Machine Learning Systems',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/sk.github.io/books/ml_systems_designs/";
-            },},{id: "books-probabilistic-machine-learning-an-introduction",
-          title: 'Probabilistic Machine Learning: An Introduction',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/sk.github.io/books/probabilistic_machine_learning/";
             },},{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/sk.github.io/books/the_godfather/";
+            },},{id: "books-probabilistic-machine-learning-an-introduction",
+          title: 'Probabilistic Machine Learning: An Introduction',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/sk.github.io/books/probabilistic_machine_learning/";
+            },},{id: "books-introduction-to-machine-learning-systems",
+          title: 'Introduction to Machine Learning Systems',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/sk.github.io/books/ml_systems_designs/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
