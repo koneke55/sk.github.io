@@ -1355,76 +1355,166 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
-figure.cover {
-  display: inline-block;
-  text-align: center;
-  margin: 0.5rem; /* adjust as needed */
+// Book grid container
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 0;
+  list-style: none;
 
-  img {
-    vertical-align: bottom;
+  // Tablet and larger
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 1.5rem;
   }
 
-  figcaption.abandoned {
+  // Desktop
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 2rem;
+  }
+
+  // Mobile devices
+  @media (max-width: 767px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  // Small mobile devices
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin: 1rem 0;
+  }
+}
+
+// Book year heading
+.book-year-heading {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+
+  @media (max-width: 767px) {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Individual book cover
+figure.cover {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+
+    @media (max-width: 767px) {
+      border-radius: 4px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  figcaption {
     font-family: monospace;
     color: #23212d;
     text-transform: uppercase;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 0 0 6px 6px;
+    margin-top: -6px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+
+    @media (max-width: 767px) {
+      font-size: 0.6rem;
+      padding: 0.3rem 0.4rem;
+      border-radius: 0 0 4px 4px;
+      margin-top: -4px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 0.55rem;
+      padding: 0.25rem 0.3rem;
+    }
+  }
+
+  figcaption.abandoned {
     background-color: #ee5f5b;
   }
 
   figcaption.finished,
-  figcaption.watched {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
+  figcaption.watched,
+  figcaption.completed {
     background-color: #62c462;
   }
 
   figcaption.interested {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
     background-color: #7691db;
   }
 
   figcaption.paused {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
     background-color: #bdac7e;
   }
 
   figcaption.queued {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
     background-color: #9e76b5;
   }
 
   figcaption.reading,
   figcaption.watching {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
     background-color: #f89406;
   }
 
   figcaption.reread,
   figcaption.rewatch {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
     background-color: #a6517d;
   }
 
   figcaption.uncategorized {
-    font-family: monospace;
-    color: #23212d;
-    text-transform: uppercase;
     background-color: #b0abb3;
   }
 
-  /* mouse over link */
-  a.cover-link:hover {
-    color: #23212d !important;
+  a.cover-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: inherit;
+
+    &:hover {
+      color: #23212d !important;
+    }
+
+    // Desktop hover effects
+    @media (min-width: 768px) {
+      &:hover img {
+        transform: translateY(-5px) scale(1.02);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+      }
+    }
   }
 }

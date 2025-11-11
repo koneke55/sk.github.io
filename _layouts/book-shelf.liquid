@@ -10,26 +10,26 @@ layout: page
       {% assign current_year = item.date | date: '%Y' %}
       {% if current_year != year %}
         {% unless forloop.first %}
-          </ul>
+          </div>
         {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">
+        <h1 id="y{{item.date | date: "%Y"}}" class="book-year-heading">
           <a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a>
         </h1>
-        <ul>
+        <div class="book-grid">
           {% assign year = current_year %}
       {% endif %}
 
       <figure class="cover">
         <a class="cover-link" href="{{ item.url | relative_url }}">
           {% if item.cover %}
-            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}">
           {% elsif item.olid %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false">
           {% elsif item.isbn %}
-            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+            <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false">
           {% endif %}
           {% if item.status %}
-            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+            {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread,completed' | split: ',' %}
             {% assign status = item.status | downcase | strip %}
             {% if statuses contains status %}
               <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
@@ -42,7 +42,7 @@ layout: page
         </a>
       </figure>
       {% if forloop.last %}
-        </ul>
+        </div>
       {% endif %}
     {% endfor %}
   {% endif %}
