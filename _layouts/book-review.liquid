@@ -168,13 +168,20 @@ layout: default
 
       }
       figure  > img {
-
+           width: 100%;
+           max-width: 350px;
+           height: auto;
+           aspect-ratio: 2/3;
+           object-fit: contain;
+           object-position: center;
            vertical-align: top;
            display: block;
-           margin-right: 0px;
-           margin-left: 0px;
-           padding: 0px;
-
+           margin-right: auto;
+           margin-left: auto;
+           padding: 10px;
+           background-color: #fff;
+           box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+           border-radius: 8px;
       }
       figure figcaption {
 
@@ -202,8 +209,15 @@ layout: default
 
           .empty-review-cover {
               width:250px;
+              aspect-ratio: 2/3;
+              object-fit: contain;
+              object-position: center;
               vertical-align: top;
+              padding: 10px;
               padding-right: 40px;
+              background-color: #fff;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              border-radius: 8px;
               }
 
           figure {
@@ -217,8 +231,12 @@ layout: default
 
           figure img {
                   width:300px;
+                  max-width: 300px;
+                  aspect-ratio: 2/3;
+                  object-fit: contain;
+                  object-position: center;
                   vertical-align: top;
-
+                  padding: 10px;
                 }
 
           figure figcaption {
@@ -254,4 +272,46 @@ layout: default
       right: 0;
 
   }
+}
+
+/* Mobile responsive styles for book covers */
+@media screen and (max-width: 599px) {
+  figure {
+    float: none !important;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    text-align: center;
+  }
+
+  figure img {
+    width: 90% !important;
+    max-width: 300px !important;
+    margin: 0 auto;
+    padding: 8px;
+  }
+
+  .empty-review {
+    float: none !important;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .empty-review-cover {
+    width: 90% !important;
+    max-width: 250px !important;
+    margin: 0 auto !important;
+    padding: 8px !important;
+  }
+}
+
+/* Ensure consistent aspect ratio across all devices */
+@media screen and (max-width: 480px) {
+  figure img,
+  .empty-review-cover {
+    border-radius: 6px;
+    padding: 6px;
+  }
+}
 </style>
