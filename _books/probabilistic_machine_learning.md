@@ -7,6 +7,7 @@ isbn: 0262046822
 categories: machine-learning probability statistics artificial-intelligence textbook
 tags: technical-reading deep-learning
 buy_link: https://www.amazon.com/Probabilistic-Machine-Learning-Introduction-Computation/dp/0262046822
+date: 2025-01-01
 started: 2025-01-01
 finished: 2025-11-10
 released: 2022

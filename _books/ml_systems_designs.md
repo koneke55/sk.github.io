@@ -6,6 +6,7 @@ cover: assets/img/book_covers/ml_systems_designs.png
 categories: machine-learning systems-design artificial-intelligence
 tags: technical-reading system-architecture ml-engineering
 buy_link: https://mlsysbook.ai/
+date: 2025-11-10
 started: 2025-11-10
 finished: 
 released: 

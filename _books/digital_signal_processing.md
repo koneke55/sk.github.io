@@ -7,8 +7,9 @@ isbn: 9789395245289
 categories: engineering signal-processing textbook
 tags: technical-reading dsp digital-signal-processing
 buy_link: https://bharatlawhouse.in/shop/engineering/digital-signal-processing-by-p-ramesh-babu/
-started: 2024-08-01
-finished: 2024-12-15
+date: 2023-06-01
+started: 2023-06-01
+finished: 2023-08-31
 released: 2025
 stars: 5
 goodreads_review: 
