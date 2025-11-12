@@ -6,9 +6,10 @@ subtitle: PhD Aspirant in Electrical & Computer Engineering | AI Researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_0820.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p><em>Photo clicked in Uttarakhand, India near the Ganga River side</em></p>
     <p>Sector 5, Mamaribougou</p>
     <p>Bamako, Mali</p>
     <p>samboukone99@gmail.com</p>
