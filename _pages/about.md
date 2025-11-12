@@ -9,7 +9,7 @@ profile:
   image: IMG_0820.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size: 0.75rem; margin-bottom: 0.5rem;"><em>Photo clicked in Uttarakhand, India near the Ganga River side</em></p>
+    <p style="font-size: 0.75rem; margin-bottom: 0.5rem;"><em>📸 Photo in Uttarakhand, India near the Ganga River side</em></p>
     <p>Sector 5, Mamaribougou</p>
     <p>Bamako, Mali</p>
     <p>samboukone99@gmail.com</p>
