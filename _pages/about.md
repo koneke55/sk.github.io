@@ -10,11 +10,11 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="font-size: 0.55rem; margin-bottom: 0.3rem; font-weight: bold;"><em>📸 Ganga River towards Rishikesh, Uttarakhand, India</em></p>
-    <p style="font-size: 0.85rem; font-weight: bold; margin-bottom: 0.2rem;">Permanent Address:</p>
-    <p style="font-size: 0.85rem;">Sector 5, Mamaribougou</p>
-    <p style="font-size: 0.85rem;">Bamako, Mali</p>
-    <p style="font-size: 0.85rem;">samboukone99@gmail.com</p>
-    <p style="font-size: 0.85rem;">+223 77 81 87 01</p>
+    <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.2rem;">Permanent Address:</p>
+    <p style="font-size: 0.7rem;">Sector 5, Mamaribougou</p>
+    <p style="font-size: 0.7rem;">Bamako, Mali</p>
+    <p style="font-size: 0.7rem;">samboukone99@gmail.com</p>
+    <p style="font-size: 0.7rem;">+223 77 81 87 01</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
