@@ -141,8 +141,8 @@ Support widows and orphans in Mali through welfare initiatives and resource dist
 
 ## Languages
 
-**Fluent**: French (native), English, Arabic, Hindi  
-**Conversational**: Spanish
+**Native**: Bambara, French  
+**Fluent**: English, Arabic, Hindi, Bangla, Spanish
 
 ---
 
