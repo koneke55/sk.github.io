@@ -12,7 +12,7 @@ profile:
     <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.2rem;">Permanent Address:</p>
     <p style="font-size: 0.7rem;">Sector 5, Mamaribougou</p>
     <p style="font-size: 0.7rem;">Bamako, Mali</p>
-    <p style="font-size: 0.7rem;"><strong>Email:</strong> samboukone99@gmail.com</p>
+    <p style="font-size: 0.7rem;"><strong>Email:</strong> <a href="mailto:samboukone99@gmail.com">samboukone99@gmail.com</a></p>
     <p style="font-size: 0.7rem;"><strong>Phone:</strong> +223 77 81 87 01</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
