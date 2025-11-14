@@ -7,7 +7,7 @@ subtitle: PhD Aspirant in Electrical & Computer Engineering | AI Researcher
 profile:
   align: right
   image: profile.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: true # crops the image to make it circular (professor style)
   more_info: >
     <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.2rem;">Permanent Address:</p>
     <p style="font-size: 0.7rem;">Sector 5, Mamaribougou</p>
