@@ -9,11 +9,11 @@ profile:
   image: profile.jpg
   image_circular: true # crops the image to make it circular (professor style)
   more_info: >
-    <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.2rem;">Permanent Address:</p>
-    <p style="font-size: 0.7rem;">Sector 5, Mamaribougou</p>
-    <p style="font-size: 0.7rem;">Bamako, Mali</p>
-    <p style="font-size: 0.7rem;"><strong>Email:</strong> <a href="mailto:samboukone99@gmail.com">samboukone99@gmail.com</a></p>
-    <p style="font-size: 0.7rem;"><strong>Phone:</strong> +223 77 81 87 01</p>
+    <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">Permanent Address:</p>
+    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;">Sector 5, Mamaribougou</p>
+    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;">Bamako, Mali</p>
+    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Email:</strong> <a href="mailto:samboukone99@gmail.com">samboukone99@gmail.com</a></p>
+    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Phone:</strong> +223 77 81 87 01</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
