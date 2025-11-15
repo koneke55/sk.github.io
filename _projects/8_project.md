@@ -3,7 +3,7 @@ layout: page
 title: Electronics & Communication Engineering 2030
 description: Future Trends and Emerging Technologies Presentation
 img: assets/img/10.jpg
-importance: 8
+importance: 8 # Low importance project
 category: presentation
 ---
 
