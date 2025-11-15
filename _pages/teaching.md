@@ -6,6 +6,7 @@ description: Materials for courses you taught. Replace this text with your descr
 nav: true
 nav_order: 6
 disabled: true # Unused teaching page template
+# This page is currently disabled
 # MARKED FOR REMOVAL: Disabled page, can be deleted if not needed
 # TODO: Remove this file if teaching feature not required
 ---
