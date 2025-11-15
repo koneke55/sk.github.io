@@ -3,7 +3,7 @@ layout: page
 title: CMOS Power Minimization for Portable Devices
 description: Energy-Efficient Circuit Design Techniques
 img: assets/img/8.jpg
-importance: 7
+importance: 7 # Low importance project
 category: hardware
 ---
 
