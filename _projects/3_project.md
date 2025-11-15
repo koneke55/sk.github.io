@@ -3,7 +3,7 @@ layout: page
 title: Human Voice Recognition System
 description: Feed Forward Neural Networks for Speaker Recognition
 img: assets/img/publication_preview/voice-recognition.jpg
-importance: 3
+importance: 3 # Medium importance project
 category: research
 related_publications: true
 ---
