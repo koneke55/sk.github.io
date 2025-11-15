@@ -3,7 +3,7 @@ layout: page
 title: Tactical Advanced Computer (TAC)
 description: Embedded Systems Project for Advanced Computing
 img: assets/img/7.jpg
-importance: 6
+importance: 6 # Low-medium importance project
 category: hardware
 ---
 
