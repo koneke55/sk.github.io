@@ -1,4 +1,6 @@
 # Template venues configuration - unused example
+# TODO: Remove this file if venues feature not needed
+# MARKED FOR REMOVAL: Unused template file
 "AJP":
   url: https://aapt.scitation.org/journal/ajp
   color: "#00369f"

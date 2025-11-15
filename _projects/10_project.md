@@ -72,6 +72,9 @@ The project implements:
 **[GitHub Repository](https://github.com/koneke55/nanoVLM)**
 
 The project is actively maintained and open for contributions.
+# TODO: Add project collaborators if any
+# TODO: Add project license information
+# TODO: Add project status/roadmap if applicable
 
 ## Future Enhancements
 

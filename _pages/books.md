@@ -3,6 +3,8 @@ layout: book-shelf
 title: bookshelf
 permalink: /books/
 nav: false # Unused books page - disabled in navigation
+# MARKED FOR REMOVAL: Disabled page, can be deleted if not needed
+# TODO: Remove this file if bookshelf feature not required
 collection: books
 ---
 

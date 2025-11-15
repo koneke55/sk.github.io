@@ -16,8 +16,10 @@ profile:
     <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Email:</strong> <a href="mailto:samboukone99@gmail.com">samboukone99@gmail.com</a></p>
     <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Phone:</strong> +223 77 81 87 01</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true # Display selected publications
+# TODO: Verify selected papers are properly marked in bibliography
+social: true # Display social media icons at the bottom
+# TODO: Verify all social links in _data/socials.yml are working
 
 announcements:
   enabled: false # includes a list of news items (set to true to show news)
@@ -47,6 +49,8 @@ I am seeking **PhD opportunities** to advance fundamental research in these area
 ## Current Work
 
 I currently serve as **Co-Founder & CTO** at Super DataInsights & AI Scientists Innovations, where I lead research initiatives in computer vision and multimodal AI systems. My work focuses on vision-language models and advanced computer vision algorithms (ViT, DTFR), with the goal of publishing in top-tier conferences and journals.
+# TODO: Update this section as current work evolves
+# TODO: Add links to company websites if applicable
 
 Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai), contributing to NLP and speech-to-text systems for financial services, achieving 90% accuracy in French language processing using BigQuery SQL, ETL pipelines, and tools such as Amazon SageMaker and vTensorAct Studio.
 
@@ -121,6 +125,8 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 ## Publications
 
 **Kone, S.**, & Sunil, M.P. (2024). "Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning." *International Journal of Innovative Research in Technology*, Vol. 10, Issue 11. ISSN: 2349-6002.
+# TODO: Add new publications as they are published
+# TODO: Verify all publications match bibliography file
 
 **Conference Presentations & Technical Writing**
 

@@ -5,6 +5,8 @@ title: blog
 nav: true
 nav_order: 1 # Navigation order in menu
 disabled: true # Blog page currently disabled
+# TODO: Enable blog page if blog posts are needed
+# TODO: Remove unused blog post templates if blog remains disabled
 pagination:
   enabled: true
   collection: posts

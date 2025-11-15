@@ -14,8 +14,10 @@ vendor
 # Cursor IDE
 .cursor/
 
-# Image source files
+# Image source files - MARKED FOR REMOVAL
 *.HEIC
 _data/*.jpg
 _data/*.jfif
+_data/*.HEIC
 assets/img/*.HEIC
+# TODO: Consider removing these files from repository after verification

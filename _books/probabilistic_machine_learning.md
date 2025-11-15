@@ -1,5 +1,7 @@
 ---
 # Template book review - unused example
+# MARKED FOR REMOVAL: Unused book review (books page is disabled)
+# TODO: Delete this file if bookshelf feature not needed
 layout: book-review
 title: "Probabilistic Machine Learning: An Introduction"
 author: Kevin P. Murphy

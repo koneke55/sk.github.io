@@ -1,4 +1,5 @@
 # GitHub user configuration
+# TODO: Auto-fetch all repos or manually add more if needed
 github_users:
   - koneke55
 
