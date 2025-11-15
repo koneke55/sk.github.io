@@ -5,6 +5,7 @@ description: Computer Vision for Early Detection of Diabetic Eye Disease
 img: assets/img/detection-results.jpg
 importance: 2 # Medium-high importance project
 category: research
+# Computer vision project for medical diagnosis
 ---
 
 ## Overview
