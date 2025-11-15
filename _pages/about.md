@@ -125,8 +125,6 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 ## Publications
 
 **Kone, S.**, & Sunil, M.P. (2024). "Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning." *International Journal of Innovative Research in Technology*, Vol. 10, Issue 11. ISSN: 2349-6002.
-# TODO: Add new publications as they are published
-# TODO: Verify all publications match bibliography file
 
 **Conference Presentations & Technical Writing**
 
