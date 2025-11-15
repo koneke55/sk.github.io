@@ -4,7 +4,7 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 1
-disabled: true
+disabled: true # Blog page currently disabled
 pagination:
   enabled: true
   collection: posts
