@@ -1,6 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
+# Social media profiles configuration
 # TODO: Consider adding missing social profiles if needed (Instagram, Twitter, etc.)
 
 # academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
