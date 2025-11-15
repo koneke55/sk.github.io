@@ -3,7 +3,7 @@ layout: page
 title: Vision-Language Models Research
 description: Multimodal AI for Text and Image Understanding
 img: assets/img/diagnosis-ui.jpg
-importance: 4
+importance: 4 # Medium-low importance project
 category: ongoing
 ---
 
