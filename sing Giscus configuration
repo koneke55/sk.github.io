@@ -1,0 +1,50 @@
+[33m39e0ff0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Optimize news page: add layout comment
+[33md2057d0[m Optimize blog page: add permalink comment
+[33m6d514f2[m Optimize repositories page: add permalink comment
+[33m8171a28[m Optimize CV page: add permalink comment
+[33m724d0b9[m Optimize publications page: add permalink comment
+[33ma89a6c0[m Optimize news page: add permalink comment
+[33m6a5c80a[m Optimize blog page: add nav_order comment
+[33m62b9c80[m Optimize CV page: add nav_order comment
+[33m67c2dff[m Optimize publications page: add nav_order comment
+[33m011796e[m Optimize videos post: improve comment
+[33md6bb295[m Optimize Giscus post: add template comment
+[33mc162e75[m Optimize redirect post: add template comment
+[33m17b4cb2[m Optimize Disqus post: add template comment
+[33m9c25c7b[m Optimize Distill post: add template comment
+[33mbbac53a[m Optimize Plotly post: add template comment
+[33ma90fcb7[m Optimize tabs post: add template comment
+[33me9fdb74[m Optimize typograms post: add template comment
+[33m5277cfb[m Optimize citation post: add template comment
+[33maed14f4[m Optimize pseudocode post: add template comment
+[33m8af1118[m Optimize Vega-Lite post: add template comment
+[33m559b322[m Optimize code diff post: add template comment
+[33m4e0d29f[m Optimize advanced images post: add template comment
+[33m27f33d7[m Optimize GeoJSON post: add template comment
+[33m293ff46[m Optimize ECharts post: add template comment
+[33me429638[m Optimize TikZJax post: add template comment
+[33m5d70fe7[m Optimize bibliography post: add template comment
+[33mcd24881[m Optimize blockquotes post: add template comment
+[33m82682f4[m Optimize sidebar TOC post: add template comment
+[33m100cfb8[m Optimize audios post: add template comment
+[33mac888ca[m Optimize repositories page: add nav_order comment
+[33ma588418[m Optimize projects page: add nav_order comment
+[33mabea784[m Optimize about page: add permalink comment
+[33md80b0a7[m Optimize CV page: add TOC comment
+[33ma43e166[m Optimize project 10: add importance comment
+[33m5a5b231[m Optimize project 9: add importance comment
+[33m819e729[m Optimize project 8: add importance comment
+[33mea19c41[m Optimize project 7: add importance comment
+[33mf2af863[m Optimize project 6: add importance comment
+[33m00fdcf7[m Optimize project 5: add importance comment
+[33m1244fea[m Optimize project 4: add importance comment
+[33me3eaf86[m Optimize project 3: add importance comment
+[33med86629[m Optimize project 2: add importance comment
+[33m970ff22[m Optimize project 1: add importance comment
+[33me415779[m Optimize news page: add description metadata
+[33m42ab5d4[m Optimize publications page: improve description capitalization
+[33m3c3c363[m Optimize blog page: add comment to disabled status
+[33m2977c2d[m Add comment to unused videos post
+[33m1a7569e[m Add comment to unused tables post
+[33ma37aa2e[m Add comment to unused table of contents post
+[33m35cb739[m Add comment to unused coauthors configuration
