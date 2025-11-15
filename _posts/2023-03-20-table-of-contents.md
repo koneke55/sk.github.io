@@ -1,4 +1,5 @@
 ---
+# Template example post for table of contents
 layout: post
 title: a post with table of contents
 date: 2023-03-20 11:59:00-0400
