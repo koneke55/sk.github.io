@@ -152,4 +152,4 @@ I am actively seeking **PhD positions in Electrical & Computer Engineering** wit
 
 I bring strong interdisciplinary training, hands-on research experience, and a publication record. I am eager to contribute to cutting-edge research under the mentorship of leading faculty in top-tier programs.
 
-**Please feel free to contact me** at **samboukone99@gmail.com** to discuss potential research collaborations or PhD opportunities.
+**Please feel free to contact me** at **samboukone99@gmail.com** to discuss potential research collaborations, PhD opportunities, or any questions about my work.
