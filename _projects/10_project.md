@@ -6,6 +6,7 @@ img: assets/img/nanoVLM.jpg
 importance: 1
 category: research
 github: https://github.com/koneke55/nanoVLM
+related_publications: false
 ---
 
 ## Overview
