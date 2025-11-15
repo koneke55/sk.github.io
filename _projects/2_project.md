@@ -3,7 +3,7 @@ layout: page
 title: Cotton Wool Detection for Diabetic Retinopathy
 description: Computer Vision for Early Detection of Diabetic Eye Disease
 img: assets/img/detection-results.jpg
-importance: 2
+importance: 2 # Medium-high importance project
 category: research
 ---
 
