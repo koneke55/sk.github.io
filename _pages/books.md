@@ -2,7 +2,7 @@
 layout: book-shelf
 title: bookshelf
 permalink: /books/
-nav: false
+nav: false # Unused books page - disabled in navigation
 collection: books
 ---
 
