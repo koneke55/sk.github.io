@@ -3,7 +3,7 @@ layout: page
 title: NLP Data Analysis for Amex
 description: Speech-to-Text Annotation and Quality Monitoring for Banking Services
 img: assets/img/skin-analysis.jpg
-importance: 9
+importance: 9 # Lowest importance project
 category: work
 ---
 
