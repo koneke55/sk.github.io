@@ -1,7 +1,6 @@
 ---
 # Template announcement - unused example
 # MARKED FOR REMOVAL: Unused template announcement
-# TODO: Delete this file if not needed for reference
 layout: post
 title: A long announcement with details
 date: 2015-11-07 16:11:00-0400

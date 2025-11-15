@@ -1,7 +1,6 @@
 ---
 # Template book review - unused example
 # MARKED FOR REMOVAL: Unused book review (books page is disabled)
-# TODO: Delete this file if bookshelf feature not needed
 layout: book-review
 title: "Digital Signal Processing"
 author: P. Ramesh Babu

@@ -17,7 +17,6 @@ profile:
     <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Phone:</strong> +223 77 81 87 01</p>
 
 selected_papers: true # Display selected publications
-# TODO: Verify selected papers are properly marked in bibliography
 social: true # Display social media icons at the bottom
 # Social links are configured in _data/socials.yml
 
@@ -49,8 +48,6 @@ I am seeking **PhD opportunities** to advance fundamental research in these area
 ## Current Work
 
 I currently serve as **Co-Founder & CTO** at Super DataInsights & AI Scientists Innovations, where I lead research initiatives in computer vision and multimodal AI systems. My work focuses on vision-language models and advanced computer vision algorithms (ViT, DTFR), with the goal of publishing in top-tier conferences and journals.
-# TODO: Update this section as current work evolves
-# TODO: Add links to company websites if applicable
 
 Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai), contributing to NLP and speech-to-text systems for financial services, achieving 90% accuracy in French language processing using BigQuery SQL, ETL pipelines, and tools such as Amazon SageMaker and vTensorAct Studio.
 

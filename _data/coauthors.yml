@@ -1,5 +1,4 @@
 # Template coauthors configuration - unused example
-# TODO: Remove this file if coauthors feature not needed
 # MARKED FOR REMOVAL: Unused template file
 "adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]

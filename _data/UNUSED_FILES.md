@@ -29,12 +29,12 @@ This file lists unused files that can be safely removed from the repository.
 ## HEIC Files
 - `assets/img/IMG_0820.HEIC` - Should be removed, web doesn't support HEIC
 
-## TODO: Review before deletion
+## Review before deletion
 Some files may be referenced in code but not actively used. Review before permanent deletion.
 
 ## Missing Items
-- TODO: Verify all image files in _data/ are actually unused
-- TODO: Check if any images in assets/img/ are duplicates or unused
-- TODO: Review all template posts in _posts/ for actual removal
-- TODO: Verify no broken links reference marked files
+- Verify all image files in _data/ are actually unused
+- Check if any images in assets/img/ are duplicates or unused
+- Review all template posts in _posts/ for actual removal
+- Verify no broken links reference marked files
 

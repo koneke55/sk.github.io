@@ -87,7 +87,6 @@ Developed comprehensive ML models using:
 
 **[Prof. Sunil MP](https://scholar.google.com/citations?user=_Ryz6bQAAAAJ)**  
 Jain University, Bangalore, India
-# TODO: Add more project supervisors/institutions if applicable
 
 ## Publication
 
