@@ -19,7 +19,7 @@ profile:
 selected_papers: true # Display selected publications
 # TODO: Verify selected papers are properly marked in bibliography
 social: true # Display social media icons at the bottom
-# TODO: Verify all social links in _data/socials.yml are working
+# Social links are configured in _data/socials.yml
 
 announcements:
   enabled: false # includes a list of news items (set to true to show news)
