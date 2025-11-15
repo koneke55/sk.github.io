@@ -271,6 +271,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 scholar:
   last_name: [Kone, KONE]
   first_name: [Sambou, S.]
+  # Jekyll Scholar configuration for publications
 
   style: apa
   locale: en
