@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: Explore my GitHub repositories featuring research projects, code implementations, and open-source contributions in Machine Learning, Computer Vision, and Software Development.
+description: Explore my GitHub repositories featuring research projects, code implementations, and open-source contributions in Machine Learning, Computer Vision, and Software Development. Includes vision-language models, deep learning implementations, and AI research projects.
 nav: true
 nav_order: 4
 ---
