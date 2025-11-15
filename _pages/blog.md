@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /blog/
+permalink: /blog/ # Blog page URL
 title: blog
 nav: true
 nav_order: 1 # Navigation order in menu
