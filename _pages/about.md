@@ -4,6 +4,7 @@ title: about
 permalink: /
 subtitle: PhD Aspirant in Electrical & Computer Engineering | AI Researcher
 
+# Profile configuration
 profile:
   align: right
   image: profile.jpg
