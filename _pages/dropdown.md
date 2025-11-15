@@ -1,4 +1,5 @@
 ---
+# Template dropdown menu page - unused example
 layout: page
 title: submenus
 nav: true
