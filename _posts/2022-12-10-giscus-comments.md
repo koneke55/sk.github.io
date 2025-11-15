@@ -1,4 +1,5 @@
 ---
+# Template example post for Giscus comments
 layout: post
 title: a post with giscus comments
 date: 2022-12-10 11:59:00-0400
