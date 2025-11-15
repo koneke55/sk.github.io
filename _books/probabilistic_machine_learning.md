@@ -1,4 +1,5 @@
 ---
+# Template book review - unused example
 layout: book-review
 title: "Probabilistic Machine Learning: An Introduction"
 author: Kevin P. Murphy
