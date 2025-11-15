@@ -6,6 +6,7 @@ img: assets/img/bms-dashboard.png
 importance: 1 # High importance project
 category: research
 related_publications: true
+# This project is related to published research
 ---
 
 ## Overview
