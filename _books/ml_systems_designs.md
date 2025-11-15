@@ -1,4 +1,5 @@
 ---
+# Template book review - unused example
 layout: book-review
 title: "Introduction to Machine Learning Systems"
 author: Dr. Vijay Janappa Reddy
