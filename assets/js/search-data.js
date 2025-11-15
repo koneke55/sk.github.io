@@ -459,7 +459,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-smart-battery-management-system",
+          section: "News",},{id: "projects-nanovlm-from-scratch",
+          title: 'NanoVLm from Scratch',
+          description: "Building Vision-Language Models from Scratch",
+          section: "Projects",handler: () => {
+              window.location.href = "/sk.github.io/projects/10_project/";
+            },},{id: "projects-smart-battery-management-system",
           title: 'Smart Battery Management System',
           description: "Deep Learning for Battery Life Optimization in Portable Devices",
           section: "Projects",handler: () => {
