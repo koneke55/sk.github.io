@@ -1,4 +1,5 @@
 ---
+# Template book review - unused example
 layout: book-review
 title: "Digital Signal Processing"
 author: P. Ramesh Babu
