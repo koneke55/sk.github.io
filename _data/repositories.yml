@@ -5,7 +5,7 @@ repo_description_lines_max: 3
 
 github_repos:
   - koneke55/nanoVLM
-  - koneke55/ViT-from-scratch
+  - koneke55/Vision-transformer-from-scratch
   - koneke55/sk.github.io
   - koneke55/cnn-sbms-ml
   - koneke55/smart-battery-management
