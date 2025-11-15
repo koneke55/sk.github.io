@@ -6,6 +6,7 @@ img: assets/img/publication_preview/voice-recognition.jpg
 importance: 3 # Medium importance project
 category: research
 related_publications: true
+# Neural network-based voice recognition system
 ---
 
 ## Overview
