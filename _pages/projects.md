@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Research projects and technical implementations spanning Machine Learning, Computer Vision, Embedded Systems, and Software Development.
 nav: true
-nav_order: 3
+nav_order: 3 # Navigation order in menu
 display_categories: [research, ongoing, development, hardware, work, presentation]
 horizontal: false # set to true for horizontal layout
 ---
