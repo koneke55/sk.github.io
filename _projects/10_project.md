@@ -79,4 +79,6 @@ The project is actively maintained and open for contributions.
 - Performance optimizations
 - Extended documentation and tutorials
 - Pre-trained model releases
+- Fine-tuning capabilities
+- Multi-modal pre-training strategies
 
