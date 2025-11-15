@@ -7,5 +7,5 @@ nav_order: 5
 cv_pdf: Sambou_Kone_CV_UT.pdf
 description: Comprehensive curriculum vitae showcasing my academic background, research experience, technical skills, and professional achievements in Electrical & Computer Engineering with a focus on Machine Learning, Computer Vision, and Embedded AI Systems.
 toc:
-  sidebar: left
+  sidebar: left # Table of contents on left sidebar
 ---
