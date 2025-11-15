@@ -10,7 +10,7 @@ github: https://github.com/koneke55/nanoVLM
 
 ## Overview
 
-NanoVLm from Scratch is a comprehensive project focused on building vision-language models (VLM) from the ground up. This project explores the fundamental principles and implementation details of creating multimodal AI systems that can understand and process both visual and textual information.
+NanoVLm from Scratch is a comprehensive project focused on building vision-language models (VLM) from the ground up. focused on building vision-language models (VLM) from the ground up. This project explores the fundamental principles and implementation details of creating multimodal AI systems that can understand and process both visual and textual information.
 
 ## Project Goals
 
