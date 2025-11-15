@@ -2,7 +2,7 @@
 layout: page
 title: NanoVLm from Scratch
 description: Building Vision-Language Models from Scratch
-img: 
+img: assets/img/nanoVLM.jpg
 importance: 1
 category: research
 github: https://github.com/koneke55/nanoVLM
@@ -41,6 +41,15 @@ The project implements:
 2. **Text Encoder**: Processing and encoding textual inputs
 3. **Fusion Module**: Combining visual and textual representations
 4. **Decoder/Classifier**: Generating predictions or text outputs
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/nanoVLM.jpg" title="NanoVLm Architecture" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    NanoVLm from Scratch - Vision-Language Model implementation.
+</div>
 
 ## Applications
 
