@@ -3,7 +3,7 @@ layout: page
 title: Student Management System
 description: Full-Stack Web Application for Educational Administration
 img: assets/img/9.jpg
-importance: 5
+importance: 5 # Low-medium importance project
 category: development
 ---
 
