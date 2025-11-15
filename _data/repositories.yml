@@ -1,6 +1,8 @@
+# GitHub user configuration
 github_users:
   - koneke55
 
+# Maximum number of description lines to show in repository cards
 repo_description_lines_max: 3
 
 github_repos:
