@@ -3,6 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Research projects and technical implementations spanning Machine Learning, Computer Vision, Embedded Systems, and Software Development.
+# Projects are defined in the _projects/ directory
 nav: true
 nav_order: 3 # Navigation order in menu
 display_categories: [research, ongoing, development, hardware, work, presentation]
