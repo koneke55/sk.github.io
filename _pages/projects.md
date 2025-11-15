@@ -6,7 +6,7 @@ description: Research projects and technical implementations spanning Machine Le
 nav: true
 nav_order: 3
 display_categories: [research, ongoing, development, hardware, work, presentation]
-horizontal: false
+horizontal: false # set to true for horizontal layout
 ---
 
 <!-- pages/projects.md -->
