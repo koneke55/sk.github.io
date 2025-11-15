@@ -3,7 +3,7 @@ layout: page
 title: Smart Battery Management System
 description: Deep Learning for Battery Life Optimization in Portable Devices
 img: assets/img/bms-dashboard.png
-importance: 1
+importance: 1 # High importance project
 category: research
 related_publications: true
 ---
