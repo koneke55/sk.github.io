@@ -1,7 +1,7 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: / # Homepage
 subtitle: PhD Aspirant in Electrical & Computer Engineering | AI Researcher
 
 # Profile configuration
