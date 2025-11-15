@@ -3,7 +3,7 @@ layout: page
 title: NanoVLm from Scratch
 description: Building Vision-Language Models from Scratch
 img: assets/img/nanoVLM.jpg
-importance: 1
+importance: 1 # Highest importance project
 category: research
 github: https://github.com/koneke55/nanoVLM
 related_publications: false
