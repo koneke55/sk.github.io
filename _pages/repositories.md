@@ -3,6 +3,7 @@ layout: page
 permalink: /repositories/ # Repositories page URL
 title: repositories
 description: Explore my GitHub repositories featuring research projects, code implementations, and open-source contributions in Machine Learning, Computer Vision, and Software Development. Includes vision-language models, deep learning implementations, and AI research projects.
+# Repository data is configured in _data/repositories.yml
 nav: true
 nav_order: 4 # Navigation order in menu
 ---
