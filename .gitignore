@@ -13,3 +13,9 @@ vendor
 .idea
 # Cursor IDE
 .cursor/
+
+# Image source files
+*.HEIC
+_data/*.jpg
+_data/*.jfif
+assets/img/*.HEIC
