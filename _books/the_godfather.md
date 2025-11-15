@@ -1,4 +1,5 @@
 ---
+# Template book review - unused example
 layout: book-review
 title: The Godfather
 author: Mario Puzo
