@@ -5,4 +5,14 @@ github_users:
 # Maximum number of description lines to show in repository cards
 repo_description_lines_max: 3
 
-# Removed explicit github_repos to auto-list all public repositories for the user
+github_repos:
+  - koneke55/nanoVLM
+  - koneke55/Vision-transformer-from-scratch
+  - koneke55/sk.github.io
+  - koneke55/cnn-sbms-ml
+  - koneke55/smart-battery-management
+  - koneke55/human-voice-recognition
+  - koneke55/diabetic-retinopathy-detection
+  - koneke55/AI-Derma-Doctor-Gemini
+  - koneke55/BPE_Tokenizer_Bamanakan_language
+  - koneke55/activation-functions-dl
