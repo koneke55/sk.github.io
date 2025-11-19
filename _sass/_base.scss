@@ -310,20 +310,31 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // DFT Logo dynamic animation on left side - waveform moves, axes stay fixed
+  // DFT Logo dynamic animation on left side - PRIORITY: Enhanced for visibility
+  // Ensure navbar brand container gives logo proper space
+  .navbar-brand.d-flex {
+    min-width: 60px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem 0.75rem !important;
+    margin-right: 1rem;
+  }
+  
   .dft-logo-dynamic {
-    height: 2.25rem;
-    max-height: 40px;
+    height: 2.5rem;
+    max-height: 45px;
     width: auto;
-    opacity: 0.9;
+    opacity: 1;
     animation: dft-dynamic 2.5s ease-in-out infinite;
-    transition: opacity 0.3s ease, transform 0.2s ease;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    transition: opacity 0.3s ease, transform 0.2s ease, filter 0.2s ease;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3)) contrast(1.1);
     will-change: transform, opacity, filter;
     vertical-align: middle;
     display: inline-block;
     position: relative;
     transform-origin: center center;
+    z-index: 10;
+    flex-shrink: 0;
     
     // Add shimmer effect to simulate waveform movement
     &::after {
@@ -350,63 +361,68 @@ ul.task-list input[type="checkbox"] {
     
     &:hover {
       opacity: 1;
-      transform: scale(1.08);
+      transform: scale(1.12);
       animation-play-state: paused;
-      filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4)) contrast(1.2) brightness(1.05);
       
       &::after {
         animation-play-state: paused;
+        opacity: 0.8;
       }
     }
     
+    // Enhanced visibility on all screen sizes
     @media (max-width: 768px) {
-      height: 2rem;
-      max-height: 36px;
+      height: 2.25rem;
+      max-height: 40px;
+      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.35)) contrast(1.15);
     }
     
     @media (max-width: 576px) {
-      height: 1.75rem;
-      max-height: 32px;
+      height: 2rem;
+      max-height: 36px;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4)) contrast(1.2);
     }
   }
 }
 
 // Dynamic DFT animation - waveform moves while axes stay fixed
+// Enhanced for left navbar logo priority
 @keyframes dft-dynamic {
   0% {
-    opacity: 0.9;
+    opacity: 1;
     transform: scale(1);
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)) brightness(1);
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3)) contrast(1.1) brightness(1);
   }
   16.66% {
-    opacity: 0.95;
-    transform: scale(1.03);
-    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25)) brightness(1.05);
+    opacity: 1;
+    transform: scale(1.04);
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35)) contrast(1.15) brightness(1.05);
   }
   33.33% {
     opacity: 1;
-    transform: scale(1.05);
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) brightness(1.1);
+    transform: scale(1.06);
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4)) contrast(1.2) brightness(1.1);
   }
   50% {
-    opacity: 0.95;
-    transform: scale(1.03);
-    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25)) brightness(1.05);
+    opacity: 1;
+    transform: scale(1.04);
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35)) contrast(1.15) brightness(1.05);
   }
   66.66% {
     opacity: 1;
-    transform: scale(1.05);
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) brightness(1.1);
+    transform: scale(1.06);
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4)) contrast(1.2) brightness(1.1);
   }
   83.33% {
-    opacity: 0.95;
-    transform: scale(1.03);
-    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25)) brightness(1.05);
+    opacity: 1;
+    transform: scale(1.04);
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35)) contrast(1.15) brightness(1.05);
   }
   100% {
-    opacity: 0.9;
+    opacity: 1;
     transform: scale(1);
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)) brightness(1);
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3)) contrast(1.1) brightness(1);
   }
 }
 
