@@ -19,7 +19,7 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %} profile-container">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -34,6 +34,10 @@ layout: default
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
+          <!-- Animated FFT Waveform Logo -->
+          <div class="fft-waveform-overlay">
+            <img src="{{ '/assets/img/fft-logo.png' | relative_url }}" alt="FFT Waveform" class="fft-animated-waveform">
+          </div>
         {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
