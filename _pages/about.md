@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: / # Homepage
-subtitle: Co-Founder & CTO and AI researcher
+subtitle: Co-Founder & AI researcher
 
 # Profile configuration
 profile:
