@@ -7,7 +7,7 @@ subtitle: PhD Aspirant in Electrical & Computer Engineering | AI Researcher
 # Profile configuration
 profile:
   align: right
-  image: profile.jpg
+  image: capture.png
   image_circular: true # crops the image to make it circular (professor style)
   more_info: >
     <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">Permanent Address:</p>
