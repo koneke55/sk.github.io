@@ -316,19 +316,47 @@ ul.task-list input[type="checkbox"] {
     max-height: 40px;
     width: auto;
     opacity: 0.9;
-    animation: dft-dynamic 3s ease-in-out infinite;
+    animation: dft-dynamic 2.5s ease-in-out infinite;
     transition: opacity 0.3s ease, transform 0.2s ease;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
     will-change: transform, opacity, filter;
     vertical-align: middle;
     display: inline-block;
+    position: relative;
     transform-origin: center center;
+    
+    // Add shimmer effect to simulate waveform movement
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(
+        90deg,
+        transparent 0%,
+        transparent 30%,
+        rgba(255, 255, 255, 0.3) 50%,
+        transparent 70%,
+        transparent 100%
+      );
+      background-size: 200% 100%;
+      animation: waveform-shimmer 3s linear infinite;
+      pointer-events: none;
+      mix-blend-mode: overlay;
+      opacity: 0.6;
+    }
     
     &:hover {
       opacity: 1;
-      transform: scale(1.08) translateX(0);
+      transform: scale(1.08);
       animation-play-state: paused;
       filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
+      
+      &::after {
+        animation-play-state: paused;
+      }
     }
     
     @media (max-width: 768px) {
@@ -343,32 +371,52 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Dynamic DFT animation - waveform moves horizontally while axes stay fixed
+// Dynamic DFT animation - waveform moves while axes stay fixed
 @keyframes dft-dynamic {
   0% {
     opacity: 0.9;
-    transform: scale(1) translateX(0px);
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    transform: scale(1);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)) brightness(1);
   }
-  25% {
+  16.66% {
     opacity: 0.95;
-    transform: scale(1.02) translateX(2px);
-    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
+    transform: scale(1.03);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25)) brightness(1.05);
+  }
+  33.33% {
+    opacity: 1;
+    transform: scale(1.05);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) brightness(1.1);
   }
   50% {
-    opacity: 1;
-    transform: scale(1.05) translateX(0px);
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
-  }
-  75% {
     opacity: 0.95;
-    transform: scale(1.02) translateX(-2px);
-    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
+    transform: scale(1.03);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25)) brightness(1.05);
+  }
+  66.66% {
+    opacity: 1;
+    transform: scale(1.05);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) brightness(1.1);
+  }
+  83.33% {
+    opacity: 0.95;
+    transform: scale(1.03);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25)) brightness(1.05);
   }
   100% {
     opacity: 0.9;
-    transform: scale(1) translateX(0px);
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    transform: scale(1);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)) brightness(1);
+  }
+}
+
+// Waveform shimmer effect - creates moving light effect on waveform
+@keyframes waveform-shimmer {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 200% 0;
   }
 }
 
