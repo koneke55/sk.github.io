@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: / # Homepage
-subtitle: Co-Founder & AI researcher
+subtitle: PhD Aspirant in Electrical & Computer Engineering
 
 # Profile configuration
 profile:
@@ -47,7 +47,7 @@ I am seeking **PhD opportunities** to advance fundamental research in these area
 
 ## Current Work
 
-I currently serve as **Co-Founder & CTO** at Super DataInsights & AI Scientists Innovations, where I lead research initiatives in computer vision and multimodal AI systems. My work focuses on vision-language models and advanced computer vision algorithms (ViT, DTFR), with the goal of publishing in top-tier conferences and journals.
+I currently serve as **Co-Founder & AI Researcher** at Super DataInsights & AI Scientists Innovations, where I lead research initiatives in computer vision and multimodal AI systems. My work focuses on vision-language models and advanced computer vision algorithms (ViT, DTFR), with the goal of publishing in top-tier conferences and journals.
 
 Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai), contributing to NLP and speech-to-text systems for financial services, achieving 90% accuracy in French language processing using BigQuery SQL, ETL pipelines, and tools such as Amazon SageMaker and vTensorAct Studio.
 
@@ -92,7 +92,7 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 
 ## Research & Professional Experience
 
-**Co-Founder & Chief Technology Officer**  
+**Co-Founder & AI Researcher**  
 *Super DataInsights & AI Scientists Innovations, Bamako, Mali* (November 2024 – Present)
 
 - Lead research initiatives in vision-language models and multimodal AI systems
