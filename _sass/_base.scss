@@ -310,13 +310,13 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // FFT Logo dynamic animation on left side
-  .fft-logo-dynamic {
+  // DFT Logo dynamic animation on left side
+  .dft-logo-dynamic {
     height: 2.5rem;
     max-height: 45px;
     width: auto;
     opacity: 0.9;
-    animation: fft-pulse 2s ease-in-out infinite;
+    animation: dft-pulse 2s ease-in-out infinite;
     transition: opacity 0.3s ease, transform 0.2s ease;
     
     &:hover {
@@ -337,8 +337,8 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Dynamic FFT pulse animation
-@keyframes fft-pulse {
+// Dynamic DFT pulse animation
+@keyframes dft-pulse {
   0%, 100% {
     opacity: 0.9;
     transform: scale(1);
