@@ -310,6 +310,30 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  // FFT Logo responsive styling
+  .fft-logo {
+    height: 2.5rem;
+    max-height: 45px;
+    width: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+    
+    &:hover {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    
+    @media (max-width: 768px) {
+      height: 2rem;
+      max-height: 35px;
+    }
+    
+    @media (max-width: 576px) {
+      height: 1.75rem;
+      max-height: 30px;
+    }
+  }
+
   .navbar-brand.social {
     padding-bottom: 0;
     padding-top: 0;
