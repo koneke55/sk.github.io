@@ -310,19 +310,20 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // DFT Logo dynamic animation on left side - smaller size
+  // DFT Logo dynamic animation on left side - smaller size with motion
   .dft-logo-dynamic {
     height: 1.5rem;
     max-height: 28px;
     width: auto;
     opacity: 0.85;
-    animation: dft-dynamic 3s ease-in-out infinite;
+    animation: dft-dynamic 2.5s ease-in-out infinite;
     transition: opacity 0.3s ease, transform 0.2s ease;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    will-change: transform, opacity, filter;
     
     &:hover {
       opacity: 1;
-      transform: scale(1.15);
+      transform: scale(1.15) translateX(0) translateY(0);
       animation-play-state: paused;
       filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
     }
@@ -339,31 +340,51 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-// Dynamic DFT animation - more dynamic with multiple effects
+// Dynamic DFT animation with motion effects
 @keyframes dft-dynamic {
   0% {
     opacity: 0.85;
-    transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(0px);
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  }
+  12.5% {
+    opacity: 0.95;
+    transform: scale(1.06) rotate(3deg) translateX(2px) translateY(-2px);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
   }
   25% {
     opacity: 1;
-    transform: scale(1.08) rotate(2deg);
+    transform: scale(1.1) rotate(0deg) translateX(0px) translateY(-3px);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  }
+  37.5% {
+    opacity: 0.95;
+    transform: scale(1.06) rotate(-3deg) translateX(-2px) translateY(-2px);
     filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
   }
   50% {
+    opacity: 0.9;
+    transform: scale(1.08) rotate(0deg) translateX(0px) translateY(0px);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
+  }
+  62.5% {
     opacity: 0.95;
-    transform: scale(1.12) rotate(0deg);
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+    transform: scale(1.06) rotate(3deg) translateX(2px) translateY(2px);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
   }
   75% {
     opacity: 1;
-    transform: scale(1.08) rotate(-2deg);
+    transform: scale(1.1) rotate(0deg) translateX(0px) translateY(3px);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  }
+  87.5% {
+    opacity: 0.95;
+    transform: scale(1.06) rotate(-3deg) translateX(-2px) translateY(2px);
     filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
   }
   100% {
     opacity: 0.85;
-    transform: scale(1) rotate(0deg);
+    transform: scale(1) rotate(0deg) translateX(0px) translateY(0px);
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
   }
 }
