@@ -72,11 +72,11 @@ body.sticky-bottom-footer {
   }
 }
 
-// FFT Waveform Blinking Animation - appears every 7 seconds
+// FFT Waveform Blinking Animation - appears every 7 seconds and disappears downward
 @keyframes fft-waveform-blink {
   0% {
     opacity: 0;
-    transform: scale(0.8) translateY(-10px);
+    transform: scale(0.8) translateY(-20px);
   }
   5% {
     opacity: 1;
@@ -84,15 +84,23 @@ body.sticky-bottom-footer {
   }
   10% {
     opacity: 1;
-    transform: scale(1.05) translateY(0);
+    transform: scale(1.05) translateY(10px);
   }
   15% {
+    opacity: 0.8;
+    transform: scale(1) translateY(30px);
+  }
+  20% {
+    opacity: 0.4;
+    transform: scale(0.9) translateY(60px);
+  }
+  25% {
     opacity: 0;
-    transform: scale(0.8) translateY(10px);
+    transform: scale(0.7) translateY(100px);
   }
   100% {
     opacity: 0;
-    transform: scale(0.8) translateY(-10px);
+    transform: scale(0.7) translateY(100px);
   }
 }
 

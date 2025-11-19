@@ -310,17 +310,19 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // FFT Logo responsive styling
-  .fft-logo {
+  // FFT Logo dynamic animation on left side
+  .fft-logo-dynamic {
     height: 2.5rem;
     max-height: 45px;
     width: auto;
     opacity: 0.9;
+    animation: fft-pulse 2s ease-in-out infinite;
     transition: opacity 0.3s ease, transform 0.2s ease;
     
     &:hover {
       opacity: 1;
-      transform: scale(1.05);
+      transform: scale(1.1);
+      animation-play-state: paused;
     }
     
     @media (max-width: 768px) {
@@ -332,6 +334,18 @@ ul.task-list input[type="checkbox"] {
       height: 1.75rem;
       max-height: 30px;
     }
+  }
+}
+
+// Dynamic FFT pulse animation
+@keyframes fft-pulse {
+  0%, 100% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
   }
 
   .navbar-brand.social {

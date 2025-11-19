@@ -2,6 +2,10 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <!-- FFT Logo on Left Side -->
+      <a class="navbar-brand d-flex align-items-center mr-3" href="{{ site.baseurl }}/" style="padding: 0; line-height: 1;">
+        <img src="{{ '/assets/img/fft-logo.png' | relative_url }}" alt="FFT Logo" class="fft-logo-dynamic">
+      </a>
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}
@@ -141,12 +145,6 @@
               </button>
             </li>
           {% endif %}
-          <!-- FFT Logo -->
-          <li class="nav-item ml-2 d-flex align-items-center">
-            <a class="navbar-brand" href="{{ site.baseurl }}/" style="padding: 0; line-height: 1;">
-              <img src="{{ '/assets/img/fft-logo.png' | relative_url }}" alt="FFT Logo" class="fft-logo">
-            </a>
-          </li>
         </ul>
       </div>
     </div>
