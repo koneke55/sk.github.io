@@ -17,7 +17,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: phd-student, machine-learning, computer-vision, reinforcement-learning, ai-robotics, human-learning, electrical-engineering, computer-engineering, deep-learning, embedded-systems, academic-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: SK # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: fft-logo.png # Fast Fourier Series waveform logo
 
 url: https://koneke55.github.io # the base hostname & protocol for your site
 baseurl: /sk.github.io # the subpath of your site, e.g. /blog/. Leave blank for root
