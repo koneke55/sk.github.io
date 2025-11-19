@@ -35,13 +35,13 @@ I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with r
 
 My research centers on developing intelligent systems that integrate **machine learning** with **hardware implementations**. I am particularly interested in:
 
-- **Computer Vision & Multimodal Learning**: Vision-language models, vision transformers (ViT), and visual understanding systems
-- **Reinforcement Learning & AI Robotics**: Intelligent agents, robot learning, autonomous systems, and human-robot interaction
+- **Computer Vision, Multimodal Learning, Reinforcement Learning & AI Robotics**: Vision-language models, vision transformers (ViT), visual understanding systems, intelligent agents, robot learning, autonomous systems, and human-robot interaction
 - **Graph Neural Networks**: Graph-based learning, network analysis, and relational reasoning for structured data
 - **Human Learning & AI**: Understanding how humans learn and applying those principles to develop more effective AI systems
 - **Quantum Machine Learning**: Exploring quantum computing paradigms for enhanced ML performance
 - **Embedded AI Systems**: Real-time intelligent systems on microcontrollers, VLSI and FPGAs
 - **Deep Learning for Signal Processing**: Applications in battery management, speech recognition, intelligent systems, and biomedical signal analysis
+- **Power Electronics and Wireless Communications**: Design and optimization of power conversion systems, RF circuit design, wireless communication protocols, and integration of AI for intelligent power management and communication systems
 
 I am seeking **PhD opportunities** to advance fundamental research in these areas while contributing to practical applications that address real-world challenges.
 
