@@ -310,10 +310,10 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // DFT Logo dynamic animation on left side - larger and more prominent
+  // DFT Logo dynamic animation on left side - sized to match navbar frame
   .dft-logo-dynamic {
-    height: 2.5rem;
-    max-height: 45px;
+    height: 3rem;
+    max-height: 50px;
     width: auto;
     opacity: 0.9;
     animation: dft-dynamic 2.5s ease-in-out infinite;
@@ -321,22 +321,23 @@ ul.task-list input[type="checkbox"] {
     filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.3));
     will-change: transform, opacity, filter;
     z-index: 10;
+    align-self: center;
     
     &:hover {
       opacity: 1;
-      transform: scale(1.2) translateX(0) translateY(0);
+      transform: scale(1.15) translateX(0) translateY(0);
       animation-play-state: paused;
       filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.4));
     }
     
     @media (max-width: 768px) {
-      height: 2rem;
-      max-height: 38px;
+      height: 2.5rem;
+      max-height: 42px;
     }
     
     @media (max-width: 576px) {
-      height: 1.75rem;
-      max-height: 32px;
+      height: 2rem;
+      max-height: 36px;
     }
   }
 }
