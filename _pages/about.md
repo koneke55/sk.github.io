@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: / # Homepage
-subtitle: PhD Aspirant in Electrical & Computer Engineering | AI Researcher
+subtitle: Co-Founder & CTO and AI researcher
 
 # Profile configuration
 profile:
