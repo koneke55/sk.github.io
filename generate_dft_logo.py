@@ -28,36 +28,71 @@ draw.text((y_axis_x - 12, 5), "Y", fill=axis_color)
 # X-axis label
 draw.text((width - 20, x_axis_y + 5), "X", fill=axis_color)
 
-# DFT (Discrete Fourier Transform) - emphasize discrete nature
-# Create discrete frequency components (not continuous)
-t = np.linspace(0, 4*np.pi, width)
-
-# Discrete frequency components - stepped/sampled waveform
-# Sample at discrete points to show DFT's discrete nature
-sample_rate = 20  # Discrete sampling points
+# DFT (Discrete Fourier Transform) - Square wave with random variations
+# Create discrete square wave pattern with randomness
+sample_rate = 25  # Discrete sampling points
 discrete_points = np.linspace(20, width - 20, sample_rate)
-discrete_t = np.linspace(0, 4*np.pi, sample_rate)
 
-# Create discrete frequency components
-waveform_discrete = (np.sin(discrete_t) + 
-                     0.6 * np.sin(2*discrete_t) + 
-                     0.4 * np.sin(3*discrete_t) + 
-                     0.3 * np.sin(4*discrete_t) + 
-                     0.2 * np.sin(5*discrete_t))
+# Generate square wave with random variations
+np.random.seed(42)  # For reproducibility, but still random-looking
+waveform_discrete = []
+
+# Base square wave parameters
+base_period = len(discrete_points) / 4  # 4 cycles
+base_amplitude = 0.8
+
+for i, x in enumerate(discrete_points):
+    # Calculate position in square wave cycle
+    cycle_pos = (i / base_period) % 1.0
+    
+    # Square wave: high for first half, low for second half
+    if cycle_pos < 0.5:
+        value = base_amplitude
+    else:
+        value = -base_amplitude
+    
+    # Add random variations to amplitude and timing
+    random_amplitude = np.random.uniform(-0.15, 0.15)
+    random_phase = np.random.uniform(-0.05, 0.05)
+    
+    # Apply randomness
+    adjusted_cycle_pos = (cycle_pos + random_phase) % 1.0
+    if adjusted_cycle_pos < 0.5:
+        value = base_amplitude + random_amplitude
+    else:
+        value = -base_amplitude + random_amplitude
+    
+    # Add some random spikes for more variation
+    if np.random.random() < 0.1:  # 10% chance of spike
+        value += np.random.uniform(-0.2, 0.2)
+    
+    waveform_discrete.append(value)
+
+waveform_discrete = np.array(waveform_discrete)
 
 # Normalize and scale to fit within axes
 waveform_discrete = (waveform_discrete - waveform_discrete.min()) / (waveform_discrete.max() - waveform_discrete.min())
 waveform_range = (x_axis_y - 25) - 25  # Space between axes
 waveform_discrete = waveform_discrete * waveform_range + 25
 
-# Draw discrete points and connect them (showing discrete sampling)
+# Draw square wave with discrete points
 points = [(int(discrete_points[i]), int(waveform_discrete[i])) for i in range(len(discrete_points))]
+
+# Draw square wave pattern (horizontal and vertical lines)
 for i in range(len(points) - 1):
-    # Draw line connecting discrete points
-    draw.line([points[i], points[i+1]], fill=(0, 0, 0, 255), width=3)
+    x1, y1 = points[i]
+    x2, y2 = points[i + 1]
+    
+    # Draw horizontal line (square wave characteristic)
+    mid_x = (x1 + x2) // 2
+    draw.line([(x1, y1), (mid_x, y1)], fill=(0, 0, 0, 255), width=3)
+    draw.line([(mid_x, y1), (mid_x, y2)], fill=(0, 0, 0, 255), width=3)
+    draw.line([(mid_x, y2), (x2, y2)], fill=(0, 0, 0, 255), width=3)
+    
     # Draw circles at discrete sample points to emphasize discreteness
-    draw.ellipse([points[i][0]-3, points[i][1]-3, points[i][0]+3, points[i][1]+3], 
-                 fill=(0, 0, 0, 255))
+    draw.ellipse([x1-3, y1-3, x1+3, y1+3], fill=(0, 0, 0, 255))
+    if i == len(points) - 2:  # Draw last point
+        draw.ellipse([x2-3, y2-3, x2+3, y2+3], fill=(0, 0, 0, 255))
 
 # Draw discrete frequency spectrum bars on the right (DFT characteristic - discrete bins)
 bar_x_start = width - 35
