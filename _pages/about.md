@@ -29,7 +29,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, **Reinforcement Learning**, **AI Robotics**, and **Embedded Systems**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University (in collaboration with Texas Instruments), Bangalore, graduating as **Department Topper and Gold Medalist** with a **GPA of 3.64/4.00 (9.106/10)**.
+I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Computer Vision**, **Reinforcement Learning**, **AI Robotics**, **Embedded Systems**, **Power Electronics**, and **Wireless Communications**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University (in collaboration with Texas Instruments), Bangalore, graduating as **Department Topper and Gold Medalist** with a **GPA of 3.64/4.00 (9.106/10)**.
 
 ## Research Interests
 
