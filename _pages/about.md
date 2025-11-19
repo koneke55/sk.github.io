@@ -58,6 +58,7 @@ Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai),
 **Programming**: Python, C/C++, MATLAB, Java  
 **Data Engineering**: BigQuery SQL, ETL (Apache Beam, Dataform), Cloud Data Fusion  
 **Embedded Systems**: Microcontrollers, FPGAs, RTL design, Real-time Systems  
+**RF Circuit Design and PCB**: RF circuit design, PCB layout and design  
 **NLP Tools**: Amazon SageMaker, Encord, vTensorAct Studio
 
 ## Education
