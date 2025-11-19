@@ -310,42 +310,61 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  // DFT Logo dynamic animation on left side
+  // DFT Logo dynamic animation on left side - smaller size
   .dft-logo-dynamic {
-    height: 2.5rem;
-    max-height: 45px;
+    height: 1.5rem;
+    max-height: 28px;
     width: auto;
-    opacity: 0.9;
-    animation: dft-pulse 2s ease-in-out infinite;
+    opacity: 0.85;
+    animation: dft-dynamic 3s ease-in-out infinite;
     transition: opacity 0.3s ease, transform 0.2s ease;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
     
     &:hover {
       opacity: 1;
-      transform: scale(1.1);
+      transform: scale(1.15);
       animation-play-state: paused;
+      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
     }
     
     @media (max-width: 768px) {
-      height: 2rem;
-      max-height: 35px;
+      height: 1.25rem;
+      max-height: 24px;
     }
     
     @media (max-width: 576px) {
-      height: 1.75rem;
-      max-height: 30px;
+      height: 1rem;
+      max-height: 20px;
     }
   }
 }
 
-// Dynamic DFT pulse animation
-@keyframes dft-pulse {
-  0%, 100% {
-    opacity: 0.9;
-    transform: scale(1);
+// Dynamic DFT animation - more dynamic with multiple effects
+@keyframes dft-dynamic {
+  0% {
+    opacity: 0.85;
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  }
+  25% {
+    opacity: 1;
+    transform: scale(1.08) rotate(2deg);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
   }
   50% {
+    opacity: 0.95;
+    transform: scale(1.12) rotate(0deg);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  }
+  75% {
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.08) rotate(-2deg);
+    filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.25));
+  }
+  100% {
+    opacity: 0.85;
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
   }
 }
 
