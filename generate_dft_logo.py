@@ -7,28 +7,6 @@ width, height = 200, 200
 img = Image.new('RGBA', (width, height), (255, 255, 255, 0))
 draw = ImageDraw.Draw(img)
 
-# Draw X and Y axes - enhanced for visibility
-axis_color = (0, 0, 0, 255)  # Solid black for better visibility
-axis_thickness = 3  # Thicker for navbar visibility
-
-# Y-axis (vertical) - left side
-y_axis_x = 15
-draw.line([(y_axis_x, 10), (y_axis_x, height - 10)], fill=axis_color, width=axis_thickness)
-# Y-axis arrow (top)
-draw.polygon([(y_axis_x, 10), (y_axis_x - 3, 17), (y_axis_x + 3, 17)], fill=axis_color)
-
-# X-axis (horizontal) - bottom
-x_axis_y = height - 15
-draw.line([(10, x_axis_y), (width - 10, x_axis_y)], fill=axis_color, width=axis_thickness)
-# X-axis arrow (right)
-draw.polygon([(width - 10, x_axis_y), (width - 17, x_axis_y - 3), (width - 17, x_axis_y + 3)], fill=axis_color)
-
-# Add axis labels
-# Y-axis label
-draw.text((y_axis_x - 12, 5), "Y", fill=axis_color)
-# X-axis label
-draw.text((width - 20, x_axis_y + 5), "X", fill=axis_color)
-
 # DFT (Discrete Fourier Transform) - Square wave with random variations
 # Optimized for left navbar logo - clear and visible
 sample_rate = 30  # More sampling points for smoother square wave
@@ -71,10 +49,55 @@ for i, x in enumerate(discrete_points):
 
 waveform_discrete = np.array(waveform_discrete)
 
-# Normalize and scale to fit within axes
-waveform_discrete = (waveform_discrete - waveform_discrete.min()) / (waveform_discrete.max() - waveform_discrete.min())
-waveform_range = (x_axis_y - 25) - 25  # Space between axes
-waveform_discrete = waveform_discrete * waveform_range + 25
+# Calculate waveform statistics for centering axes
+waveform_min = waveform_discrete.min()
+waveform_max = waveform_discrete.max()
+waveform_center_y = (waveform_min + waveform_max) / 2
+
+# Calculate center positions for axes based on waveform
+waveform_x_start = 25
+waveform_x_end = width - 25
+waveform_x_center = (waveform_x_start + waveform_x_end) / 2  # Center of waveform X range
+
+# Normalize and scale waveform - will be centered around X-axis
+waveform_discrete_normalized = (waveform_discrete - waveform_min) / (waveform_max - waveform_min) if waveform_max != waveform_min else np.ones_like(waveform_discrete) * 0.5
+
+# Calculate X-axis position at the center of waveform's Y range
+preview_range = (height - 40) - 25  # Space available for waveform
+preview_min_y = 25
+x_axis_y = int(preview_min_y + (waveform_center_y - waveform_min) / (waveform_max - waveform_min) * preview_range) if waveform_max != waveform_min else int(height / 2)
+# Ensure X-axis is within reasonable bounds
+x_axis_y = max(40, min(x_axis_y, height - 40))
+
+# Calculate available space above and below X-axis
+space_above = x_axis_y - 25
+space_below = (height - 25) - x_axis_y
+available_range = min(space_above, space_below) * 2  # Use equal space on both sides
+
+# Center waveform around X-axis
+waveform_center = x_axis_y
+waveform_discrete = waveform_center + (waveform_discrete_normalized - 0.5) * available_range * 0.8  # Scale to 80% of available space
+
+# Draw X and Y axes - enhanced for visibility and centered with curve
+axis_color = (0, 0, 0, 255)  # Solid black for better visibility
+axis_thickness = 3  # Thicker for navbar visibility
+
+# Y-axis (vertical) - centered at the middle of waveform's X range
+y_axis_x = int(waveform_x_center)
+draw.line([(y_axis_x, 10), (y_axis_x, height - 10)], fill=axis_color, width=axis_thickness)
+# Y-axis arrow (top)
+draw.polygon([(y_axis_x, 10), (y_axis_x - 3, 17), (y_axis_x + 3, 17)], fill=axis_color)
+
+# X-axis (horizontal) - centered at the middle of waveform's Y range
+draw.line([(10, x_axis_y), (width - 10, x_axis_y)], fill=axis_color, width=axis_thickness)
+# X-axis arrow (right)
+draw.polygon([(width - 10, x_axis_y), (width - 17, x_axis_y - 3), (width - 17, x_axis_y + 3)], fill=axis_color)
+
+# Add axis labels
+# Y-axis label (top)
+draw.text((y_axis_x - 8, 5), "Y", fill=axis_color)
+# X-axis label (right)
+draw.text((width - 20, x_axis_y + 5), "X", fill=axis_color)
 
 # Draw square wave with discrete points
 points = [(int(discrete_points[i]), int(waveform_discrete[i])) for i in range(len(discrete_points))]

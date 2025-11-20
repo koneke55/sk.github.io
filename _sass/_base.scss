@@ -313,21 +313,51 @@ ul.task-list input[type="checkbox"] {
   // DFT Logo dynamic animation on left side - PRIORITY: Enhanced for visibility
   // Ensure navbar brand container gives logo proper space
   .navbar-brand.d-flex {
-    min-width: 60px;
+    min-width: 70px;
     justify-content: flex-start;
     align-items: center;
-    padding: 0.5rem 0.75rem !important;
-    margin-right: 1rem;
+    padding: 0.6rem 0.9rem !important;
+    margin-right: 1.25rem;
+    position: relative;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    
+    &:hover {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+      border-color: rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+      transform: translateY(-1px);
+    }
+    
+    // Add subtle glow pulse on container
+    &::before {
+      content: '';
+      position: absolute;
+      inset: -2px;
+      border-radius: 14px;
+      background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(147, 51, 234, 0.15) 100%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      z-index: -1;
+      animation: logo-container-glow 3s ease-in-out infinite;
+    }
+    
+    &:hover::before {
+      opacity: 0.4;
+    }
   }
   
   .dft-logo-dynamic {
-    height: 2.5rem;
-    max-height: 45px;
+    height: 2.75rem;
+    max-height: 50px;
     width: auto;
     opacity: 1;
-    animation: dft-dynamic 2.5s ease-in-out infinite;
-    transition: opacity 0.3s ease, transform 0.2s ease, filter 0.2s ease;
-    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3)) contrast(1.1);
+    animation: dft-dynamic 2.5s ease-in-out infinite, logo-glow-pulse 3s ease-in-out infinite;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.25)) contrast(1.15) brightness(1.05);
     will-change: transform, opacity, filter;
     vertical-align: middle;
     display: inline-block;
@@ -336,7 +366,7 @@ ul.task-list input[type="checkbox"] {
     z-index: 10;
     flex-shrink: 0;
     
-    // Add shimmer effect to simulate waveform movement
+    // Enhanced shimmer effect with gradient colors
     &::after {
       content: '';
       position: absolute;
@@ -347,41 +377,70 @@ ul.task-list input[type="checkbox"] {
       background: linear-gradient(
         90deg,
         transparent 0%,
-        transparent 30%,
-        rgba(255, 255, 255, 0.3) 50%,
-        transparent 70%,
+        transparent 25%,
+        rgba(59, 130, 246, 0.4) 40%,
+        rgba(255, 255, 255, 0.5) 50%,
+        rgba(147, 51, 234, 0.4) 60%,
+        transparent 75%,
         transparent 100%
       );
-      background-size: 200% 100%;
-      animation: waveform-shimmer 3s linear infinite;
+      background-size: 300% 100%;
+      animation: waveform-shimmer 4s linear infinite;
       pointer-events: none;
       mix-blend-mode: overlay;
-      opacity: 0.6;
+      opacity: 0.7;
+      border-radius: 8px;
+    }
+    
+    // Add outer glow ring
+    &::before {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, transparent 70%);
+      opacity: 0;
+      animation: logo-ring-pulse 3s ease-in-out infinite;
+      pointer-events: none;
+      z-index: -1;
     }
     
     &:hover {
       opacity: 1;
-      transform: scale(1.12);
-      animation-play-state: paused;
-      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4)) contrast(1.2) brightness(1.05);
+      transform: scale(1.15) rotate(2deg);
+      animation-play-state: running;
+      filter: drop-shadow(0 6px 16px rgba(59, 130, 246, 0.4)) contrast(1.25) brightness(1.1) saturate(1.2);
       
       &::after {
-        animation-play-state: paused;
-        opacity: 0.8;
+        animation-duration: 2s;
+        opacity: 0.9;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(59, 130, 246, 0.6) 30%,
+          rgba(255, 255, 255, 0.7) 50%,
+          rgba(147, 51, 234, 0.6) 70%,
+          transparent 100%
+        );
+      }
+      
+      &::before {
+        opacity: 0.6;
+        animation-duration: 1.5s;
       }
     }
     
     // Enhanced visibility on all screen sizes
     @media (max-width: 768px) {
-      height: 2.25rem;
-      max-height: 40px;
-      filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.35)) contrast(1.15);
+      height: 2.5rem;
+      max-height: 45px;
+      filter: drop-shadow(0 3px 7px rgba(0, 0, 0, 0.3)) contrast(1.2) brightness(1.05);
     }
     
     @media (max-width: 576px) {
-      height: 2rem;
-      max-height: 36px;
-      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4)) contrast(1.2);
+      height: 2.25rem;
+      max-height: 40px;
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35)) contrast(1.25) brightness(1.08);
     }
   }
 }
@@ -391,48 +450,80 @@ ul.task-list input[type="checkbox"] {
 @keyframes dft-dynamic {
   0% {
     opacity: 1;
-    transform: scale(1);
-    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3)) contrast(1.1) brightness(1);
+    transform: scale(1) translateY(0);
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.25)) contrast(1.15) brightness(1.05);
   }
   16.66% {
     opacity: 1;
-    transform: scale(1.04);
-    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35)) contrast(1.15) brightness(1.05);
+    transform: scale(1.05) translateY(-1px);
+    filter: drop-shadow(0 4px 10px rgba(59, 130, 246, 0.2)) contrast(1.2) brightness(1.08);
   }
   33.33% {
     opacity: 1;
-    transform: scale(1.06);
-    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4)) contrast(1.2) brightness(1.1);
+    transform: scale(1.08) translateY(-2px);
+    filter: drop-shadow(0 5px 12px rgba(59, 130, 246, 0.25)) contrast(1.25) brightness(1.1);
   }
   50% {
     opacity: 1;
-    transform: scale(1.04);
-    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35)) contrast(1.15) brightness(1.05);
+    transform: scale(1.05) translateY(-1px);
+    filter: drop-shadow(0 4px 10px rgba(147, 51, 234, 0.2)) contrast(1.2) brightness(1.08);
   }
   66.66% {
     opacity: 1;
-    transform: scale(1.06);
-    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.4)) contrast(1.2) brightness(1.1);
+    transform: scale(1.08) translateY(-2px);
+    filter: drop-shadow(0 5px 12px rgba(147, 51, 234, 0.25)) contrast(1.25) brightness(1.1);
   }
   83.33% {
     opacity: 1;
-    transform: scale(1.04);
-    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.35)) contrast(1.15) brightness(1.05);
+    transform: scale(1.05) translateY(-1px);
+    filter: drop-shadow(0 4px 10px rgba(59, 130, 246, 0.2)) contrast(1.2) brightness(1.08);
   }
   100% {
     opacity: 1;
-    transform: scale(1);
-    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3)) contrast(1.1) brightness(1);
+    transform: scale(1) translateY(0);
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.25)) contrast(1.15) brightness(1.05);
   }
 }
 
 // Waveform shimmer effect - creates moving light effect on waveform
 @keyframes waveform-shimmer {
   0% {
-    background-position: -100% 0;
+    background-position: -150% 0;
   }
   100% {
-    background-position: 200% 0;
+    background-position: 250% 0;
+  }
+}
+
+// Logo glow pulse animation for enhanced visibility
+@keyframes logo-glow-pulse {
+  0%, 100% {
+    filter: drop-shadow(0 3px 8px rgba(0, 0, 0, 0.25)) contrast(1.15) brightness(1.05) drop-shadow(0 0 8px rgba(59, 130, 246, 0.15));
+  }
+  50% {
+    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.3)) contrast(1.2) brightness(1.1) drop-shadow(0 0 16px rgba(59, 130, 246, 0.3));
+  }
+}
+
+// Ring pulse animation for outer glow
+@keyframes logo-ring-pulse {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.15);
+  }
+}
+
+// Container glow animation
+@keyframes logo-container-glow {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
   }
 }
 
