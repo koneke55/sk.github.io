@@ -253,6 +253,15 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  min-height: 56px;
+  max-height: 56px;
+  display: flex;
+  align-items: center;
+  
+  // Prevent navbar from stretching
+  .navbar-nav {
+    flex-wrap: nowrap;
+  }
 }
 
 .navbar .dropdown-menu {
@@ -311,24 +320,26 @@ ul.task-list input[type="checkbox"] {
   }
 
   // DFT Logo dynamic animation on left side - PRIORITY: Enhanced for visibility
-  // Ensure navbar brand container gives logo proper space
+  // Ensure navbar brand container gives logo proper space - compact to prevent navbar stretching
   .navbar-brand.d-flex {
-    min-width: 70px;
+    min-width: auto;
+    max-width: 70px;
     justify-content: flex-start;
     align-items: center;
-    padding: 0.6rem 0.9rem !important;
-    margin-right: 1.25rem;
+    padding: 0.45rem 0.65rem !important;
+    margin-right: 0.75rem;
     position: relative;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
-    border-radius: 12px;
+    border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.05);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    flex-shrink: 0;
     
     &:hover {
       background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
       border-color: rgba(0, 0, 0, 0.1);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
       transform: translateY(-1px);
     }
     
@@ -337,7 +348,7 @@ ul.task-list input[type="checkbox"] {
       content: '';
       position: absolute;
       inset: -2px;
-      border-radius: 14px;
+      border-radius: 12px;
       background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(147, 51, 234, 0.15) 100%);
       opacity: 0;
       transition: opacity 0.4s ease;
@@ -348,11 +359,82 @@ ul.task-list input[type="checkbox"] {
     &:hover::before {
       opacity: 0.4;
     }
+    
+    // Responsive adjustments
+    @media (max-width: 768px) {
+      max-width: 60px;
+      padding: 0.4rem 0.55rem !important;
+      margin-right: 0.6rem;
+      border-radius: 8px;
+    }
+    
+    @media (max-width: 576px) {
+      max-width: 55px;
+      padding: 0.35rem 0.5rem !important;
+      margin-right: 0.5rem;
+    }
+  }
+  
+  // Navbar brand title (name) styling - prevent stretching and wrapping
+  .navbar-brand.title {
+    font-size: 1.1rem;
+    font-weight: 300;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    padding: 0.5rem 0.75rem;
+    margin-right: 0;
+    flex-shrink: 0;
+    color: var(--global-text-color);
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration: none;
+    }
+    
+    // Responsive font sizing
+    @media (max-width: 992px) {
+      font-size: 1rem;
+      max-width: 150px;
+    }
+    
+    @media (max-width: 768px) {
+      font-size: 0.95rem;
+      max-width: 120px;
+      padding: 0.4rem 0.6rem;
+    }
+    
+    @media (max-width: 576px) {
+      font-size: 0.9rem;
+      max-width: 100px;
+      padding: 0.35rem 0.5rem;
+    }
+    
+    // Ensure name parts don't break awkwardly
+    span {
+      display: inline;
+      white-space: nowrap;
+    }
+  }
+  
+  // Container adjustments to prevent stretching
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    @media (max-width: 576px) {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
   }
   
   .dft-logo-dynamic {
-    height: 2.75rem;
-    max-height: 50px;
+    height: 2.5rem;
+    max-height: 45px;
+    max-width: 50px;
     width: auto;
     opacity: 1;
     animation: dft-dynamic 2.5s ease-in-out infinite, logo-glow-pulse 3s ease-in-out infinite;
@@ -365,6 +447,7 @@ ul.task-list input[type="checkbox"] {
     transform-origin: center center;
     z-index: 10;
     flex-shrink: 0;
+    object-fit: contain;
     
     // Enhanced shimmer effect with gradient colors
     &::after {
@@ -430,16 +513,18 @@ ul.task-list input[type="checkbox"] {
       }
     }
     
-    // Enhanced visibility on all screen sizes
+    // Enhanced visibility on all screen sizes - compact for navbar compatibility
     @media (max-width: 768px) {
-      height: 2.5rem;
-      max-height: 45px;
+      height: 2.25rem;
+      max-height: 40px;
+      max-width: 45px;
       filter: drop-shadow(0 3px 7px rgba(0, 0, 0, 0.3)) contrast(1.2) brightness(1.05);
     }
     
     @media (max-width: 576px) {
-      height: 2.25rem;
-      max-height: 40px;
+      height: 2rem;
+      max-height: 38px;
+      max-width: 40px;
       filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.35)) contrast(1.25) brightness(1.08);
     }
   }
