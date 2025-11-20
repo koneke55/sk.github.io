@@ -2,9 +2,23 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      <!-- DFT Logo on Left Side -->
-      <a class="navbar-brand d-flex align-items-center" href="{{ site.baseurl }}/">
-        <img src="{{ '/assets/img/dft-logo.png' | relative_url }}" alt="DFT Logo" class="dft-logo-dynamic">
+      <!-- Name Display -->
+      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+        {% if site.title == 'blank' %}
+          {% if site.first_name %}
+            <span class="font-weight-bold">
+              {{- site.first_name -}}
+            </span>
+          {% endif %}
+          {% if site.middle_name %}
+            {{- site.middle_name -}}
+          {% endif %}
+          {% if site.last_name %}
+            {{- site.last_name -}}
+          {% endif %}
+        {% else %}
+          {{- site.title -}}
+        {% endif %}
       </a>
       {% if page.permalink == '/' or page.url == '/' or page.url == '/index.html' %}
         {% if site.enable_navbar_social %}
@@ -12,7 +26,6 @@
           <div class="navbar-brand social">{% include social.liquid %}</div>
         {% endif %}
       {% endif %}
-      <!-- Name removed - should not appear on menu pages -->
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
