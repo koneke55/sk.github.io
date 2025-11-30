@@ -646,3 +646,17 @@ jsonresume:
   - languages
   - interests
   - references
+
+# -----------------------------------------------------------------------------
+# ClustrMaps Analytics
+# -----------------------------------------------------------------------------
+# To enable ClustrMaps visitor map:
+# 1. Sign up at https://clustrmaps.com/
+# 2. Add your website URL
+# 3. Get your site ID from the embed code (the ID in the URL)
+# 4. Set enabled: true and add your site_id below
+# Example: site_id: "1abc23def45"
+
+clustrmaps:
+  enabled: false # Set to true to enable ClustrMaps visitor map
+  site_id: "" # Your ClustrMaps site ID (get from https://clustrmaps.com/)

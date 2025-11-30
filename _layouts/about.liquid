@@ -79,5 +79,10 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
+
+    <!-- ClustrMaps Visitor Map - Only on landing page -->
+    {% if page.permalink == '/' or page.url == '/' or page.url == '/index.html' %}
+      {% include clustrmaps.liquid %}
+    {% endif %}
   </article>
 </div>

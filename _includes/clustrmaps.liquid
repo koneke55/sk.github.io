@@ -1,0 +1,24 @@
+<!-- ClustrMaps Visitor Map -->
+{% if site.clustrmaps and site.clustrmaps.enabled and site.clustrmaps.site_id %}
+  <div class="clustrmaps-container" style="text-align: center; margin: 3rem 0 2rem 0; padding: 2rem 0; border-top: 1px solid var(--global-divider-color);">
+    <div style="margin-bottom: 1.5rem;">
+      <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; color: var(--global-text-color); font-weight: 400;">Visitor Map</h3>
+      <p style="font-size: 0.95rem; color: var(--global-text-color-muted); margin-bottom: 1.5rem;">See where visitors are coming from around the world</p>
+    </div>
+    <div style="display: inline-block; max-width: 100%;">
+      <a href="https://clustrmaps.com/site/{{ site.clustrmaps.site_id }}" title="Visit tracker" target="_blank" rel="noopener noreferrer">
+        <img 
+          src="//www.clustrmaps.com/map_v2.png?d={{ site.clustrmaps.site_id }}&cl=ffffff" 
+          style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.2s ease;" 
+          alt="Visitor Map"
+          onmouseover="this.style.transform='scale(1.02)'"
+          onmouseout="this.style.transform='scale(1)'"
+        />
+      </a>
+    </div>
+    <p style="font-size: 0.85rem; color: var(--global-text-color-muted); margin-top: 1rem;">
+      <a href="https://clustrmaps.com" target="_blank" rel="noopener noreferrer" style="color: var(--global-text-color-muted); text-decoration: none;">Powered by ClustrMaps</a>
+    </p>
+  </div>
+{% endif %}
+
