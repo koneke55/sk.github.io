@@ -5,19 +5,11 @@
       <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; color: var(--global-text-color); font-weight: 400;">Visitor Map</h3>
       <p style="font-size: 0.95rem; color: var(--global-text-color-muted); margin-bottom: 1.5rem;">See where visitors are coming from around the world</p>
     </div>
-    <div style="display: inline-block; max-width: 100%;">
-      <a href="https://clustrmaps.com/site/{{ site.clustrmaps.site_id }}" title="Visit tracker" target="_blank" rel="noopener noreferrer">
-        <img 
-          src="//www.clustrmaps.com/map_v2.png?d={{ site.clustrmaps.site_id }}&cl=ffffff" 
-          style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); transition: transform 0.2s ease;" 
-          alt="Visitor Map"
-          onmouseover="this.style.transform='scale(1.02)'"
-          onmouseout="this.style.transform='scale(1)'"
-        />
-      </a>
+    <div style="display: flex; justify-content: center; align-items: center; min-height: 400px; width: 100%;">
+      <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d={{ site.clustrmaps.site_id }}&cl=ffffff&w=a"></script>
     </div>
     <p style="font-size: 0.85rem; color: var(--global-text-color-muted); margin-top: 1rem;">
-      <a href="https://clustrmaps.com" target="_blank" rel="noopener noreferrer" style="color: var(--global-text-color-muted); text-decoration: none;">Powered by ClustrMaps</a>
+      <a href="https://clustrmaps.com/site/{{ site.clustrmaps.site_id }}" target="_blank" rel="noopener noreferrer" style="color: var(--global-text-color-muted); text-decoration: none;">View detailed statistics on ClustrMaps</a>
     </p>
   </div>
 {% endif %}
