@@ -150,7 +150,7 @@ Support widows and orphans in Mali through welfare initiatives and resource dist
 
 ## PhD Application Statement
 
-I am actively seeking **PhD positions in Electrical & Computer Engineering** with a focus on **Machine Learning**, **Computer Vision**, and **Embedded AI Systems**. My research goal is to develop intelligent, resource-efficient systems that can operate in real-world environments—bridging the gap between theoretical ML advances and practical hardware implementations.
+I am actively seeking **PhD positions in Electrical & Computer Engineering or Computer Science** with a focus on **Machine Learning**, **Computer Vision**, and **Embedded AI Systems**. My research goal is to develop intelligent, resource-efficient systems that can operate in real-world environments—bridging the gap between theoretical ML advances and practical hardware implementations.
 
 I bring strong interdisciplinary training, hands-on research experience, and a publication record. I am eager to contribute to cutting-edge research under the mentorship of leading faculty in top-tier programs.
 
