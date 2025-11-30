@@ -262,6 +262,43 @@ ul.task-list input[type="checkbox"] {
   .navbar-nav {
     flex-wrap: nowrap;
   }
+  
+  // Mobile navbar - fully opaque (non-transparent) on phone displays
+  @media (max-width: 991px) {
+    opacity: 1 !important;
+    background-color: var(--global-bg-color) !important;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+  
+  // Collapsed navbar menu - solid background for mobile
+  .navbar-collapse {
+    @media (max-width: 991px) {
+      background-color: var(--global-bg-color) !important;
+      opacity: 1 !important;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 4px;
+      margin-top: 0.5rem;
+      padding: 0.75rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      
+      .navbar-nav {
+        background-color: transparent;
+        
+        .nav-item {
+          .nav-link {
+            background-color: transparent !important;
+            padding: 0.75rem 1rem;
+            
+            &:hover {
+              background-color: rgba(0, 0, 0, 0.05);
+              border-radius: 4px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .navbar .dropdown-menu {
