@@ -46,3 +46,11 @@ nav_order: 4 # Navigation order in menu
   {% endfor %}
 </div>
 {% endif %}
+
+---
+
+## GitHub Contributions
+
+{% if site.data.socials.github_username %}
+  {% include github_stats.liquid %}
+{% endif %}
