@@ -658,5 +658,5 @@ jsonresume:
 # Example: site_id: "1abc23def45"
 
 clustrmaps:
-  enabled: false # Set to true to enable ClustrMaps visitor map
-  site_id: "" # Your ClustrMaps site ID (get from https://clustrmaps.com/)
+  enabled: true # Set to true to enable ClustrMaps visitor map
+  site_id: "NqjxYks6RI5qJhOsgpnQUPEoBVgCdfRwf7qq2Hzk1MY" # Your ClustrMaps site ID (get from https://clustrmaps.com/)
