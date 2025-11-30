@@ -1,0 +1,17 @@
+<!-- GitHub Statistics Chart -->
+{% if site.data.socials.github_username %}
+  <div class="github-stats-container" style="margin: 2rem 0 1.5rem 0; padding: 1.5rem 0; border-top: 1px solid var(--global-divider-color); text-align: center;">
+    <h3 style="font-size: 1.1rem; margin-bottom: 1rem; color: var(--global-text-color); font-weight: 400;">GitHub Contributions</h3>
+    
+    <!-- GitHub Contribution Graph with Green Commits -->
+    <div style="display: flex; justify-content: center; align-items: center; width: 100%; max-width: 800px; margin: 0 auto; overflow-x: auto;">
+      <img 
+        src="https://github.com/users/{{ site.data.socials.github_username }}/contributions?no-frame=true" 
+        alt="GitHub contribution graph" 
+        style="max-width: 100%; height: auto; border-radius: 8px;"
+        loading="lazy"
+      />
+    </div>
+  </div>
+{% endif %}
+
