@@ -745,7 +745,7 @@ ul.task-list input[type="checkbox"] {
 .social {
   text-align: center;
 
-  .contact-icons {
+  .contact-icons:not(.social-bar--footer) {
     font-size: 4rem;
 
     a {
@@ -783,6 +783,7 @@ ul.task-list input[type="checkbox"] {
 
   .contact-note {
     font-size: 0.8rem;
+    margin-top: 0.75rem;
   }
 }
 

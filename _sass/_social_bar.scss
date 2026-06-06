@@ -1,0 +1,175 @@
+/* Unified social media bar — navbar, header, and footer variants */
+
+.social-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+    border-radius: 6px;
+    transition: color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+
+    i::before {
+      color: var(--global-text-color);
+      transition: color 0.15s ease;
+    }
+
+    &:hover,
+    &:focus-visible {
+      i::before {
+        color: var(--global-theme-color);
+      }
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+}
+
+// Compact row next to the homepage title
+.social-bar--header {
+  margin-left: auto;
+
+  a {
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.75;
+
+    i {
+      font-size: 1rem;
+    }
+
+    &:hover {
+      opacity: 1;
+      background: var(--global-hover-color);
+      transform: translateY(-1px);
+    }
+  }
+}
+
+// Navbar strip (desktop/tablet)
+.social-bar--nav {
+  padding: 0;
+  margin-left: 0.75rem;
+  margin-right: auto;
+  gap: 0.25rem;
+
+  a {
+    width: 1.85rem;
+    height: 1.85rem;
+    opacity: 0.8;
+
+    i {
+      font-size: 0.95rem;
+    }
+
+    &:hover {
+      opacity: 1;
+      background: var(--global-hover-color);
+    }
+  }
+}
+
+// Footer "Connect" section on the about page
+.social-bar--footer {
+  margin-top: 0.5rem;
+  padding: 1.25rem 1rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 10px;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+  justify-content: center;
+  gap: 0.65rem 1rem;
+
+  .social-bar__heading {
+    flex: 0 0 100%;
+    margin: 0 0 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--global-theme-color);
+  }
+
+  a {
+    flex-direction: column;
+    min-width: 4.5rem;
+    padding: 0.45rem 0.35rem 0.35rem;
+    opacity: 0.85;
+    border: 1px solid transparent;
+
+    i {
+      font-size: 1.65rem;
+      margin-bottom: 0.25rem;
+    }
+
+    &::after {
+      content: attr(title);
+      font-size: 0.62rem;
+      font-weight: 500;
+      line-height: 1.2;
+      text-align: center;
+      color: var(--global-text-color);
+      opacity: 0.85;
+      max-width: 5.5rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    &:hover {
+      opacity: 1;
+      border-color: var(--global-divider-color);
+      background: var(--global-hover-color);
+      transform: translateY(-2px);
+    }
+  }
+}
+
+.title-with-follow {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .social-bar--header {
+    margin-left: 0;
+    margin-top: 0.35rem;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .social-bar--footer a {
+    min-width: 4rem;
+
+    i {
+      font-size: 1.45rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .social-bar--footer {
+    gap: 0.5rem 0.35rem;
+
+    a {
+      min-width: 3.6rem;
+      padding: 0.35rem 0.2rem;
+
+      i {
+        font-size: 1.3rem;
+      }
+
+      &::after {
+        font-size: 0.58rem;
+        max-width: 4.5rem;
+      }
+    }
+  }
+}

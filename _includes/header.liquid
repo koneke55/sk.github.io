@@ -20,11 +20,10 @@
           {{- site.title -}}
         {% endif %}
       </a>
-      {% if page.permalink == '/' or page.url == '/' or page.url == '/index.html' %}
-        {% if site.enable_navbar_social %}
-          <!-- Social Icons -->
-          <div class="navbar-brand social">{% include social.liquid %}</div>
-        {% endif %}
+      {% if site.enable_navbar_social %}
+        <div class="navbar-brand social social-bar social-bar--nav d-none d-lg-flex" aria-label="Social profiles">
+          {% include social.liquid %}
+        </div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
