@@ -656,3 +656,5 @@ clustrmaps:
   site_id: "NqjxYks6RI5qJhOsgpnQUPEoBVgCdfRwf7qq2Hzk1MY" # Your ClustrMaps site ID (get from https://clustrmaps.com/)
 
 # redeploy_counter: 1
+
+# redeploy_counter: 2
