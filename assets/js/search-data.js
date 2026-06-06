@@ -426,18 +426,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/sk.github.io/books/ml_systems_designs/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/sk.github.io/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-phd-search-i-am-actively-applying-for-funded-phd-positions-ece-cs-fall-2026-see-my-research-statement-and-cv-pdf",
+            },},{id: "news-phd-search-i-am-actively-applying-for-funded-phd-positions-ece-cs-fall-2026-see-my-research-statement-and-cv-pdf",
           title: 'PhD search: I am actively applying for funded PhD positions (ECE/CS, Fall 2026+)....',
           description: "",
           section: "News",},{id: "projects-nanovlm-from-scratch",
