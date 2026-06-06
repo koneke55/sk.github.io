@@ -7,10 +7,10 @@ first_name: Sambou
 middle_name: 
 last_name: KONE
 contact_note: >
-  I am actively seeking PhD positions in Electrical & Computer Engineering or Computer Science. 
-  Please reach out to discuss research opportunities, collaborations, or graduate programs.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD Aspirant in Electrical & Computer Engineering with research interests in Machine Learning, Computer Vision, Reinforcement Learning, AI Robotics, Human Learning, and Embedded AI Systems. Department Topper & Gold Medalist (GPA: 3.64/4.00) from Jain University with published research in deep learning for battery management systems.
+  <strong>Seeking funded PhD positions</strong> (ECE/CS, Fall 2026+). Use the banner above for my research statement and CV, or email for collaborations and graduate openings.
+description: >
+  Sambou KONE — PhD aspirant in ECE/CS. Research in machine learning, computer vision, embedded AI, and robotics.
+  Gold medalist (GPA 3.64/4.00), published BMS deep-learning work, active multimodal CV R&D.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -63,9 +63,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true
+serve_schema_org: true
+og_image: assets/img/profile.png
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: notes
+blog_description: Research notes and updates from Sambou KONE
 # Blog configuration settings
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -124,13 +124,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -390,7 +384,7 @@ enable_math: true # enables math typesetting (uses MathJax)
 # Feature flags for site functionality
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position

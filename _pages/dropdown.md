@@ -3,7 +3,8 @@
 # MARKED FOR REMOVAL: Unused template file
 layout: page
 title: submenus
-nav: true
+nav: false
+disabled: true
 nav_order: 8
 dropdown: true
 children:

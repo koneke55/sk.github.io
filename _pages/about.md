@@ -2,156 +2,77 @@
 layout: about
 title: about
 permalink: / # Homepage
-subtitle: PhD Aspirant in Electrical & Computer Engineering
+subtitle: PhD Aspirant · Electrical & Computer Engineering · ML, CV & Embedded AI
 
-# Profile configuration
+phd_banner: true
+
 profile:
   align: right
   image: profile.png
-  image_circular: true # crops the image to make it circular (professor style)
+  image_circular: true
   more_info: >
-    <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">Permanent Address:</p>
-    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;">Sector 5, Mamaribougou</p>
-    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;">Bamako, Mali</p>
+    <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">Open to funded PhD (Fall 2026+)</p>
+    <p style="font-size: 0.7rem; margin-bottom: 0.1rem;">ECE / CS · ML · CV · Robotics</p>
     <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Email:</strong> <a href="mailto:samboukone99@gmail.com">samboukone99@gmail.com</a></p>
+    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Academic:</strong> <a href="mailto:20btrmt034@jainuniversity.ac.in">20btrmt034@jainuniversity.ac.in</a></p>
     <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Phone:</strong> +223 77 81 87 01</p>
+    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;">Bamako, Mali</p>
 
-selected_papers: true # Display selected publications
-social: true # Display social media icons at the bottom
-# Social links are configured in _data/socials.yml
+selected_papers: true
+social: true
 
 announcements:
-  enabled: false # includes a list of news items (set to true to show news)
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 3
 
 latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a PhD Aspirant in Electrical & Computer Engineering with research interests at the intersection of **Machine Learning**, **Reinforcement Learning**, **AI Robotics**, **Embedded Systems**, **Power Electronics**, **Wireless Communications**, **VLSI**, and **SoC**. I hold dual Bachelor's degrees in Computer Engineering & Telecom from National School of Engineering, Bamako, Mali, where I ranked 2nd out of 16 students, and Electronics & Communications Engineering from Jain University (in collaboration with Texas Instruments), Bangalore, graduating as **Department Topper and Gold Medalist** with a **GPA of 3.64/4.00 (9.106/10)**.
+I am **Sambou KONE**, a researcher and engineer pursuing a **PhD in ECE or CS**. I combine **machine learning** with **embedded and communication systems** — from published **battery-management deep learning** to ongoing **vision-language and ViT** work. I graduated as **Department Topper & Gold Medalist** from Jain University (Texas Instruments partnership), **GPA 3.64/4.00**, with a prior degree in **Computer & Telecom Engineering** (ENI-ABT, Mali, 2nd/16).
 
-## Research Interests
+**→ Full <a href="{{ '/phd/' | relative_url }}">research statement & PhD materials</a> · <a href="{{ '/cv/' | relative_url }}">CV</a> · <a href="{{ '/assets/pdf/Sambou_Kone_CV_UT.pdf' | relative_url }}">PDF resume</a>**
 
-My research centers on developing intelligent systems that integrate **machine learning** with **hardware implementations**. I am particularly interested in:
+## Research at a glance
 
-- **Computer Vision, Multimodal Learning, Reinforcement Learning & AI Robotics**: Vision-language models, vision transformers (ViT), visual understanding systems, intelligent agents, robot learning, autonomous systems, and human-robot interaction
-- **Graph Neural Networks**: Graph-based learning, network analysis, and relational reasoning for structured data
-- **Human Learning & AI**: Understanding how humans learn and applying those principles to develop more effective AI systems
-- **Quantum Machine Learning**: Exploring quantum computing paradigms for enhanced ML performance
-- **Embedded AI Systems**: Real-time intelligent systems on microcontrollers, VLSI and FPGAs
-- **Deep Learning for Signal Processing**: Applications in battery management, speech recognition, intelligent systems, and biomedical signal analysis
-- **Power Electronics and Wireless Communications**: Design and optimization of power conversion systems, RF circuit design, wireless communication protocols, and integration of AI for intelligent power management and communication systems
+- **Computer vision & multimodal AI** — ViTs, vision-language models, medical imaging (diabetic retinopathy project)
+- **Embedded & edge AI** — MCUs, FPGAs, VLSI/SoC-aware ML deployment
+- **RL & intelligent robotics** — autonomous agents and human-centered learning systems
+- **Signal-processing ML** — BMS (SoC/SoH/RUL), speech/NLP pipelines in industry settings
 
-I am seeking **PhD opportunities** to advance fundamental research in these areas while contributing to practical applications that address real-world challenges.
+## Current roles
 
-## Current Work
+**Co-Founder & AI Researcher**, Super DataInsights & AI Scientists Innovations — multimodal CV research toward top-tier publication targets.
 
-I currently serve as **Co-Founder & AI Researcher** at Super DataInsights & AI Scientists Innovations, where I lead research initiatives in computer vision and multimodal AI systems. My work focuses on vision-language models and advanced computer vision algorithms (ViT, DTFR), with the goal of publishing in top-tier conferences and journals.
+**Data Analyst**, ObjectWays Technologies (remote) — French speech-to-text & NLP quality systems (~90% monitoring accuracy); LiDAR annotation for autonomy.
 
-Concurrently, I work as a **Data Analyst** at ObjectWays Technologies (Chennai), contributing to NLP and speech-to-text systems for financial services, achieving 90% accuracy in French language processing using BigQuery SQL, ETL pipelines, and tools such as Amazon SageMaker and vTensorAct Studio.
+<details>
+<summary><strong>Education, experience & teaching</strong> (expand)</summary>
 
-## Technical Skills
+### Education
 
-**Machine Learning & AI**: PyTorch, TensorFlow, Scikit-learn, Keras  
-**Computer Vision**: OpenCV, Vision Transformers, Image Processing  
-**Programming**: Python, C/C++, MATLAB, Java  
-**Data Engineering**: BigQuery SQL, ETL (Apache Beam, Dataform), Cloud Data Fusion  
-**Embedded Systems**: Microcontrollers, FPGAs, RTL design, Real-time Systems  
-**RF Circuit Design and PCB**: RF circuit design, PCB layout and design  
-**NLP Tools**: Amazon SageMaker, Encord, vTensorAct Studio
+**B.Tech, Electronics & Communication Engineering** — Jain University × Texas Instruments, Bangalore (2020–2024). Gold medalist; thesis on **smart BMS with deep learning** ([Prof. Sunil MP](https://scholar.google.com/citations?user=_Ryz6bQAAAAJ)). Published in *IJIRT*, 2024.
 
-## Education
+**Master 1 (non-degree)** — ENI-ABT, Bamako: **speaker recognition** with PyTorch (MFCC/FBANK).
 
-**Bachelor of Technology in Electronics & Communication Engineering**  
-*Jain University (in collaboration with Texas Instruments), Bangalore, Karnataka, India* (2020–2024)  
-**GPA: 3.64/4.00 (9.106/10) - Department Topper & Gold Medalist**
+**B.Eng., Computer & Telecom** — ENI-ABT (2016–2019), ranked **2nd / 16**.
 
-- **Program**: Industry-driven curriculum in collaboration with Texas Instruments and Intel
-- **Thesis**: "Smart Battery Management Systems to Enhance Battery Life Based on Deep Learning"
-  *Supervisor: [Prof. Sunil MP](https://scholar.google.com/citations?user=_Ryz6bQAAAAJ)*
-- Developed deep learning models for State-of-Charge (SoC), State-of-Health (SoH), and Remaining Useful Life (RUL) estimation
-- Published in *International Journal of Innovative Research in Technology* (IJIRT), Vol. 10, Issue 11, April 2024
-- **Key Coursework**: Digital Signal Processing, Analog & Digital Communication Systems, Wireless Communication, 4G/5G Cellular Network, Control Systems, Electromagnetic Theory, VLSI Design & Technology, Embedded Systems, Microprocessors & Microcontrollers, FPGAs & Digital Design, Machine Learning, Deep Learning, Computer Vision, Image Processing, Electronic Devices & Circuits, Network Theory, Power Electronics, Signal & Systems
+### Selected experience
 
-**Master 1 Studies (Non-Degree)**  
-*National School of Engineering (ENI-ABT), Bamako, Mali* (2019–2020)
+Student researcher (Jain) · Network systems intern (Celeste Telecom) · Generative-AI & French tutoring · Charity volunteer (Mamaribougou).
 
-- **Thesis**: "Human Voice Recognition System Based on Feed Forward Neural Networks"
-  *Supervisor: Dr. Abdoulaye Sidibe*
-- Implemented speaker recognition using PyTorch with MFCC/FBANK features
-- Achieved high accuracy and low Equal Error Rate (EER) compared to traditional methods
+See <a href="{{ '/cv/' | relative_url }}">CV</a> and <a href="{{ '/projects/' | relative_url }}">projects</a> for full timelines.
 
-**Bachelor of Computer & Telecom Engineering**  
-*National School of Engineering (ENI-ABT), Bamako, Mali* (2016–2019)  
-**Ranking: 2nd out of 16 students**
+</details>
 
-- **Program**: Licence in Génie Informatique et Télécommunications (Computer Engineering & Telecommunications)
-- **Key Coursework**: Computer Systems & Software, Telecommunications & Networks Engineering, Mobile Technology Applications, SQL & Database Design (Merise), Web Development (PHP, JavaScript, HTML/CSS), Network Protocols & Infrastructure, Software Engineering, UML & System Design, Object-Oriented Programming, Data Structures & Algorithms
-- **Final Project**: Student Management System using PHP, JavaScript, HTML/CSS, Bootstrap with MySQL database integration
+<details>
+<summary><strong>Technical skills</strong> (expand)</summary>
 
-## Research & Professional Experience
+**ML/AI:** PyTorch, TensorFlow, Scikit-learn, OpenCV · **Languages:** Python, C/C++, MATLAB, Java · **Data:** BigQuery SQL, ETL (Beam, Dataform) · **Embedded:** MCUs, FPGAs, RTL · **RF/PCB:** layout & circuit design
 
-**Co-Founder & AI Researcher**  
-*Super DataInsights & AI Scientists Innovations, Bamako, Mali* (November 2024 – Present)
-
-- Lead research initiatives in vision-language models and multimodal AI systems
-- Develop advanced computer vision algorithms (Vision Transformers, DTFR)
-- Target publication in top-tier conferences (CVPR, ICCV, NeurIPS, ICML)
-
-**Data Analyst**  
-*ObjectWays Technologies, Chennai, Tamil Nadu, India (Remote)* (November 2024 – Present)
-
-- Contribute to Amex Speech-to-Text annotation project for French customer interactions
-- Perform ETL processing and analytics using BigQuery SQL, Apache Beam, and Cloud Data Fusion
-- Achieve 90% accuracy in NLP-based monitoring using Amazon SageMaker, vTensorAct Studio, and Encord
-- Conduct LiDAR object detection data annotation
-
-**Student Researcher**  
-*Jain University, Bangalore, Karnataka, India* (April 2023 – October 2024)
-
-- Conducted research on Smart Battery Management Systems for Autonomous Vehicles using deep learning
-- Worked on embedded systems, digital signal/image processing, and real-time intelligent systems
-- Published research in IJIRT journal
-
-**Network Systems Engineer (Intern)**  
-*Celeste Telecom Mali, Bamako, Mali* (October 2020 – February 2022)
-
-- Configured and managed enterprise network infrastructure (Cisco, Huawei, Fortinet, Netgate)
-- Implemented PABX/VoIP solutions and L2/L3 routing protocols (BGP, OSPF, EIGRP, VLAN)
-
-## Publications
-
-**Kone, S.**, & Sunil, M.P. (2024). "Smart Battery Management System for Portable Devices to Enhance Battery Life Based on Machine Learning." *International Journal of Innovative Research in Technology*, Vol. 10, Issue 11. ISSN: 2349-6002.
-
-**Conference Presentations & Technical Writing**
-
-- "Electronics and Communication Engineering – 2030" (*Best Presentation Award*), Avalanche Club, ECE Department, Jain University, Bangalore (2023)
-- "Tactical Advanced Computer (TAC)", Presented in Embedded Systems Course (May 2022)
-- "CMOS Power Minimization Techniques for Portable Devices", Paper submitted to Jain FET Best Paper Competition (February 2023, unpublished)
-
-## Teaching & Service
-
-**Generative AI Tools Instructor** (2022 – Present)  
-Provide tutoring on large language models (ChatGPT, Perplexity, DeepSeek), generative AI automation, and AI agent development using n8n and TensorAct.
-
-**French Language Instructor** (2020 – Present)  
-Offer online French tutoring for levels A1–C2 as a native speaker.
-
-**Volunteer, Social Charity Youth of Mamaribougou** (2019 – Present)  
-Support widows and orphans in Mali through welfare initiatives and resource distribution.
-
-## Languages
-
-**Native**: Bambara, French  
-**Fluent**: English, Arabic, Hindi, Bangla, Spanish
+</details>
 
 ---
 
-## PhD Application Statement
-
-I am actively seeking **PhD positions in Electrical & Computer Engineering or Computer Science** with a focus on **Machine Learning**, **Computer Vision**, and **Embedded AI Systems**. My research goal is to develop intelligent, resource-efficient systems that can operate in real-world environments—bridging the gap between theoretical ML advances and practical hardware implementations.
-
-I bring strong interdisciplinary training, hands-on research experience, and a publication record. I am eager to contribute to cutting-edge research under the mentorship of leading faculty in top-tier programs.
-
-**Please feel free to contact me** at **samboukone99@gmail.com** to discuss potential research collaborations, PhD opportunities, or any questions about my work.
+Faculty and students: I welcome conversations about **PhD openings**, **collaborations**, and **visiting researcher** roles. The fastest path is email — or read the detailed **<a href="{{ '/phd/' | relative_url }}">research statement</a>**.

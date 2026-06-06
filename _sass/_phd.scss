@@ -1,0 +1,137 @@
+/* PhD hunting — homepage banner & research page */
+
+.phd-banner {
+  margin: 0 0 1.75rem;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 8px;
+  background: var(--global-card-bg-color, var(--global-bg-color));
+}
+
+.phd-banner__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.65rem;
+}
+
+.phd-banner__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--global-theme-color);
+}
+
+.phd-banner__meta {
+  font-size: 0.8rem;
+  opacity: 0.75;
+}
+
+.phd-banner__lead {
+  margin-bottom: 0.85rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  text-align: left !important;
+}
+
+.phd-banner__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+
+  span {
+    font-size: 0.72rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    border: 1px solid var(--global-divider-color);
+    background: var(--global-bg-color);
+    opacity: 0.9;
+  }
+}
+
+.phd-banner__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.phd-banner__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  border-radius: 6px;
+  border: 1px solid var(--global-divider-color);
+  color: var(--global-text-color) !important;
+  transition: border-color 0.15s ease, background 0.15s ease;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    background: var(--global-hover-color);
+  }
+
+  &--primary {
+    border-color: var(--global-theme-color);
+    background: var(--global-theme-color);
+    color: var(--global-bg-color) !important;
+
+    &:hover {
+      opacity: 0.92;
+      color: var(--global-bg-color) !important;
+    }
+  }
+}
+
+.phd-page {
+  .phd-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+  }
+
+  .phd-highlight-card {
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background: var(--global-card-bg-color, var(--global-bg-color));
+
+    h3 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.35rem;
+      color: var(--global-theme-color);
+    }
+
+    p {
+      margin: 0;
+      font-size: 0.9rem;
+      text-align: left !important;
+    }
+  }
+
+  .phd-fit-list li {
+    margin-bottom: 0.35rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .phd-banner__actions {
+    flex-direction: column;
+
+    .phd-banner__btn {
+      justify-content: center;
+    }
+  }
+}

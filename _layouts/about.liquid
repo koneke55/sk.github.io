@@ -17,6 +17,10 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
+  {% if page.phd_banner %}
+    {% include phd_banner.liquid %}
+  {% endif %}
+
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">

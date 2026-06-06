@@ -3,7 +3,7 @@ layout: cv
 permalink: /cv/ # CV page URL
 title: cv
 nav: true
-nav_order: 5 # Navigation order in menu
+nav_order: 4
 cv_pdf: Sambou_Kone_CV_UT.pdf
 # CV PDF should be located in assets/pdf/ directory
 description: Comprehensive curriculum vitae showcasing my academic background, research experience, technical skills, and professional achievements in Electrical & Computer Engineering with a focus on Machine Learning, Computer Vision, and Embedded AI Systems.
