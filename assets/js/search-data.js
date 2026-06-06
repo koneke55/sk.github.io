@@ -480,11 +480,11 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/sk.github.io/projects/9_project/";
             },},{
-        id: 'social-email',
-        title: 'email',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%73%61%6D%62%6F%75%6B%6F%6E%65%39%39@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("https://scholar.google.com/citations?user=DRjeWTkAAAAJ", "_blank");
         },
       },{
         id: 'social-github',
@@ -508,18 +508,11 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Sambou-Kone/", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-email',
+        title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("/sk.github.io/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=DRjeWTkAAAAJ", "_blank");
+          window.open("mailto:%73%61%6D%62%6F%75%6B%6F%6E%65%39%39@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-x',
@@ -527,6 +520,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/koneke55", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/sk.github.io/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',
