@@ -4,17 +4,17 @@ title: research
 permalink: /phd/
 nav: true
 nav_order: 1
-description: PhD research profile for Sambou KONE at Alliance University, Bangalore, focusing on machine learning, computer vision, and embedded AI.
+description: PhD research profile for Sambou KONE at Alliance School of Advanced Computing, Bangalore, focusing on cyber-physical systems, embodied AI, multimodal intelligence, and autonomous systems.
 ---
 
 <div class="phd-page">
 
-I am **Sambou KONE**, a **PhD Research Scholar at Alliance University, Bangalore**, working at the intersection of **cyber-physical systems**, **embodied AI**, **multimodal intelligence**, and **autonomous systems**. My work focuses on intelligent systems that perceive, reason, and act reliably in physical environments under real-world constraints.
+I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Advanced Computing, Bangalore**, working at the intersection of **cyber-physical systems**, **embodied AI**, **multimodal intelligence**, and **autonomous systems**. My work focuses on intelligent systems that perceive, reason, and act reliably in physical environments under real-world constraints.
 
 <div class="phd-highlights">
   <div class="phd-highlight-card">
     <h3>Current status</h3>
-    <p>PhD Research Scholar at <strong>Alliance University</strong>, Bangalore, India.</p>
+    <p>PhD Research Scholar at <strong>Alliance School of Advanced Computing</strong>, Bangalore, India.</p>
   </div>
   <div class="phd-highlight-card">
     <h3>Research theme</h3>
