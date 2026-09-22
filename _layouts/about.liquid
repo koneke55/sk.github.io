@@ -3,17 +3,14 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <div class="title-with-follow">
-      <h1 class="post-title">
-        {% if site.title == 'blank' %}
-          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-          {{ site.last_name }}
-        {% else %}
-          {{ site.title }}
-        {% endif %}
-      </h1>
-      {% include follow_me.liquid %}
-    </div>
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
@@ -69,18 +66,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="social-bar social-bar--footer contact-icons" aria-label="Connect">
-          <h3 class="social-bar__heading">Connect</h3>
-          {% include social.liquid %}
-        </div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
