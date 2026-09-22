@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "Research statement and PhD application materials for Sambou KONE — machine learning, computer vision, embedded AI, and intelligent systems.",
+          description: "PhD research profile for Sambou KONE at Alliance University, Bangalore, focusing on machine learning, computer vision, and embedded AI.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/sk.github.io/phd/";
@@ -426,8 +426,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/sk.github.io/books/ml_systems_designs/";
-            },},{id: "news-phd-search-i-am-actively-applying-for-funded-phd-positions-ece-cs-fall-2026-see-my-research-statement-and-cv-pdf",
-          title: 'PhD search: I am actively applying for funded PhD positions (ECE/CS, Fall 2026+)....',
+            },},{id: "news-current-focus-i-am-a-phd-research-scholar-at-alliance-university-bangalore-working-on-machine-learning-computer-vision-and-embedded-ai",
+          title: 'Current focus: I am a PhD Research Scholar at Alliance University, Bangalore, working...',
           description: "",
           section: "News",},{id: "projects-nanovlm-from-scratch",
           title: 'NanoVLm from Scratch',
