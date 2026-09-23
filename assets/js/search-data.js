@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-research",
           title: "research",
-          description: "PhD research profile for Sambou KONE at Alliance School of Computing, Bangalore (2026–2030), focusing on cyber-physical systems, embodied AI, multimodal intelligence, and autonomous systems.",
+          description: "PhD research profile for Sambou KONE at Alliance School of Computing, Bangalore (2026 to present), focusing on cyber-physical systems, embodied AI, multimodal intelligence, and autonomous systems.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/sk.github.io/phd/";
@@ -426,7 +426,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/sk.github.io/books/ml_systems_designs/";
-            },},{id: "news-current-focus-i-am-a-phd-research-scholar-at-alliance-school-of-computing-bangalore-2026-2030-working-on-cyber-physical-systems-embodied-ai-multimodal-intelligence-and-autonomous-systems",
+            },},{id: "news-current-focus-i-am-a-phd-research-scholar-at-alliance-school-of-computing-bangalore-2026-to-present-working-on-cyber-physical-systems-embodied-ai-multimodal-intelligence-and-autonomous-systems",
           title: 'Current focus: I am a PhD Research Scholar at Alliance School of Computing,...',
           description: "",
           section: "News",},{id: "projects-nanovlm-from-scratch",
