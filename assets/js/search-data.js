@@ -512,7 +512,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%73%61%6D%62%6F%75%6B%6F%6E%65%39%39@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%6B%73%61%6D%62%6F%75%70%68%64%37%32%36@%73%74%75.%61%6C%6C%69%61%6E%63%65.%65%64%75.%69%6E", "_blank");
         },
       },{
         id: 'social-x',
