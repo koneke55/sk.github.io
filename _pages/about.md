@@ -13,7 +13,7 @@ profile:
   more_info: >
     <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">Alliance School of Advanced Computing, Bangalore</p>
     <p style="font-size: 0.7rem; margin-bottom: 0.1rem;">CPS · Embodied AI · Multimodal Intelligence</p>
-    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Email:</strong> <a href="mailto:samboukone99@gmail.com">samboukone99@gmail.com</a></p>
+    <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Email:</strong> <a href="mailto:ksambouphd726@stu.alliance.edu.in">ksambouphd726@stu.alliance.edu.in</a></p>
     <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Academic:</strong> <a href="mailto:20btrmt034@jainuniversity.ac.in">20btrmt034@jainuniversity.ac.in</a></p>
 
 selected_papers: true
@@ -40,6 +40,8 @@ I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Advance
 - **Autonomous Systems** — perception, planning, and adaptation in uncertain and dynamic settings
 
 ## Education
+
+**PhD Research Scholar, Computer Engineering** — Alliance University, School of Advanced Computing (ASAC), Bangalore (2026–Present)
 
 **B.Tech, Electronics & Communication Engineering** — Jain University × Texas Instruments, Bangalore (2020–2024)
 

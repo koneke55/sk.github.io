@@ -27,7 +27,7 @@ I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Advance
   <div class="phd-highlight-card">
     <h3>Contact</h3>
     <p>
-      <a href="mailto:samboukone99@gmail.com">samboukone99@gmail.com</a><br>
+      <a href="mailto:ksambouphd726@stu.alliance.edu.in">ksambouphd726@stu.alliance.edu.in</a><br>
       <a href="{{ '/assets/pdf/Sambou_Kone_CV_UT.pdf' | relative_url }}">Download CV (PDF)</a>
     </p>
   </div>
@@ -65,6 +65,6 @@ My work is focused on how learning-based systems can operate robustly in physica
 
 For research discussions, collaborations, and academic inquiries, I can be reached at:
 
-**Email:** [samboukone99@gmail.com](mailto:samboukone99@gmail.com)
+**Email:** [ksambouphd726@stu.alliance.edu.in](mailto:ksambouphd726@stu.alliance.edu.in)
 
 </div>

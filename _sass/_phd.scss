@@ -2,11 +2,12 @@
 
 .phd-banner {
   margin: 0 0 1.75rem;
-  padding: 1.25rem 1.35rem;
+  padding: 1.4rem 1.5rem;
   border: 1px solid var(--global-divider-color);
   border-left: 4px solid var(--global-theme-color);
-  border-radius: 8px;
-  background: var(--global-card-bg-color, var(--global-bg-color));
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.35));
+  box-shadow: 0 10px 25px rgba(17, 24, 39, 0.04);
 }
 
 .phd-banner__header {
@@ -21,9 +22,9 @@
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--global-theme-color);
 }
@@ -35,9 +36,10 @@
 
 .phd-banner__lead {
   margin-bottom: 0.85rem;
-  font-size: 0.95rem;
-  line-height: 1.55;
+  font-size: 0.98rem;
+  line-height: 1.6;
   text-align: left !important;
+  color: rgba(17, 24, 39, 0.8);
 }
 
 .phd-banner__tags {
@@ -48,11 +50,12 @@
 
   span {
     font-size: 0.72rem;
-    padding: 0.2rem 0.55rem;
+    padding: 0.25rem 0.65rem;
     border-radius: 999px;
-    border: 1px solid var(--global-divider-color);
-    background: var(--global-bg-color);
-    opacity: 0.9;
+    border: 1px solid rgba(31, 58, 95, 0.12);
+    background: rgba(31, 58, 95, 0.04);
+    color: var(--global-theme-color);
+    opacity: 1;
   }
 }
 
@@ -66,18 +69,19 @@
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
-  padding: 0.45rem 0.85rem;
+  padding: 0.5rem 0.9rem;
   font-size: 0.82rem;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none !important;
-  border-radius: 6px;
+  border-radius: 8px;
   border: 1px solid var(--global-divider-color);
+  background: rgba(255, 255, 255, 0.5);
   color: var(--global-text-color) !important;
-  transition: border-color 0.15s ease, background 0.15s ease;
+  transition: all 0.2s ease;
 
   &:hover {
     border-color: var(--global-theme-color);
-    background: var(--global-hover-color);
+    background: rgba(31, 58, 95, 0.04);
   }
 
   &--primary {
@@ -86,7 +90,7 @@
     color: var(--global-bg-color) !important;
 
     &:hover {
-      opacity: 0.92;
+      opacity: 0.94;
       color: var(--global-bg-color) !important;
     }
   }
