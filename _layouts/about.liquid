@@ -44,6 +44,14 @@ layout: default
 
     <div class="clearfix" style="clear: both;">{{ content }}</div>
 
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
@@ -60,21 +68,8 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
-    {% endif %}
-
-    <!-- ClustrMaps Visitor Map - Only on landing page -->
-    {% if page.permalink == '/' or page.url == '/' or page.url == '/index.html' %}
-      {% include clustrmaps.liquid %}
     {% endif %}
   </article>
 </div>
