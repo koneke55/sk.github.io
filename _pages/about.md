@@ -28,20 +28,20 @@ latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Computing, Bangalore (2026 to present)**. My research examines how learning-based systems can perceive, reason, and act reliably in real-world physical environments under uncertainty. I work at the intersection of **cyber-physical systems**, **embodied AI**, **multimodal intelligence**, and **autonomous decision-making**.
+I am **Sambou KONE**, a **PhD Research Scholar at Alliance School of Computing, Bangalore (2026 to present)**. My work focuses on building intelligent systems that perceive, reason, and act reliably in physical environments under uncertainty. I study **cyber-physical systems**, **embodied AI**, **multimodal intelligence**, and **autonomous decision-making** with a deployment-oriented perspective.
 
 **→ <a href="{{ '/phd/' | relative_url }}">Research profile</a> · <a href="{{ '/cv/' | relative_url }}">CV</a> · <a href="{{ '/publications/' | relative_url }}">Publications</a>**
 
 ## Research focus
 
-- **Cyber-physical systems** — designing intelligent perception-action loops that integrate sensing, computation, and control in physical environments.
-- **Embodied AI** — learning behavior for agents that act through interaction with the world rather than from static data alone.
-- **Multimodal intelligence** — combining vision, signals, and contextual information to improve robustness and decision quality.
-- **Autonomous systems** — building adaptive, reliable systems for planning and execution under dynamic and uncertain conditions.
+- **Cyber-physical systems** — integrating sensing, computation, and control for robust operation in physical environments.
+- **Embodied AI** — learning policies for agents that act through interaction with the world instead of static inference alone.
+- **Multimodal intelligence** — combining vision, signals, and contextual information for robust perception and reasoning.
+- **Autonomous systems** — developing adaptive systems for planning and execution under uncertainty and dynamic constraints.
 
 ## Selected publications
 
-See <a href="{{ '/publications/' | relative_url }}">publications</a> for the full list. The work emphasizes machine learning, computer vision, signal processing, and deployment-oriented intelligent systems.
+My recent work spans machine learning, computer vision, signal processing, and intelligent embedded systems. See <a href="{{ '/publications/' | relative_url }}">publications</a> for the full record.
 
 ## Education
 
@@ -51,8 +51,8 @@ See <a href="{{ '/publications/' | relative_url }}">publications</a> for the ful
 
 **B.Eng., Computer & Telecom Engineering** — ENI-ABT, Bamako (2016–2019)
 
-See <a href="{{ '/cv/' | relative_url }}">CV</a> for the complete academic and professional background.
+See <a href="{{ '/cv/' | relative_url }}">CV</a> for the full academic and professional background.
 
 ---
 
-I am particularly interested in collaborations involving embodied perception, multimodal learning, and real-world deployment of intelligent autonomous systems.
+I am particularly interested in research collaborations on embodied perception, multimodal learning, and the real-world deployment of autonomous intelligent systems.

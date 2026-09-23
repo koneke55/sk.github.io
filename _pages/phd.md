@@ -9,7 +9,7 @@ description: PhD research profile for Sambou KONE at Alliance School of Computin
 
 <div class="phd-page">
 
-I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Computing, Bangalore (2026 to present)**, working at the intersection of **cyber-physical systems**, **embodied AI**, **multimodal intelligence**, and **autonomous systems**. My work focuses on intelligent systems that perceive, reason, and act reliably in physical environments under real-world constraints.
+I am **Sambou KONE**, a **PhD Research Scholar at Alliance School of Computing, Bangalore (2026 to present)**, with research interests in **cyber-physical systems**, **embodied AI**, **multimodal intelligence**, and **autonomous systems**. My work addresses how intelligent systems can perceive, reason, and act reliably in real-world physical environments.
 
 <div class="phd-highlights">
   <div class="phd-highlight-card">
@@ -18,11 +18,11 @@ I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Computi
   </div>
   <div class="phd-highlight-card">
     <h3>Research theme</h3>
-    <p>Cyber-physical intelligence, embodied learning, multimodal perception, and autonomous decision-making in real-world environments.</p>
+    <p>Cyber-physical intelligence, embodied learning, multimodal perception, and deployment-aware autonomy.</p>
   </div>
   <div class="phd-highlight-card">
     <h3>Background</h3>
-    <p>B.Tech in Electronics &amp; Communication Engineering from Jain University, Bangalore, with thesis work in deep learning for battery management.</p>
+    <p>B.Tech in Electronics &amp; Communication Engineering from Jain University, Bangalore, with research in deep learning and battery intelligence.</p>
   </div>
   <div class="phd-highlight-card">
     <h3>Contact</h3>
@@ -35,14 +35,14 @@ I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Computi
 
 ## Research interests
 
-1. **Cyber-Physical Systems** — integrating sensing, computation, and control for intelligent physical environments  
-2. **Embodied AI** — learning for agents that interact with the world through perception and action  
-3. **Multimodal AI** — combining vision, signals, and contextual data for robust decision-making  
-4. **Autonomous systems** — perception, planning, and adaptation in dynamic and uncertain settings  
+1. **Cyber-Physical Systems** — integrating sensing, computation, and control for robust operation in physical environments.  
+2. **Embodied AI** — learning adaptive behavior for agents that interact with the world through perception and action.  
+3. **Multimodal Intelligence** — combining visual, signal, and contextual data for reliable reasoning and decision-making.  
+4. **Autonomous Systems** — designing systems that plan and act under uncertainty in dynamic settings.  
 
 ## Research direction
 
-My work is focused on how learning-based systems can operate robustly in physical environments where perception, actuation, and constraints must be considered together. I am especially interested in the intersection of autonomy, multimodal intelligence, and deployment-aware design.
+My work focuses on the design of learning-based systems that can operate reliably under real-world constraints, where perception, actuation, and deployment considerations must be addressed jointly.
 
 ## Academic background
 
