@@ -11,7 +11,7 @@ profile:
   image: profile.png
   image_circular: true
   more_info: >
-    <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">Alliance School of Computing, Bangalore (2026–2030)</p>
+    <p style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">Alliance School of Computing, Bangalore (2026 to present)</p>
     <p style="font-size: 0.7rem; margin-bottom: 0.1rem;">PhD Research Scholar</p>
     <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Email:</strong> <a href="mailto:ksambouphd726@stu.alliance.edu.in">ksambouphd726@stu.alliance.edu.in</a></p>
     <p style="font-size: 0.7rem; margin-bottom: 0.05rem;"><strong>Academic:</strong> <a href="mailto:20btrmt034@jainuniversity.ac.in">20btrmt034@jainuniversity.ac.in</a></p>
@@ -28,7 +28,7 @@ latest_posts:
   enabled: false
 ---
 
-I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Computing, Bangalore (2026–2030)**. My research examines how learning-based systems can perceive, reason, and act reliably in real-world physical environments under uncertainty. I work at the intersection of **cyber-physical systems**, **embodied AI**, **multimodal intelligence**, and **autonomous decision-making**.
+I am **Sambou KONE**, a **PhD Research Scholar at the Alliance School of Computing, Bangalore (2026 to present)**. My research examines how learning-based systems can perceive, reason, and act reliably in real-world physical environments under uncertainty. I work at the intersection of **cyber-physical systems**, **embodied AI**, **multimodal intelligence**, and **autonomous decision-making**.
 
 **→ <a href="{{ '/phd/' | relative_url }}">Research profile</a> · <a href="{{ '/cv/' | relative_url }}">CV</a> · <a href="{{ '/publications/' | relative_url }}">Publications</a>**
 
@@ -45,7 +45,7 @@ See <a href="{{ '/publications/' | relative_url }}">publications</a> for the ful
 
 ## Education
 
-**PhD, Computer Engineering** — Alliance School of Computing, Bangalore (2026–2030)
+**PhD, Computer Engineering** — Alliance School of Computing, Bangalore (2026 to present)
 
 **B.Tech, Electronics & Communication Engineering** — Jain University × Texas Instruments, Bangalore (2020–2024)
 
