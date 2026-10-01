@@ -15,7 +15,8 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: cyber-physical-systems, embodied-ai, multimodal-intelligence, autonomous-systems, machine-learning, computer-vision, embedded-ai, alliance-university-bangalore, academic-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: dft-logo.png # Discrete Fourier Transform waveform logo
+icon: cps_favicon.png
+apple_touch_icon: cps_apple_touch_icon.png
 
 url: https://koneke55.github.io # the base hostname & protocol for your site
 baseurl: /sk.github.io # the subpath of your site, e.g. /blog/. Leave blank for root
